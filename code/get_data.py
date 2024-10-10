@@ -51,27 +51,19 @@ if __name__ == "__main__":
 
     list_words = df_kws_article["persons"].tolist()
 
-    # List of words to ignore
     ignore_words = ["Telegram", "TikTok ", "Sputnik Africa"]
 
-    # Create a graph
     G = nx.Graph()
 
-    # Iterate through each dictionary
     for dictionary in list_words:
-        # Get all words in the current dictionary
         words = list(dictionary.keys())
         
-        # Generate all combinations of words (edges) from the current dictionary
         for word1, word2 in combinations(words, 2):
-            # Check if either word1 or word2 is in the ignore list
             if word1 in ignore_words or word2 in ignore_words:
-                continue  # Skip this pair
+                continue
             
-            # Get the minimum frequency of the two words
             weight = min(dictionary[word1], dictionary[word2])
             
-            # Add the edge to the graph (if it doesn't exist, initialize the weight)
             if G.has_edge(word1, word2):
                 G[word1][word2]['weight'] += weight
             else:
@@ -81,19 +73,16 @@ if __name__ == "__main__":
     plt.figure(figsize=(12, 8))
     pos = nx.spring_layout(G)
 
-    # Draw nodes
     nx.draw_networkx_nodes(G, pos, node_size=700)
 
-    # Draw edges
     edges = G.edges(data=True)
     nx.draw_networkx_edges(G, pos, edgelist=edges, width=[d['weight'] for (u, v, d) in edges], alpha=0.5)
 
-    # Draw labels
     nx.draw_networkx_labels(G, pos, font_size=12)
 
     # Show the plot
     plt.title("Word Co-occurrence Graph")
-    plt.axis('off')  # Turn off the axis
+    plt.axis('off')
     plt.show()
 
     nx.write_gexf(G, "persons.gexf")
