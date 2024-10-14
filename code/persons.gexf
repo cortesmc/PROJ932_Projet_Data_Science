@@ -1,0 +1,1098 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-10-10">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="Filipe Nyusi" label="Filipe Nyusi" />
+      <node id="Nyusi" label="Nyusi" />
+      <node id="Joe Biden" label="Joe Biden" />
+      <node id="Donald Trump" label="Donald Trump" />
+      <node id="Trump" label="Trump" />
+      <node id="Biden" label="Biden" />
+      <node id="Tatyana Moskalkova" label="Tatyana Moskalkova" />
+      <node id="Sergey Lavrov" label="Sergey Lavrov" />
+      <node id="Hakan Fidan" label="Hakan Fidan" />
+      <node id="King Mswati III" label="King Mswati III" />
+      <node id="Olaf Scholz" label="Olaf Scholz" />
+      <node id="Abdoulaye Diop" label="Abdoulaye Diop" />
+      <node id="Sputnik" label="Sputnik" />
+      <node id="Margarita Simonyan" label="Margarita Simonyan" />
+      <node id="Simonyan" label="Simonyan" />
+      <node id="Scholz" label="Scholz" />
+      <node id="Yevgenia Gutsul" label="Yevgenia Gutsul" />
+      <node id="Gagauzian" label="Gagauzian" />
+      <node id="Valentina Matvienko" label="Valentina Matvienko" />
+      <node id="Russophobic" label="Russophobic" />
+      <node id="Gagauz Yeri" label="Gagauz Yeri" />
+      <node id="Vladimir Putin" label="Vladimir Putin" />
+      <node id="Oleg Ozerov" label="Oleg Ozerov" />
+      <node id="Ozerov" label="Ozerov" />
+      <node id="Maria Zakharova" label="Maria Zakharova" />
+      <node id="Nikolay Shulginov" label="Nikolay Shulginov" />
+      <node id="Ekperikpe Ekpo" label="Ekperikpe Ekpo" />
+      <node id="Nicodemus Minde" label="Nicodemus Minde" />
+      <node id="Alain Corvez" label="Alain Corvez" />
+      <node id="Zelensky" label="Zelensky" />
+      <node id="Mikatekiso Kubayi" label="Mikatekiso Kubayi" />
+      <node id="Sputnik Africa" label="Sputnik Africa" />
+      <node id="Emmanuel Macron" label="Emmanuel Macron" />
+      <node id="Ibrahim Raisi" label="Ibrahim Raisi" />
+      <node id="Raisi" label="Raisi" />
+      <node id="Frank Graefe" label="Frank Graefe" />
+      <node id="Lavrov" label="Lavrov" />
+      <node id="Juan Sinmiedo   Fearless John" label="Juan Sinmiedo   Fearless John" />
+      <node id="Bebo" label="Bebo" />
+      <node id="Milit" label="Milit" />
+      <node id="Intel" label="Intel" />
+      <node id="Russkie" label="Russkie" />
+      <node id="Mass killing" label="Mass killing" />
+      <node id="Moussa Faki Mahamat" label="Moussa Faki Mahamat" />
+      <node id="William Amo" label="William Amo" />
+      <node id="Chad" label="Chad" />
+      <node id="Mahamat Idriss Deby Itno" label="Mahamat Idriss Deby Itno" />
+      <node id="Deby" label="Deby" />
+      <node id="Akinwumi Adesina" label="Akinwumi Adesina" />
+      <node id="Adesina" label="Adesina" />
+      <node id="AfDB" label="AfDB" />
+      <node id="Emad Abshena" label="Emad Abshena" />
+      <node id="Nayala" label="Nayala" />
+      <node id="Hassan Idrissa Boli" label="Hassan Idrissa Boli" />
+      <node id="Kossi" label="Kossi" />
+      <node id="Banwa" label="Banwa" />
+      <node id="Macky Sall" label="Macky Sall" />
+      <node id="Sall" label="Sall" />
+      <node id="Diop" label="Diop" />
+      <node id="Cham Ugala Uriat" label="Cham Ugala Uriat" />
+      <node id="John Okafor" label="John Okafor" />
+      <node id="Ibu" label="Ibu" />
+      <node id="Okafor" label="Okafor" />
+      <node id="Emeka Rolla" label="Emeka Rolla" />
+      <node id="Nollywood" label="Nollywood" />
+      <node id="Rossotrudnichestvo" label="Rossotrudnichestvo" />
+      <node id="Pavel Shevtsov" label="Pavel Shevtsov" />
+      <node id="Karamoko Jean Marie Traore" label="Karamoko Jean Marie Traore" />
+      <node id="SputnikMeme" label="SputnikMeme" />
+      <node id="Edna Kaindi" label="Edna Kaindi" />
+      <node id="Edna" label="Edna" />
+      <node id="WYF2024" label="WYF2024" />
+      <node id="Emma Kantema Gaoma" label="Emma Kantema Gaoma" />
+      <node id="Musk" label="Musk" />
+      <node id="David Sach" label="David Sach" />
+      <node id="Viktor Litovkin" label="Viktor Litovkin" />
+      <node id="Litovkin" label="Litovkin" />
+      <node id="Joy" label="Joy" />
+      <node id="Nathalie Yamb" label="Nathalie Yamb" />
+      <node id="Idrissa Ouedraogo" label="Idrissa Ouedraogo" />
+      <node id="Sergey Chemezov" label="Sergey Chemezov" />
+      <node id="Alexander Grebenkin" label="Alexander Grebenkin" />
+      <node id="Abram" label="Abram" />
+      <node id="Mike Jone" label="Mike Jone" />
+      <node id="Simon Heya" label="Simon Heya" />
+      <node id="Gladman Chiparaushe" label="Gladman Chiparaushe" />
+      <node id="Maxmore Njanji" label="Maxmore Njanji" />
+      <node id="Winston Churchill" label="Winston Churchill" />
+      <node id="Kharkov" label="Kharkov" />
+      <node id="Thomas Bach" label="Thomas Bach" />
+      <node id="Cyril Ramaphosa" label="Cyril Ramaphosa" />
+      <node id="Malik Agar Eyre Nganyoufa" label="Malik Agar Eyre Nganyoufa" />
+      <node id="Abdel Fattah al Burhan" label="Abdel Fattah al Burhan" />
+      <node id="Chay Bowe" label="Chay Bowe" />
+      <node id="Gerry Nolan" label="Gerry Nolan" />
+      <node id="Putin" label="Putin" />
+      <node id="Mao Ning" label="Mao Ning" />
+      <node id="Robot Lavrentiy" label="Robot Lavrentiy" />
+      <node id="Libom Li" label="Libom Li" />
+      <node id="Likeng" label="Likeng" />
+      <node id="Christopher Helali" label="Christopher Helali" />
+      <node id="al Burhan" label="al Burhan" />
+      <node id="Hamdane Daglo" label="Hamdane Daglo" />
+      <node id="Patricia Kalinga" label="Patricia Kalinga" />
+      <node id="Armata" label="Armata" />
+      <node id="Ibrahim Ben Aissa" label="Ibrahim Ben Aissa" />
+      <node id="Ibrahim" label="Ibrahim" />
+      <node id="Ng Eng Hen" label="Ng Eng Hen" />
+      <node id="Yusuf Maitama Tuggar" label="Yusuf Maitama Tuggar" />
+      <node id="Tuggar" label="Tuggar" />
+      <node id="Lazzarini" label="Lazzarini" />
+      <node id="Philippe Lazzarini" label="Philippe Lazzarini" />
+      <node id="Sergey Shoigu" label="Sergey Shoigu" />
+      <node id="Ali Al Sadiq Ali" label="Ali Al Sadiq Ali" />
+      <node id="Andrey Chernovol" label="Andrey Chernovol" />
+      <node id="Ali" label="Ali" />
+      <node id="Mohsen Karimi" label="Mohsen Karimi" />
+      <node id="Karimi" label="Karimi" />
+      <node id="Adrienne Watson" label="Adrienne Watson" />
+      <node id="Emmerson Mnangagwa" label="Emmerson Mnangagwa" />
+      <node id="Constantino Chiwenga" label="Constantino Chiwenga" />
+      <node id="Hardeep Singh Puri" label="Hardeep Singh Puri" />
+      <node id="Subrahmanyam Jaishankar" label="Subrahmanyam Jaishankar" />
+      <node id="Hanan Morsy" label="Hanan Morsy" />
+      <node id="Morsy" label="Morsy" />
+      <node id="Abdelmadjid Tebboune" label="Abdelmadjid Tebboune" />
+      <node id="Antony Blinken" label="Antony Blinken" />
+      <node id="Victoria Nuland" label="Victoria Nuland" />
+      <node id="Vyacheslav Gladkov" label="Vyacheslav Gladkov" />
+      <node id="Josep Borrell" label="Josep Borrell" />
+      <node id="Moon" label="Moon" />
+      <node id="Yuri Borisov" label="Yuri Borisov" />
+      <node id="Minette" label="Minette" />
+      <node id="Libom Li Likeng" label="Libom Li Likeng" />
+      <node id="Jibril Abdirashid Haji Abdi" label="Jibril Abdirashid Haji Abdi" />
+      <node id="Peter Mathuki" label="Peter Mathuki" />
+      <node id="Mathuki" label="Mathuki" />
+      <node id="Abdoulaye Siby" label="Abdoulaye Siby" />
+      <node id="Siby" label="Siby" />
+      <node id="Lala Lallia" label="Lala Lallia" />
+      <node id="Geoff Duller" label="Geoff Duller" />
+      <node id="Yusuf Tuggar" label="Yusuf Tuggar" />
+      <node id="Kherson" label="Kherson" />
+      <node id="Nikki Haley" label="Nikki Haley" />
+      <node id="Didier Reynder" label="Didier Reynder" />
+      <node id="Valeriy Zaluzhny" label="Valeriy Zaluzhny" />
+      <node id="Rafael Grossi" label="Rafael Grossi" />
+      <node id="Grossi" label="Grossi" />
+      <node id="Mariano Grossi" label="Mariano Grossi" />
+      <node id="Zaporozhye" label="Zaporozhye" />
+      <node id="Vremyevka Ledge" label="Vremyevka Ledge" />
+      <node id="Krasnogorovka" label="Krasnogorovka" />
+      <node id="Orlovka Sector" label="Orlovka Sector" />
+      <node id="Orlovka" label="Orlovka" />
+      <node id="Seversk Sector" label="Seversk Sector" />
+      <node id="bori" label="bori" />
+      <node id="Oleg Tsarov" label="Oleg Tsarov" />
+      <node id="Peter Szijjarto" label="Peter Szijjarto" />
+      <node id="Jens Stoltenberg" label="Jens Stoltenberg" />
+      <node id="Macron" label="Macron" />
+      <node id="Vasily Prozorov" label="Vasily Prozorov" />
+      <node id="t.me ukr leaks eng" label="t.me ukr leaks eng" />
+      <node id="Najib Mikati" label="Najib Mikati" />
+      <node id="Al Jadeed" label="Al Jadeed" />
+      <node id="Hammer" label="Hammer" />
+      <node id="Ghanaian WYF2024" label="Ghanaian WYF2024" />
+      <node id="John Aggrey" label="John Aggrey" />
+      <node id="Aggrey" label="Aggrey" />
+      <node id="David Okpatuma" label="David Okpatuma" />
+      <node id="Andrei Martyanov" label="Andrei Martyanov" />
+      <node id="Scott Ritter" label="Scott Ritter" />
+      <node id="Mark Sleboda" label="Mark Sleboda" />
+      <node id="Almaz Antey" label="Almaz Antey" />
+      <node id="Gennady Bendersky" label="Gennady Bendersky" />
+      <node id="Okpatuma" label="Okpatuma" />
+      <node id="Eduard Zernin" label="Eduard Zernin" />
+      <node id="Vincent Biruta" label="Vincent Biruta" />
+      <node id="Haley" label="Haley" />
+      <node id="Edith Kabesiime" label="Edith Kabesiime" />
+      <node id="Kabesiime" label="Kabesiime" />
+      <node id="Privet  hello  Sputnik" label="Privet  hello  Sputnik" />
+      <node id="Don" label="Don" />
+      <node id="Caleb Maupin" label="Caleb Maupin" />
+      <node id="Lere Amusan" label="Lere Amusan" />
+      <node id="Kim Jong Un" label="Kim Jong Un" />
+      <node id="Al Hudaydah" label="Al Hudaydah" />
+      <node id="Sidiki Kaba" label="Sidiki Kaba" />
+      <node id="West" label="West" />
+      <node id="Davis Akumpurira" label="Davis Akumpurira" />
+      <node id="Pigcasso" label="Pigcasso" />
+      <node id="George Clooney" label="George Clooney" />
+      <node id="Rafael Nadal" label="Rafael Nadal" />
+      <node id="Gagauz" label="Gagauz" />
+      <node id="Maya  Sandu" label="Maya  Sandu" />
+      <node id="Sandu" label="Sandu" />
+      <node id="Eugenia Gutsul" label="Eugenia Gutsul" />
+      <node id="Daniel Voda" label="Daniel Voda" />
+      <node id="Ion Munteanu" label="Ion Munteanu" />
+      <node id="Gutsul" label="Gutsul" />
+      <node id="Ilan Shor" label="Ilan Shor" />
+      <node id="Sarah Achieng Opendi" label="Sarah Achieng Opendi" />
+      <node id="Opendi" label="Opendi" />
+      <node id="Lynn Tracy" label="Lynn Tracy" />
+      <node id="Yoweri Museveni" label="Yoweri Museveni" />
+      <node id="Museveni" label="Museveni" />
+      <node id="Alfonse Owiny Dollo" label="Alfonse Owiny Dollo" />
+      <node id="Antonio  Guterre" label="Antonio  Guterre" />
+      <node id="Guterre" label="Guterre" />
+      <node id="Taher Al Baour" label="Taher Al Baour" />
+      <node id="Florian Philippot" label="Florian Philippot" />
+      <node id="Nicola Mirkovic" label="Nicola Mirkovic" />
+      <node id="Ramaphosa" label="Ramaphosa" />
+      <node id="Zuma" label="Zuma" />
+      <node id="Jacob Zuma" label="Jacob Zuma" />
+      <node id="Visvin Reddy" label="Visvin Reddy" />
+      <node id="Boris Pistoriu" label="Boris Pistoriu" />
+      <node id="Sebastien Lecornu" label="Sebastien Lecornu" />
+      <node id="Victor Mapani" label="Victor Mapani" />
+      <node id="Hakainde Hichilema" label="Hakainde Hichilema" />
+      <node id="H.E." label="H.E." />
+      <node id="Alexander Bartosh" label="Alexander Bartosh" />
+      <node id="Fadimatou Iyawa Ousmanou" label="Fadimatou Iyawa Ousmanou" />
+      <node id="Iyawa Ousmanou" label="Iyawa Ousmanou" />
+      <node id="Alexander Bikantov" label="Alexander Bikantov" />
+      <node id="Felix Molua" label="Felix Molua" />
+      <node id="Bikantov" label="Bikantov" />
+      <node id="Molua" label="Molua" />
+      <node id="Sylvie Baipo Temon" label="Sylvie Baipo Temon" />
+      <node id="Denis Kazungu" label="Denis Kazungu" />
+      <node id="Kazungu" label="Kazungu" />
+      <node id="James Webb Space Telescope" label="James Webb Space Telescope" />
+      <node id="Exoplanetary Science" label="Exoplanetary Science" />
+      <node id="Nikku Madhusudhan" label="Nikku Madhusudhan" />
+      <node id="Abdul Kamara" label="Abdul Kamara" />
+      <node id="Abiy Ahmed" label="Abiy Ahmed" />
+      <node id="Obafemi Awolowo Prize for Leadership" label="Obafemi Awolowo Prize for Leadership" />
+      <node id="Mikhail Bogdanov" label="Mikhail Bogdanov" />
+      <node id="Aref Nayed" label="Aref Nayed" />
+      <node id="Muammar al Qaddafi" label="Muammar al Qaddafi" />
+      <node id="Abdelhamid Dbeibah" label="Abdelhamid Dbeibah" />
+      <node id="Ashmunein" label="Ashmunein" />
+      <node id="Gunther Roeder" label="Gunther Roeder" />
+      <node id="Ramse" label="Ramse" />
+      <node id="Ramses II" label="Ramses II" />
+      <node id="el Sisi" label="el Sisi" />
+      <node id="Abdel Fattah Sisi" label="Abdel Fattah Sisi" />
+      <node id="RSF" label="RSF" />
+      <node id="Antonio Guterre" label="Antonio Guterre" />
+      <node id="Sennar" label="Sennar" />
+      <node id="Paul Kagame" label="Paul Kagame" />
+      <node id="Kagame" label="Kagame" />
+      <node id="Frank Habineza" label="Frank Habineza" />
+      <node id="Victoire Ingabire" label="Victoire Ingabire" />
+      <node id="Dalfa" label="Dalfa" />
+      <node id="Taher al Baour" label="Taher al Baour" />
+      <node id="Aydar Aganin" label="Aydar Aganin" />
+      <node id="Laurent Gbagbo" label="Laurent Gbagbo" />
+      <node id="Alassane Ouattara" label="Alassane Ouattara" />
+      <node id="Prionops alberti" label="Prionops alberti" />
+      <node id="Matt Brady" label="Matt Brady" />
+      <node id="Eli Greenbaum" label="Eli Greenbaum" />
+      <node id="Julius Maada Bio" label="Julius Maada Bio" />
+      <node id="Xi Jinping" label="Xi Jinping" />
+      <node id="Alemu Sime" label="Alemu Sime" />
+      <node id="Mesfin Tassew" label="Mesfin Tassew" />
+      <node id="Zelalem Mengistie" label="Zelalem Mengistie" />
+      <node id="Ali Bongo Ondimba" label="Ali Bongo Ondimba" />
+      <node id="Oligui Nguema" label="Oligui Nguema" />
+      <node id="Bassirou Diomaye" label="Bassirou Diomaye" />
+      <node id="Faye" label="Faye" />
+      <node id="Ibrahim Diawara" label="Ibrahim Diawara" />
+      <node id="Bambara" label="Bambara" />
+      <node id="George Charamba" label="George Charamba" />
+      <node id="Charamba" label="Charamba" />
+      <node id="Ahmed Aboul Gheit" label="Ahmed Aboul Gheit" />
+      <node id="Abdullah Hamdok" label="Abdullah Hamdok" />
+      <node id="Viktor Orban" label="Viktor Orban" />
+      <node id="Netanyahu" label="Netanyahu" />
+      <node id="Leon Dodonou Pounagaza" label="Leon Dodonou Pounagaza" />
+      <node id="Nikol Pashinyan" label="Nikol Pashinyan" />
+      <node id="Mohamed al Menfi" label="Mohamed al Menfi" />
+      <node id="Aguila Saleh" label="Aguila Saleh" />
+      <node id="Mohamed Takala" label="Mohamed Takala" />
+      <node id="Succ" label="Succ" />
+      <node id="Mahamat Idri" label="Mahamat Idri" />
+      <node id="Transformateur" label="Transformateur" />
+      <node id="Shava" label="Shava" />
+      <node id="Frederick Shava" label="Frederick Shava" />
+      <node id="Matthew Miller" label="Matthew Miller" />
+      <node id="Farai Marapira" label="Farai Marapira" />
+      <node id="Anatoly Aksakov" label="Anatoly Aksakov" />
+      <node id="Yaroslav Kabakov" label="Yaroslav Kabakov" />
+      <node id="Konstantin" label="Konstantin" />
+      <node id="Zaraisk" label="Zaraisk" />
+      <node id="Vladimir Saldo" label="Vladimir Saldo" />
+      <node id="Elon Musk" label="Elon Musk" />
+      <node id="Georg Eloff" label="Georg Eloff" />
+      <node id="Emma Powell" label="Emma Powell" />
+      <node id="Mahlengi Bhengu Motsiri" label="Mahlengi Bhengu Motsiri" />
+      <node id="Tochka" label="Tochka" />
+      <node id="Alexey Overchuk" label="Alexey Overchuk" />
+      <node id="Temesgen Tiruneh" label="Temesgen Tiruneh" />
+      <node id="Arega Kebede" label="Arega Kebede" />
+      <node id="Karim Wade" label="Karim Wade" />
+      <node id="Abdoulaye Wade" label="Abdoulaye Wade" />
+      <node id="Felix Tshisekedi" label="Felix Tshisekedi" />
+      <node id="Tete Antonio" label="Tete Antonio" />
+      <node id="Felix Moloua" label="Felix Moloua" />
+      <node id="Bangui Alexander Bikantov" label="Bangui Alexander Bikantov" />
+      <node id="Maslenitsa" label="Maslenitsa" />
+      <node id="Sergey Ryabkov" label="Sergey Ryabkov" />
+      <node id="Ryabkov" label="Ryabkov" />
+      <node id="Is haq Modibbo Kawu" label="Is haq Modibbo Kawu" />
+      <node id="Draupadi Murmu" label="Draupadi Murmu" />
+      <node id="Prithvirajsing Roopun" label="Prithvirajsing Roopun" />
+      <node id="Pravind Kumar" label="Pravind Kumar" />
+      <node id="Jugnauth" label="Jugnauth" />
+      <node id="Dmitry Kiselev" label="Dmitry Kiselev" />
+      <node id="Wagner" label="Wagner" />
+      <node id="Kiselev" label="Kiselev" />
+      <node id="Omdurman" label="Omdurman" />
+      <node id="al Shabaab" label="al Shabaab" />
+      <node id="Al Shabaab" label="Al Shabaab" />
+      <node id="Kevin Vladimirovich Johnson" label="Kevin Vladimirovich Johnson" />
+      <node id="Kevin Johnson" label="Kevin Johnson" />
+      <node id="Johnson" label="Johnson" />
+      <node id="Al Dagalo" label="Al Dagalo" />
+      <node id="Moussa Naby Diakit" label="Moussa Naby Diakit" />
+      <node id="Uwem edimo Sampson" label="Uwem edimo Sampson" />
+      <node id="Daouda Sawadogo" label="Daouda Sawadogo" />
+      <node id="Abraham Korir Sing Oei" label="Abraham Korir Sing Oei" />
+      <node id="William Ruto" label="William Ruto" />
+      <node id="Al Cook" label="Al Cook" />
+      <node id="Cook" label="Cook" />
+      <node id="Kalla" label="Kalla" />
+      <node id="Gladkov" label="Gladkov" />
+      <node id="SpaceX" label="SpaceX" />
+      <node id="Brett McGurk" label="Brett McGurk" />
+      <node id="Abram Paley" label="Abram Paley" />
+      <node id="Ali Bagheri Kani" label="Ali Bagheri Kani" />
+      <node id="Benjamin Netanyahu" label="Benjamin Netanyahu" />
+      <node id="Mark Rutte" label="Mark Rutte" />
+      <node id="Stephane Dujarric" label="Stephane Dujarric" />
+      <node id="Dujarric" label="Dujarric" />
+      <node id="Naledi Pandor" label="Naledi Pandor" />
+      <node id="Mamady Doumbouya" label="Mamady Doumbouya" />
+      <node id="Amadou Uri Bach" label="Amadou Uri Bach" />
+      <node id="Ishmael Chokurongerwa" label="Ishmael Chokurongerwa" />
+      <node id="Johanne Masowe" label="Johanne Masowe" />
+      <node id="Chokurongerwa" label="Chokurongerwa" />
+      <node id="Abdourahamane Tiani" label="Abdourahamane Tiani" />
+      <node id="Molly Phee" label="Molly Phee" />
+      <node id="Ousmane Sonko" label="Ousmane Sonko" />
+      <node id="Bassirou Diome Faye" label="Bassirou Diome Faye" />
+      <node id="Dmitry Polyansky" label="Dmitry Polyansky" />
+      <node id="Al Aqsa  TV" label="Al Aqsa  TV" />
+      <node id="Valery Gerasimov" label="Valery Gerasimov" />
+      <node id="Sonko" label="Sonko" />
+      <node id="Bassirou Diomaye Faye" label="Bassirou Diomaye Faye" />
+      <node id="Seneweb" label="Seneweb" />
+      <node id="Al Shabaab  militant" label="Al Shabaab  militant" />
+      <node id="Feysal Arale" label="Feysal Arale" />
+      <node id="Hassan Adde" label="Hassan Adde" />
+      <node id="Farhan Mohamed Jimale" label="Farhan Mohamed Jimale" />
+      <node id="Faustin Archange" label="Faustin Archange" />
+      <node id="Boxer" label="Boxer" />
+      <node id="bogatyr" label="bogatyr" />
+      <node id="heburashka" label="heburashka" />
+      <node id="Sabrina Singh" label="Sabrina Singh" />
+      <node id="Michael McCaul" label="Michael McCaul" />
+      <node id="Tiani" label="Tiani" />
+      <node id="Phee" label="Phee" />
+      <node id="Dmitry Polyanskiy" label="Dmitry Polyanskiy" />
+      <node id="Polyanskiy" label="Polyanskiy" />
+      <node id="Ntshaveni" label="Ntshaveni" />
+      <node id="Khumbudzo Ntshaveni" label="Khumbudzo Ntshaveni" />
+      <node id="Abba" label="Abba" />
+      <node id="Mohammad Mustafa" label="Mohammad Mustafa" />
+      <node id="Mahmoud Abba" label="Mahmoud Abba" />
+      <node id="Mustafa" label="Mustafa" />
+      <node id="Ahmed Said Mdahoma" label="Ahmed Said Mdahoma" />
+    </nodes>
+    <edges>
+      <edge source="Filipe Nyusi" target="Nyusi" id="0" weight="2" />
+      <edge source="Filipe Nyusi" target="Abdelmadjid Tebboune" id="1" weight="1" />
+      <edge source="Nyusi" target="Abdelmadjid Tebboune" id="2" weight="1" />
+      <edge source="Joe Biden" target="Donald Trump" id="3" weight="2" />
+      <edge source="Joe Biden" target="Trump" id="4" weight="2" />
+      <edge source="Joe Biden" target="Biden" id="5" weight="6" />
+      <edge source="Joe Biden" target="Tatyana Moskalkova" id="6" weight="1" />
+      <edge source="Joe Biden" target="Sergey Lavrov" id="7" weight="1" />
+      <edge source="Joe Biden" target="Hakan Fidan" id="8" weight="1" />
+      <edge source="Joe Biden" target="King Mswati III" id="9" weight="1" />
+      <edge source="Joe Biden" target="Olaf Scholz" id="10" weight="1" />
+      <edge source="Joe Biden" target="Alain Corvez" id="11" weight="1" />
+      <edge source="Joe Biden" target="Zelensky" id="12" weight="1" />
+      <edge source="Joe Biden" target="Abram" id="13" weight="1" />
+      <edge source="Joe Biden" target="Christopher Helali" id="14" weight="1" />
+      <edge source="Joe Biden" target="Sputnik" id="15" weight="1" />
+      <edge source="Joe Biden" target="Shava" id="16" weight="1" />
+      <edge source="Joe Biden" target="Frederick Shava" id="17" weight="1" />
+      <edge source="Joe Biden" target="Tochka" id="18" weight="1" />
+      <edge source="Joe Biden" target="Scholz" id="19" weight="1" />
+      <edge source="Donald Trump" target="Trump" id="20" weight="2" />
+      <edge source="Donald Trump" target="Biden" id="21" weight="2" />
+      <edge source="Donald Trump" target="Tatyana Moskalkova" id="22" weight="1" />
+      <edge source="Donald Trump" target="Sergey Lavrov" id="23" weight="1" />
+      <edge source="Donald Trump" target="Hakan Fidan" id="24" weight="1" />
+      <edge source="Donald Trump" target="King Mswati III" id="25" weight="1" />
+      <edge source="Donald Trump" target="Olaf Scholz" id="26" weight="1" />
+      <edge source="Donald Trump" target="Sergey Chemezov" id="27" weight="1" />
+      <edge source="Donald Trump" target="Alexander Grebenkin" id="28" weight="1" />
+      <edge source="Donald Trump" target="Nikki Haley" id="29" weight="1" />
+      <edge source="Donald Trump" target="Haley" id="30" weight="1" />
+      <edge source="Donald Trump" target="Viktor Orban" id="31" weight="1" />
+      <edge source="Donald Trump" target="Netanyahu" id="32" weight="1" />
+      <edge source="Trump" target="Biden" id="33" weight="5" />
+      <edge source="Trump" target="Tatyana Moskalkova" id="34" weight="1" />
+      <edge source="Trump" target="Sergey Lavrov" id="35" weight="1" />
+      <edge source="Trump" target="Hakan Fidan" id="36" weight="1" />
+      <edge source="Trump" target="King Mswati III" id="37" weight="1" />
+      <edge source="Trump" target="Olaf Scholz" id="38" weight="1" />
+      <edge source="Trump" target="Ng Eng Hen" id="39" weight="1" />
+      <edge source="Trump" target="Sputnik" id="40" weight="1" />
+      <edge source="Trump" target="Putin" id="41" weight="1" />
+      <edge source="Trump" target="Vladimir Saldo" id="42" weight="1" />
+      <edge source="Trump" target="Elon Musk" id="43" weight="1" />
+      <edge source="Trump" target="Omdurman" id="44" weight="1" />
+      <edge source="Trump" target="Vladimir Putin" id="45" weight="1" />
+      <edge source="Trump" target="Dmitry Kiselev" id="46" weight="1" />
+      <edge source="Biden" target="Tatyana Moskalkova" id="47" weight="1" />
+      <edge source="Biden" target="Sergey Lavrov" id="48" weight="2" />
+      <edge source="Biden" target="Hakan Fidan" id="49" weight="1" />
+      <edge source="Biden" target="King Mswati III" id="50" weight="1" />
+      <edge source="Biden" target="Olaf Scholz" id="51" weight="1" />
+      <edge source="Biden" target="Alain Corvez" id="52" weight="1" />
+      <edge source="Biden" target="Zelensky" id="53" weight="1" />
+      <edge source="Biden" target="Abram" id="54" weight="1" />
+      <edge source="Biden" target="Christopher Helali" id="55" weight="1" />
+      <edge source="Biden" target="Sputnik" id="56" weight="1" />
+      <edge source="Biden" target="Yusuf Tuggar" id="57" weight="1" />
+      <edge source="Biden" target="Kherson" id="58" weight="1" />
+      <edge source="Biden" target="Nikki Haley" id="59" weight="1" />
+      <edge source="Biden" target="Didier Reynder" id="60" weight="1" />
+      <edge source="Biden" target="Valeriy Zaluzhny" id="61" weight="1" />
+      <edge source="Biden" target="Rafael Grossi" id="62" weight="1" />
+      <edge source="Biden" target="Tochka" id="63" weight="1" />
+      <edge source="Biden" target="Scholz" id="64" weight="1" />
+      <edge source="Biden" target="Omdurman" id="65" weight="1" />
+      <edge source="Biden" target="Vladimir Putin" id="66" weight="1" />
+      <edge source="Biden" target="Dmitry Kiselev" id="67" weight="1" />
+      <edge source="Tatyana Moskalkova" target="Sergey Lavrov" id="68" weight="1" />
+      <edge source="Tatyana Moskalkova" target="Hakan Fidan" id="69" weight="1" />
+      <edge source="Tatyana Moskalkova" target="King Mswati III" id="70" weight="1" />
+      <edge source="Tatyana Moskalkova" target="Olaf Scholz" id="71" weight="1" />
+      <edge source="Tatyana Moskalkova" target="Sputnik" id="72" weight="1" />
+      <edge source="Sergey Lavrov" target="Hakan Fidan" id="73" weight="2" />
+      <edge source="Sergey Lavrov" target="King Mswati III" id="74" weight="1" />
+      <edge source="Sergey Lavrov" target="Olaf Scholz" id="75" weight="1" />
+      <edge source="Sergey Lavrov" target="Winston Churchill" id="76" weight="1" />
+      <edge source="Sergey Lavrov" target="Kharkov" id="77" weight="1" />
+      <edge source="Sergey Lavrov" target="Thomas Bach" id="78" weight="1" />
+      <edge source="Sergey Lavrov" target="Yusuf Maitama Tuggar" id="79" weight="1" />
+      <edge source="Sergey Lavrov" target="Tuggar" id="80" weight="2" />
+      <edge source="Sergey Lavrov" target="Yusuf Tuggar" id="81" weight="7" />
+      <edge source="Sergey Lavrov" target="Kherson" id="82" weight="1" />
+      <edge source="Sergey Lavrov" target="Nikki Haley" id="83" weight="2" />
+      <edge source="Sergey Lavrov" target="Didier Reynder" id="84" weight="1" />
+      <edge source="Sergey Lavrov" target="Valeriy Zaluzhny" id="85" weight="1" />
+      <edge source="Sergey Lavrov" target="Rafael Grossi" id="86" weight="2" />
+      <edge source="Sergey Lavrov" target="Vladimir Putin" id="87" weight="1" />
+      <edge source="Sergey Lavrov" target="Sergey Shoigu" id="88" weight="1" />
+      <edge source="Sergey Lavrov" target="Almaz Antey" id="89" weight="1" />
+      <edge source="Sergey Lavrov" target="Maria Zakharova" id="90" weight="1" />
+      <edge source="Sergey Lavrov" target="Sputnik" id="91" weight="2" />
+      <edge source="Hakan Fidan" target="King Mswati III" id="92" weight="1" />
+      <edge source="Hakan Fidan" target="Olaf Scholz" id="93" weight="1" />
+      <edge source="King Mswati III" target="Olaf Scholz" id="94" weight="1" />
+      <edge source="Olaf Scholz" target="Sputnik" id="95" weight="2" />
+      <edge source="Olaf Scholz" target="Margarita Simonyan" id="96" weight="2" />
+      <edge source="Olaf Scholz" target="Simonyan" id="97" weight="2" />
+      <edge source="Olaf Scholz" target="Scholz" id="98" weight="1" />
+      <edge source="Abdoulaye Diop" target="Sputnik" id="99" weight="4" />
+      <edge source="Abdoulaye Diop" target="Diop" id="100" weight="1" />
+      <edge source="Sputnik" target="Margarita Simonyan" id="101" weight="4" />
+      <edge source="Sputnik" target="Simonyan" id="102" weight="2" />
+      <edge source="Sputnik" target="Scholz" id="103" weight="1" />
+      <edge source="Sputnik" target="Maria Zakharova" id="104" weight="1" />
+      <edge source="Sputnik" target="Frank Graefe" id="105" weight="1" />
+      <edge source="Sputnik" target="Juan Sinmiedo   Fearless John" id="106" weight="1" />
+      <edge source="Sputnik" target="Bebo" id="107" weight="1" />
+      <edge source="Sputnik" target="Milit" id="108" weight="1" />
+      <edge source="Sputnik" target="Intel" id="109" weight="1" />
+      <edge source="Sputnik" target="Emad Abshena" id="110" weight="1" />
+      <edge source="Sputnik" target="Cham Ugala Uriat" id="111" weight="1" />
+      <edge source="Sputnik" target="Karamoko Jean Marie Traore" id="112" weight="1" />
+      <edge source="Sputnik" target="Viktor Litovkin" id="113" weight="1" />
+      <edge source="Sputnik" target="Zelensky" id="114" weight="2" />
+      <edge source="Sputnik" target="Litovkin" id="115" weight="1" />
+      <edge source="Sputnik" target="Libom Li" id="116" weight="2" />
+      <edge source="Sputnik" target="Likeng" id="117" weight="1" />
+      <edge source="Sputnik" target="Christopher Helali" id="118" weight="1" />
+      <edge source="Sputnik" target="Armata" id="119" weight="1" />
+      <edge source="Sputnik" target="Sergey Chemezov" id="120" weight="1" />
+      <edge source="Sputnik" target="Ng Eng Hen" id="121" weight="1" />
+      <edge source="Sputnik" target="Ali Al Sadiq Ali" id="122" weight="1" />
+      <edge source="Sputnik" target="Andrey Chernovol" id="123" weight="1" />
+      <edge source="Sputnik" target="Ali" id="124" weight="1" />
+      <edge source="Sputnik" target="Minette" id="125" weight="1" />
+      <edge source="Sputnik" target="Sputnik Africa" id="126" weight="2" />
+      <edge source="Sputnik" target="Libom Li Likeng" id="127" weight="1" />
+      <edge source="Sputnik" target="Yusuf Tuggar" id="128" weight="6" />
+      <edge source="Sputnik" target="Privet  hello  Sputnik" id="129" weight="1" />
+      <edge source="Sputnik" target="Don" id="130" weight="2" />
+      <edge source="Sputnik" target="Putin" id="131" weight="6" />
+      <edge source="Sputnik" target="Kim Jong Un" id="132" weight="1" />
+      <edge source="Sputnik" target="Al Hudaydah" id="133" weight="1" />
+      <edge source="Sputnik" target="Tuggar" id="134" weight="1" />
+      <edge source="Sputnik" target="Taher Al Baour" id="135" weight="1" />
+      <edge source="Sputnik" target="Alexander Bartosh" id="136" weight="1" />
+      <edge source="Sputnik" target="Fadimatou Iyawa Ousmanou" id="137" weight="1" />
+      <edge source="Sputnik" target="Iyawa Ousmanou" id="138" weight="1" />
+      <edge source="Sputnik" target="Alexander Bikantov" id="139" weight="1" />
+      <edge source="Sputnik" target="Felix Molua" id="140" weight="2" />
+      <edge source="Sputnik" target="Bikantov" id="141" weight="1" />
+      <edge source="Sputnik" target="Molua" id="142" weight="1" />
+      <edge source="Sputnik" target="Sylvie Baipo Temon" id="143" weight="1" />
+      <edge source="Sputnik" target="Taher al Baour" id="144" weight="1" />
+      <edge source="Sputnik" target="Aydar Aganin" id="145" weight="1" />
+      <edge source="Sputnik" target="Leon Dodonou Pounagaza" id="146" weight="1" />
+      <edge source="Sputnik" target="Matthew Miller" id="147" weight="1" />
+      <edge source="Sputnik" target="Farai Marapira" id="148" weight="1" />
+      <edge source="Sputnik" target="Konstantin" id="149" weight="1" />
+      <edge source="Sputnik" target="Zaraisk" id="150" weight="1" />
+      <edge source="Sputnik" target="Florian Philippot" id="151" weight="1" />
+      <edge source="Sputnik" target="Vladimir Putin" id="152" weight="2" />
+      <edge source="Sputnik" target="Dmitry Kiselev" id="153" weight="6" />
+      <edge source="Sputnik" target="SpaceX" id="154" weight="1" />
+      <edge source="Margarita Simonyan" target="Simonyan" id="155" weight="2" />
+      <edge source="Margarita Simonyan" target="Scholz" id="156" weight="1" />
+      <edge source="Margarita Simonyan" target="Frank Graefe" id="157" weight="1" />
+      <edge source="Simonyan" target="Scholz" id="158" weight="1" />
+      <edge source="Scholz" target="Tochka" id="159" weight="1" />
+      <edge source="Scholz" target="Maria Zakharova" id="160" weight="1" />
+      <edge source="Scholz" target="Elon Musk" id="161" weight="1" />
+      <edge source="Yevgenia Gutsul" target="Gagauzian" id="162" weight="1" />
+      <edge source="Yevgenia Gutsul" target="Valentina Matvienko" id="163" weight="1" />
+      <edge source="Yevgenia Gutsul" target="Russophobic" id="164" weight="1" />
+      <edge source="Yevgenia Gutsul" target="Gagauz Yeri" id="165" weight="1" />
+      <edge source="Gagauzian" target="Valentina Matvienko" id="166" weight="1" />
+      <edge source="Gagauzian" target="Russophobic" id="167" weight="1" />
+      <edge source="Gagauzian" target="Gagauz Yeri" id="168" weight="1" />
+      <edge source="Valentina Matvienko" target="Russophobic" id="169" weight="1" />
+      <edge source="Valentina Matvienko" target="Gagauz Yeri" id="170" weight="1" />
+      <edge source="Russophobic" target="Gagauz Yeri" id="171" weight="1" />
+      <edge source="Vladimir Putin" target="Oleg Ozerov" id="172" weight="1" />
+      <edge source="Vladimir Putin" target="Ozerov" id="173" weight="1" />
+      <edge source="Vladimir Putin" target="Nicodemus Minde" id="174" weight="1" />
+      <edge source="Vladimir Putin" target="Mikatekiso Kubayi" id="175" weight="1" />
+      <edge source="Vladimir Putin" target="Sputnik Africa" id="176" weight="3" />
+      <edge source="Vladimir Putin" target="Emmanuel Macron" id="177" weight="4" />
+      <edge source="Vladimir Putin" target="Rossotrudnichestvo" id="178" weight="1" />
+      <edge source="Vladimir Putin" target="Pavel Shevtsov" id="179" weight="1" />
+      <edge source="Vladimir Putin" target="Sergey Shoigu" id="180" weight="2" />
+      <edge source="Vladimir Putin" target="Yusuf Tuggar" id="181" weight="1" />
+      <edge source="Vladimir Putin" target="Rafael Grossi" id="182" weight="1" />
+      <edge source="Vladimir Putin" target="Almaz Antey" id="183" weight="1" />
+      <edge source="Vladimir Putin" target="Nikki Haley" id="184" weight="1" />
+      <edge source="Vladimir Putin" target="Maria Zakharova" id="185" weight="1" />
+      <edge source="Vladimir Putin" target="WYF2024" id="186" weight="1" />
+      <edge source="Vladimir Putin" target="Putin" id="187" weight="9" />
+      <edge source="Vladimir Putin" target="Davis Akumpurira" id="188" weight="1" />
+      <edge source="Vladimir Putin" target="Eugenia Gutsul" id="189" weight="1" />
+      <edge source="Vladimir Putin" target="Daniel Voda" id="190" weight="1" />
+      <edge source="Vladimir Putin" target="Ion Munteanu" id="191" weight="1" />
+      <edge source="Vladimir Putin" target="Gutsul" id="192" weight="1" />
+      <edge source="Vladimir Putin" target="Ilan Shor" id="193" weight="1" />
+      <edge source="Vladimir Putin" target="Lynn Tracy" id="194" weight="1" />
+      <edge source="Vladimir Putin" target="Florian Philippot" id="195" weight="1" />
+      <edge source="Vladimir Putin" target="Nicola Mirkovic" id="196" weight="1" />
+      <edge source="Vladimir Putin" target="Joy" id="197" weight="1" />
+      <edge source="Vladimir Putin" target="Anatoly Aksakov" id="198" weight="1" />
+      <edge source="Vladimir Putin" target="Yaroslav Kabakov" id="199" weight="1" />
+      <edge source="Vladimir Putin" target="Dmitry Kiselev" id="200" weight="7" />
+      <edge source="Vladimir Putin" target="Wagner" id="201" weight="1" />
+      <edge source="Vladimir Putin" target="Don" id="202" weight="1" />
+      <edge source="Vladimir Putin" target="Omdurman" id="203" weight="1" />
+      <edge source="Vladimir Putin" target="Uwem edimo Sampson" id="204" weight="1" />
+      <edge source="Vladimir Putin" target="Naledi Pandor" id="205" weight="1" />
+      <edge source="Vladimir Putin" target="Mamady Doumbouya" id="206" weight="1" />
+      <edge source="Vladimir Putin" target="Amadou Uri Bach" id="207" weight="1" />
+      <edge source="Vladimir Putin" target="Vyacheslav Gladkov" id="208" weight="1" />
+      <edge source="Vladimir Putin" target="Kevin Vladimirovich Johnson" id="209" weight="1" />
+      <edge source="Oleg Ozerov" target="Ozerov" id="210" weight="1" />
+      <edge source="Maria Zakharova" target="Antony Blinken" id="211" weight="1" />
+      <edge source="Maria Zakharova" target="Victoria Nuland" id="212" weight="1" />
+      <edge source="Maria Zakharova" target="Yusuf Tuggar" id="213" weight="1" />
+      <edge source="Maria Zakharova" target="Rafael Grossi" id="214" weight="1" />
+      <edge source="Maria Zakharova" target="Sergey Shoigu" id="215" weight="1" />
+      <edge source="Maria Zakharova" target="Almaz Antey" id="216" weight="1" />
+      <edge source="Maria Zakharova" target="Nikki Haley" id="217" weight="1" />
+      <edge source="Maria Zakharova" target="Gagauz" id="218" weight="1" />
+      <edge source="Maria Zakharova" target="Maya  Sandu" id="219" weight="1" />
+      <edge source="Maria Zakharova" target="Sandu" id="220" weight="1" />
+      <edge source="Maria Zakharova" target="Nikol Pashinyan" id="221" weight="1" />
+      <edge source="Maria Zakharova" target="Emmanuel Macron" id="222" weight="1" />
+      <edge source="Maria Zakharova" target="Elon Musk" id="223" weight="1" />
+      <edge source="Nikolay Shulginov" target="Ekperikpe Ekpo" id="224" weight="1" />
+      <edge source="Alain Corvez" target="Zelensky" id="225" weight="1" />
+      <edge source="Zelensky" target="SputnikMeme" id="226" weight="1" />
+      <edge source="Zelensky" target="Viktor Litovkin" id="227" weight="1" />
+      <edge source="Zelensky" target="Litovkin" id="228" weight="1" />
+      <edge source="Zelensky" target="West" id="229" weight="1" />
+      <edge source="Mikatekiso Kubayi" target="Sputnik Africa" id="230" weight="1" />
+      <edge source="Mikatekiso Kubayi" target="Emmanuel Macron" id="231" weight="1" />
+      <edge source="Sputnik Africa" target="Emmanuel Macron" id="232" weight="1" />
+      <edge source="Sputnik Africa" target="Russkie" id="233" weight="2" />
+      <edge source="Sputnik Africa" target="William Amo" id="234" weight="1" />
+      <edge source="Sputnik Africa" target="WYF2024" id="235" weight="2" />
+      <edge source="Sputnik Africa" target="Emma Kantema Gaoma" id="236" weight="1" />
+      <edge source="Sputnik Africa" target="Libom Li" id="237" weight="2" />
+      <edge source="Sputnik Africa" target="Likeng" id="238" weight="1" />
+      <edge source="Sputnik Africa" target="Patricia Kalinga" id="239" weight="1" />
+      <edge source="Sputnik Africa" target="Ibrahim Ben Aissa" id="240" weight="1" />
+      <edge source="Sputnik Africa" target="Ibrahim" id="241" weight="1" />
+      <edge source="Sputnik Africa" target="Minette" id="242" weight="1" />
+      <edge source="Sputnik Africa" target="Libom Li Likeng" id="243" weight="1" />
+      <edge source="Sputnik Africa" target="Abdoulaye Siby" id="244" weight="1" />
+      <edge source="Sputnik Africa" target="Siby" id="245" weight="1" />
+      <edge source="Sputnik Africa" target="Ghanaian WYF2024" id="246" weight="1" />
+      <edge source="Sputnik Africa" target="John Aggrey" id="247" weight="4" />
+      <edge source="Sputnik Africa" target="Aggrey" id="248" weight="1" />
+      <edge source="Sputnik Africa" target="David Okpatuma" id="249" weight="1" />
+      <edge source="Sputnik Africa" target="Okpatuma" id="250" weight="1" />
+      <edge source="Sputnik Africa" target="Lere Amusan" id="251" weight="1" />
+      <edge source="Sputnik Africa" target="Yusuf Tuggar" id="252" weight="1" />
+      <edge source="Sputnik Africa" target="Putin" id="253" weight="4" />
+      <edge source="Sputnik Africa" target="Felix Molua" id="254" weight="1" />
+      <edge source="Sputnik Africa" target="Leon Dodonou Pounagaza" id="255" weight="1" />
+      <edge source="Sputnik Africa" target="Georg Eloff" id="256" weight="1" />
+      <edge source="Sputnik Africa" target="Is haq Modibbo Kawu" id="257" weight="1" />
+      <edge source="Sputnik Africa" target="Kevin Vladimirovich Johnson" id="258" weight="1" />
+      <edge source="Sputnik Africa" target="Kevin Johnson" id="259" weight="2" />
+      <edge source="Sputnik Africa" target="Johnson" id="260" weight="2" />
+      <edge source="Sputnik Africa" target="Moussa Naby Diakit" id="261" weight="1" />
+      <edge source="Sputnik Africa" target="Uwem edimo Sampson" id="262" weight="1" />
+      <edge source="Sputnik Africa" target="Daouda Sawadogo" id="263" weight="1" />
+      <edge source="Sputnik Africa" target="Boxer" id="264" weight="1" />
+      <edge source="Sputnik Africa" target="Ahmed Said Mdahoma" id="265" weight="1" />
+      <edge source="Emmanuel Macron" target="Lavrov" id="266" weight="1" />
+      <edge source="Emmanuel Macron" target="Vyacheslav Gladkov" id="267" weight="1" />
+      <edge source="Emmanuel Macron" target="Victoria Nuland" id="268" weight="1" />
+      <edge source="Emmanuel Macron" target="Antony Blinken" id="269" weight="1" />
+      <edge source="Emmanuel Macron" target="Josep Borrell" id="270" weight="1" />
+      <edge source="Emmanuel Macron" target="Moon" id="271" weight="1" />
+      <edge source="Emmanuel Macron" target="Yuri Borisov" id="272" weight="1" />
+      <edge source="Emmanuel Macron" target="Alexander Grebenkin" id="273" weight="1" />
+      <edge source="Emmanuel Macron" target="Florian Philippot" id="274" weight="1" />
+      <edge source="Emmanuel Macron" target="Nicola Mirkovic" id="275" weight="1" />
+      <edge source="Emmanuel Macron" target="Nikol Pashinyan" id="276" weight="1" />
+      <edge source="Emmanuel Macron" target="Dmitry Kiselev" id="277" weight="1" />
+      <edge source="Emmanuel Macron" target="Wagner" id="278" weight="1" />
+      <edge source="Emmanuel Macron" target="Putin" id="279" weight="1" />
+      <edge source="Emmanuel Macron" target="Macron" id="280" weight="1" />
+      <edge source="Ibrahim Raisi" target="Raisi" id="281" weight="1" />
+      <edge source="Juan Sinmiedo   Fearless John" target="Bebo" id="282" weight="1" />
+      <edge source="Juan Sinmiedo   Fearless John" target="Milit" id="283" weight="1" />
+      <edge source="Juan Sinmiedo   Fearless John" target="Intel" id="284" weight="1" />
+      <edge source="Bebo" target="Milit" id="285" weight="1" />
+      <edge source="Bebo" target="Intel" id="286" weight="1" />
+      <edge source="Milit" target="Intel" id="287" weight="1" />
+      <edge source="Intel" target="Mike Jone" id="288" weight="2" />
+      <edge source="Mass killing" target="Moussa Faki Mahamat" id="289" weight="1" />
+      <edge source="Moussa Faki Mahamat" target="Vincent Biruta" id="290" weight="1" />
+      <edge source="Moussa Faki Mahamat" target="H.E." id="291" weight="1" />
+      <edge source="Moussa Faki Mahamat" target="Macky Sall" id="292" weight="1" />
+      <edge source="Chad" target="Mahamat Idriss Deby Itno" id="293" weight="1" />
+      <edge source="Chad" target="Deby" id="294" weight="1" />
+      <edge source="Mahamat Idriss Deby Itno" target="Deby" id="295" weight="1" />
+      <edge source="Akinwumi Adesina" target="Adesina" id="296" weight="1" />
+      <edge source="Akinwumi Adesina" target="AfDB" id="297" weight="2" />
+      <edge source="Akinwumi Adesina" target="Abdul Kamara" id="298" weight="1" />
+      <edge source="Akinwumi Adesina" target="Abiy Ahmed" id="299" weight="1" />
+      <edge source="Akinwumi Adesina" target="Obafemi Awolowo Prize for Leadership" id="300" weight="2" />
+      <edge source="Adesina" target="AfDB" id="301" weight="1" />
+      <edge source="AfDB" target="Abdul Kamara" id="302" weight="1" />
+      <edge source="AfDB" target="Abiy Ahmed" id="303" weight="1" />
+      <edge source="AfDB" target="Obafemi Awolowo Prize for Leadership" id="304" weight="1" />
+      <edge source="Nayala" target="Hassan Idrissa Boli" id="305" weight="1" />
+      <edge source="Nayala" target="Kossi" id="306" weight="1" />
+      <edge source="Nayala" target="Banwa" id="307" weight="1" />
+      <edge source="Hassan Idrissa Boli" target="Kossi" id="308" weight="1" />
+      <edge source="Hassan Idrissa Boli" target="Banwa" id="309" weight="1" />
+      <edge source="Kossi" target="Banwa" id="310" weight="1" />
+      <edge source="Macky Sall" target="Sall" id="311" weight="3" />
+      <edge source="Macky Sall" target="Sidiki Kaba" id="312" weight="1" />
+      <edge source="Macky Sall" target="H.E." id="313" weight="1" />
+      <edge source="Macky Sall" target="Bassirou Diomaye" id="314" weight="1" />
+      <edge source="Macky Sall" target="Faye" id="315" weight="2" />
+      <edge source="Macky Sall" target="Karim Wade" id="316" weight="1" />
+      <edge source="Macky Sall" target="Abdoulaye Wade" id="317" weight="1" />
+      <edge source="Macky Sall" target="Sonko" id="318" weight="1" />
+      <edge source="Macky Sall" target="Ousmane Sonko" id="319" weight="1" />
+      <edge source="Macky Sall" target="Bassirou Diomaye Faye" id="320" weight="1" />
+      <edge source="Macky Sall" target="Seneweb" id="321" weight="1" />
+      <edge source="Sall" target="Sidiki Kaba" id="322" weight="1" />
+      <edge source="John Okafor" target="Ibu" id="323" weight="1" />
+      <edge source="John Okafor" target="Okafor" id="324" weight="1" />
+      <edge source="John Okafor" target="Emeka Rolla" id="325" weight="1" />
+      <edge source="John Okafor" target="Nollywood" id="326" weight="1" />
+      <edge source="Ibu" target="Okafor" id="327" weight="2" />
+      <edge source="Ibu" target="Emeka Rolla" id="328" weight="1" />
+      <edge source="Ibu" target="Nollywood" id="329" weight="1" />
+      <edge source="Okafor" target="Emeka Rolla" id="330" weight="1" />
+      <edge source="Okafor" target="Nollywood" id="331" weight="1" />
+      <edge source="Emeka Rolla" target="Nollywood" id="332" weight="1" />
+      <edge source="Rossotrudnichestvo" target="Pavel Shevtsov" id="333" weight="1" />
+      <edge source="Edna Kaindi" target="Edna" id="334" weight="1" />
+      <edge source="WYF2024" target="Emma Kantema Gaoma" id="335" weight="1" />
+      <edge source="WYF2024" target="John Aggrey" id="336" weight="1" />
+      <edge source="WYF2024" target="Aggrey" id="337" weight="1" />
+      <edge source="WYF2024" target="David Okpatuma" id="338" weight="1" />
+      <edge source="Musk" target="David Sach" id="339" weight="1" />
+      <edge source="Viktor Litovkin" target="Litovkin" id="340" weight="1" />
+      <edge source="Joy" target="Nathalie Yamb" id="341" weight="1" />
+      <edge source="Joy" target="Idrissa Ouedraogo" id="342" weight="1" />
+      <edge source="Nathalie Yamb" target="Idrissa Ouedraogo" id="343" weight="1" />
+      <edge source="Sergey Chemezov" target="Alexander Grebenkin" id="344" weight="1" />
+      <edge source="Sergey Chemezov" target="Armata" id="345" weight="1" />
+      <edge source="Alexander Grebenkin" target="Vyacheslav Gladkov" id="346" weight="1" />
+      <edge source="Alexander Grebenkin" target="Victoria Nuland" id="347" weight="1" />
+      <edge source="Alexander Grebenkin" target="Antony Blinken" id="348" weight="1" />
+      <edge source="Alexander Grebenkin" target="Josep Borrell" id="349" weight="1" />
+      <edge source="Alexander Grebenkin" target="Moon" id="350" weight="1" />
+      <edge source="Alexander Grebenkin" target="Yuri Borisov" id="351" weight="1" />
+      <edge source="Abram" target="Hammer" id="352" weight="1" />
+      <edge source="Simon Heya" target="Gladman Chiparaushe" id="353" weight="1" />
+      <edge source="Simon Heya" target="Maxmore Njanji" id="354" weight="1" />
+      <edge source="Gladman Chiparaushe" target="Maxmore Njanji" id="355" weight="1" />
+      <edge source="Winston Churchill" target="Kharkov" id="356" weight="1" />
+      <edge source="Cyril Ramaphosa" target="Malik Agar Eyre Nganyoufa" id="357" weight="1" />
+      <edge source="Cyril Ramaphosa" target="Abdel Fattah al Burhan" id="358" weight="1" />
+      <edge source="Cyril Ramaphosa" target="Ramaphosa" id="359" weight="2" />
+      <edge source="Cyril Ramaphosa" target="Zuma" id="360" weight="1" />
+      <edge source="Cyril Ramaphosa" target="Jacob Zuma" id="361" weight="1" />
+      <edge source="Cyril Ramaphosa" target="Visvin Reddy" id="362" weight="1" />
+      <edge source="Malik Agar Eyre Nganyoufa" target="Abdel Fattah al Burhan" id="363" weight="1" />
+      <edge source="Abdel Fattah al Burhan" target="al Burhan" id="364" weight="1" />
+      <edge source="Abdel Fattah al Burhan" target="Hamdane Daglo" id="365" weight="1" />
+      <edge source="Chay Bowe" target="Gerry Nolan" id="366" weight="2" />
+      <edge source="Putin" target="Mao Ning" id="367" weight="1" />
+      <edge source="Putin" target="Robot Lavrentiy" id="368" weight="1" />
+      <edge source="Putin" target="Grossi" id="369" weight="1" />
+      <edge source="Putin" target="Eduard Zernin" id="370" weight="1" />
+      <edge source="Putin" target="Caleb Maupin" id="371" weight="1" />
+      <edge source="Putin" target="Kim Jong Un" id="372" weight="2" />
+      <edge source="Putin" target="Al Hudaydah" id="373" weight="1" />
+      <edge source="Putin" target="Davis Akumpurira" id="374" weight="1" />
+      <edge source="Putin" target="Vladimir Saldo" id="375" weight="1" />
+      <edge source="Putin" target="Elon Musk" id="376" weight="1" />
+      <edge source="Putin" target="Dmitry Kiselev" id="377" weight="9" />
+      <edge source="Putin" target="Wagner" id="378" weight="1" />
+      <edge source="Putin" target="Kiselev" id="379" weight="2" />
+      <edge source="Putin" target="Kevin Vladimirovich Johnson" id="380" weight="1" />
+      <edge source="Putin" target="Kevin Johnson" id="381" weight="1" />
+      <edge source="Putin" target="Johnson" id="382" weight="1" />
+      <edge source="Putin" target="Moussa Naby Diakit" id="383" weight="1" />
+      <edge source="Putin" target="Uwem edimo Sampson" id="384" weight="1" />
+      <edge source="Putin" target="Kalla" id="385" weight="1" />
+      <edge source="Putin" target="Naledi Pandor" id="386" weight="1" />
+      <edge source="Putin" target="Mamady Doumbouya" id="387" weight="1" />
+      <edge source="Putin" target="Amadou Uri Bach" id="388" weight="1" />
+      <edge source="Putin" target="Vyacheslav Gladkov" id="389" weight="1" />
+      <edge source="Mao Ning" target="Robot Lavrentiy" id="390" weight="1" />
+      <edge source="Libom Li" target="Likeng" id="391" weight="2" />
+      <edge source="Libom Li" target="Minette" id="392" weight="1" />
+      <edge source="Libom Li" target="Libom Li Likeng" id="393" weight="1" />
+      <edge source="al Burhan" target="Hamdane Daglo" id="394" weight="1" />
+      <edge source="Ibrahim Ben Aissa" target="Ibrahim" id="395" weight="1" />
+      <edge source="Yusuf Maitama Tuggar" target="Tuggar" id="396" weight="1" />
+      <edge source="Tuggar" target="Yusuf Tuggar" id="397" weight="1" />
+      <edge source="Lazzarini" target="Philippe Lazzarini" id="398" weight="1" />
+      <edge source="Sergey Shoigu" target="Yusuf Tuggar" id="399" weight="1" />
+      <edge source="Sergey Shoigu" target="Rafael Grossi" id="400" weight="1" />
+      <edge source="Sergey Shoigu" target="Almaz Antey" id="401" weight="1" />
+      <edge source="Sergey Shoigu" target="Nikki Haley" id="402" weight="1" />
+      <edge source="Sergey Shoigu" target="Gennady Bendersky" id="403" weight="1" />
+      <edge source="Sergey Shoigu" target="Valery Gerasimov" id="404" weight="1" />
+      <edge source="Ali Al Sadiq Ali" target="Andrey Chernovol" id="405" weight="1" />
+      <edge source="Ali Al Sadiq Ali" target="Ali" id="406" weight="1" />
+      <edge source="Andrey Chernovol" target="Ali" id="407" weight="1" />
+      <edge source="Mohsen Karimi" target="Karimi" id="408" weight="1" />
+      <edge source="Adrienne Watson" target="Emmerson Mnangagwa" id="409" weight="1" />
+      <edge source="Adrienne Watson" target="Constantino Chiwenga" id="410" weight="1" />
+      <edge source="Emmerson Mnangagwa" target="Constantino Chiwenga" id="411" weight="1" />
+      <edge source="Hardeep Singh Puri" target="Subrahmanyam Jaishankar" id="412" weight="1" />
+      <edge source="Hanan Morsy" target="Morsy" id="413" weight="1" />
+      <edge source="Antony Blinken" target="Victoria Nuland" id="414" weight="2" />
+      <edge source="Antony Blinken" target="Vyacheslav Gladkov" id="415" weight="1" />
+      <edge source="Antony Blinken" target="Josep Borrell" id="416" weight="1" />
+      <edge source="Antony Blinken" target="Moon" id="417" weight="1" />
+      <edge source="Antony Blinken" target="Yuri Borisov" id="418" weight="1" />
+      <edge source="Antony Blinken" target="Emma Powell" id="419" weight="1" />
+      <edge source="Antony Blinken" target="Mahlengi Bhengu Motsiri" id="420" weight="1" />
+      <edge source="Victoria Nuland" target="Vyacheslav Gladkov" id="421" weight="1" />
+      <edge source="Victoria Nuland" target="Josep Borrell" id="422" weight="1" />
+      <edge source="Victoria Nuland" target="Moon" id="423" weight="1" />
+      <edge source="Victoria Nuland" target="Yuri Borisov" id="424" weight="1" />
+      <edge source="Vyacheslav Gladkov" target="Josep Borrell" id="425" weight="1" />
+      <edge source="Vyacheslav Gladkov" target="Moon" id="426" weight="1" />
+      <edge source="Vyacheslav Gladkov" target="Yuri Borisov" id="427" weight="1" />
+      <edge source="Vyacheslav Gladkov" target="Gladkov" id="428" weight="2" />
+      <edge source="Vyacheslav Gladkov" target="Naledi Pandor" id="429" weight="1" />
+      <edge source="Vyacheslav Gladkov" target="Mamady Doumbouya" id="430" weight="1" />
+      <edge source="Vyacheslav Gladkov" target="Amadou Uri Bach" id="431" weight="1" />
+      <edge source="Josep Borrell" target="Moon" id="432" weight="1" />
+      <edge source="Josep Borrell" target="Yuri Borisov" id="433" weight="1" />
+      <edge source="Moon" target="Yuri Borisov" id="434" weight="1" />
+      <edge source="Minette" target="Libom Li Likeng" id="435" weight="1" />
+      <edge source="Jibril Abdirashid Haji Abdi" target="Peter Mathuki" id="436" weight="1" />
+      <edge source="Jibril Abdirashid Haji Abdi" target="Mathuki" id="437" weight="1" />
+      <edge source="Peter Mathuki" target="Mathuki" id="438" weight="1" />
+      <edge source="Abdoulaye Siby" target="Siby" id="439" weight="1" />
+      <edge source="Lala Lallia" target="Geoff Duller" id="440" weight="1" />
+      <edge source="Yusuf Tuggar" target="Kherson" id="441" weight="1" />
+      <edge source="Yusuf Tuggar" target="Nikki Haley" id="442" weight="2" />
+      <edge source="Yusuf Tuggar" target="Didier Reynder" id="443" weight="1" />
+      <edge source="Yusuf Tuggar" target="Valeriy Zaluzhny" id="444" weight="1" />
+      <edge source="Yusuf Tuggar" target="Rafael Grossi" id="445" weight="2" />
+      <edge source="Yusuf Tuggar" target="Almaz Antey" id="446" weight="1" />
+      <edge source="Yusuf Tuggar" target="Lere Amusan" id="447" weight="1" />
+      <edge source="Kherson" target="Nikki Haley" id="448" weight="1" />
+      <edge source="Kherson" target="Didier Reynder" id="449" weight="1" />
+      <edge source="Kherson" target="Valeriy Zaluzhny" id="450" weight="1" />
+      <edge source="Kherson" target="Rafael Grossi" id="451" weight="1" />
+      <edge source="Nikki Haley" target="Didier Reynder" id="452" weight="1" />
+      <edge source="Nikki Haley" target="Valeriy Zaluzhny" id="453" weight="1" />
+      <edge source="Nikki Haley" target="Rafael Grossi" id="454" weight="2" />
+      <edge source="Nikki Haley" target="Almaz Antey" id="455" weight="1" />
+      <edge source="Nikki Haley" target="Haley" id="456" weight="1" />
+      <edge source="Didier Reynder" target="Valeriy Zaluzhny" id="457" weight="1" />
+      <edge source="Didier Reynder" target="Rafael Grossi" id="458" weight="1" />
+      <edge source="Valeriy Zaluzhny" target="Rafael Grossi" id="459" weight="1" />
+      <edge source="Rafael Grossi" target="Almaz Antey" id="460" weight="1" />
+      <edge source="Grossi" target="Mariano Grossi" id="461" weight="1" />
+      <edge source="Grossi" target="Zaporozhye" id="462" weight="1" />
+      <edge source="Mariano Grossi" target="Zaporozhye" id="463" weight="1" />
+      <edge source="Vremyevka Ledge" target="Krasnogorovka" id="464" weight="1" />
+      <edge source="Vremyevka Ledge" target="Orlovka Sector" id="465" weight="1" />
+      <edge source="Vremyevka Ledge" target="Orlovka" id="466" weight="1" />
+      <edge source="Vremyevka Ledge" target="Seversk Sector" id="467" weight="1" />
+      <edge source="Vremyevka Ledge" target="bori" id="468" weight="1" />
+      <edge source="Vremyevka Ledge" target="Oleg Tsarov" id="469" weight="1" />
+      <edge source="Krasnogorovka" target="Orlovka Sector" id="470" weight="1" />
+      <edge source="Krasnogorovka" target="Orlovka" id="471" weight="1" />
+      <edge source="Krasnogorovka" target="Seversk Sector" id="472" weight="1" />
+      <edge source="Krasnogorovka" target="bori" id="473" weight="1" />
+      <edge source="Krasnogorovka" target="Oleg Tsarov" id="474" weight="1" />
+      <edge source="Orlovka Sector" target="Orlovka" id="475" weight="1" />
+      <edge source="Orlovka Sector" target="Seversk Sector" id="476" weight="1" />
+      <edge source="Orlovka Sector" target="bori" id="477" weight="1" />
+      <edge source="Orlovka Sector" target="Oleg Tsarov" id="478" weight="1" />
+      <edge source="Orlovka" target="Seversk Sector" id="479" weight="1" />
+      <edge source="Orlovka" target="bori" id="480" weight="1" />
+      <edge source="Orlovka" target="Oleg Tsarov" id="481" weight="1" />
+      <edge source="Seversk Sector" target="bori" id="482" weight="1" />
+      <edge source="Seversk Sector" target="Oleg Tsarov" id="483" weight="1" />
+      <edge source="bori" target="Oleg Tsarov" id="484" weight="1" />
+      <edge source="Peter Szijjarto" target="Jens Stoltenberg" id="485" weight="1" />
+      <edge source="Peter Szijjarto" target="Macron" id="486" weight="1" />
+      <edge source="Jens Stoltenberg" target="Macron" id="487" weight="1" />
+      <edge source="Macron" target="Ousmane Sonko" id="488" weight="1" />
+      <edge source="Macron" target="Bassirou Diome Faye" id="489" weight="1" />
+      <edge source="Macron" target="Dmitry Polyansky" id="490" weight="1" />
+      <edge source="Macron" target="Al Aqsa  TV" id="491" weight="1" />
+      <edge source="Macron" target="Al Hudaydah" id="492" weight="1" />
+      <edge source="Macron" target="Al Shabaab" id="493" weight="1" />
+      <edge source="Vasily Prozorov" target="t.me ukr leaks eng" id="494" weight="2" />
+      <edge source="Najib Mikati" target="Al Jadeed" id="495" weight="1" />
+      <edge source="Ghanaian WYF2024" target="John Aggrey" id="496" weight="1" />
+      <edge source="John Aggrey" target="Aggrey" id="497" weight="1" />
+      <edge source="David Okpatuma" target="Okpatuma" id="498" weight="2" />
+      <edge source="Andrei Martyanov" target="Scott Ritter" id="499" weight="2" />
+      <edge source="Andrei Martyanov" target="Mark Sleboda" id="500" weight="2" />
+      <edge source="Scott Ritter" target="Mark Sleboda" id="501" weight="2" />
+      <edge source="Edith Kabesiime" target="Kabesiime" id="502" weight="1" />
+      <edge source="Privet  hello  Sputnik" target="Don" id="503" weight="1" />
+      <edge source="Don" target="Dmitry Kiselev" id="504" weight="1" />
+      <edge source="Kim Jong Un" target="Al Hudaydah" id="505" weight="1" />
+      <edge source="Kim Jong Un" target="Kiselev" id="506" weight="1" />
+      <edge source="Kim Jong Un" target="Kalla" id="507" weight="1" />
+      <edge source="Al Hudaydah" target="Ousmane Sonko" id="508" weight="1" />
+      <edge source="Al Hudaydah" target="Bassirou Diome Faye" id="509" weight="1" />
+      <edge source="Al Hudaydah" target="Dmitry Polyansky" id="510" weight="1" />
+      <edge source="Al Hudaydah" target="Al Aqsa  TV" id="511" weight="1" />
+      <edge source="Al Hudaydah" target="Al Shabaab" id="512" weight="1" />
+      <edge source="Pigcasso" target="George Clooney" id="513" weight="1" />
+      <edge source="Pigcasso" target="Rafael Nadal" id="514" weight="1" />
+      <edge source="George Clooney" target="Rafael Nadal" id="515" weight="1" />
+      <edge source="Gagauz" target="Maya  Sandu" id="516" weight="1" />
+      <edge source="Gagauz" target="Sandu" id="517" weight="1" />
+      <edge source="Maya  Sandu" target="Sandu" id="518" weight="1" />
+      <edge source="Eugenia Gutsul" target="Daniel Voda" id="519" weight="1" />
+      <edge source="Eugenia Gutsul" target="Ion Munteanu" id="520" weight="1" />
+      <edge source="Eugenia Gutsul" target="Gutsul" id="521" weight="1" />
+      <edge source="Eugenia Gutsul" target="Ilan Shor" id="522" weight="1" />
+      <edge source="Daniel Voda" target="Ion Munteanu" id="523" weight="1" />
+      <edge source="Daniel Voda" target="Gutsul" id="524" weight="1" />
+      <edge source="Daniel Voda" target="Ilan Shor" id="525" weight="1" />
+      <edge source="Ion Munteanu" target="Gutsul" id="526" weight="1" />
+      <edge source="Ion Munteanu" target="Ilan Shor" id="527" weight="1" />
+      <edge source="Gutsul" target="Ilan Shor" id="528" weight="1" />
+      <edge source="Sarah Achieng Opendi" target="Opendi" id="529" weight="1" />
+      <edge source="Yoweri Museveni" target="Museveni" id="530" weight="1" />
+      <edge source="Yoweri Museveni" target="Alfonse Owiny Dollo" id="531" weight="1" />
+      <edge source="Museveni" target="Alfonse Owiny Dollo" id="532" weight="1" />
+      <edge source="Antonio  Guterre" target="Guterre" id="533" weight="1" />
+      <edge source="Florian Philippot" target="Nicola Mirkovic" id="534" weight="1" />
+      <edge source="Ramaphosa" target="Zuma" id="535" weight="1" />
+      <edge source="Ramaphosa" target="Jacob Zuma" id="536" weight="1" />
+      <edge source="Ramaphosa" target="Visvin Reddy" id="537" weight="1" />
+      <edge source="Zuma" target="Jacob Zuma" id="538" weight="1" />
+      <edge source="Zuma" target="Visvin Reddy" id="539" weight="1" />
+      <edge source="Jacob Zuma" target="Visvin Reddy" id="540" weight="1" />
+      <edge source="Boris Pistoriu" target="Sebastien Lecornu" id="541" weight="1" />
+      <edge source="Victor Mapani" target="Hakainde Hichilema" id="542" weight="1" />
+      <edge source="Fadimatou Iyawa Ousmanou" target="Iyawa Ousmanou" id="543" weight="1" />
+      <edge source="Alexander Bikantov" target="Felix Molua" id="544" weight="1" />
+      <edge source="Alexander Bikantov" target="Bikantov" id="545" weight="1" />
+      <edge source="Alexander Bikantov" target="Molua" id="546" weight="1" />
+      <edge source="Alexander Bikantov" target="Sylvie Baipo Temon" id="547" weight="1" />
+      <edge source="Alexander Bikantov" target="Faustin Archange" id="548" weight="1" />
+      <edge source="Felix Molua" target="Bikantov" id="549" weight="1" />
+      <edge source="Felix Molua" target="Molua" id="550" weight="1" />
+      <edge source="Felix Molua" target="Sylvie Baipo Temon" id="551" weight="1" />
+      <edge source="Felix Molua" target="Leon Dodonou Pounagaza" id="552" weight="1" />
+      <edge source="Felix Molua" target="Alexey Overchuk" id="553" weight="1" />
+      <edge source="Bikantov" target="Molua" id="554" weight="1" />
+      <edge source="Bikantov" target="Sylvie Baipo Temon" id="555" weight="1" />
+      <edge source="Molua" target="Sylvie Baipo Temon" id="556" weight="1" />
+      <edge source="Denis Kazungu" target="Kazungu" id="557" weight="1" />
+      <edge source="James Webb Space Telescope" target="Exoplanetary Science" id="558" weight="1" />
+      <edge source="James Webb Space Telescope" target="Nikku Madhusudhan" id="559" weight="1" />
+      <edge source="Exoplanetary Science" target="Nikku Madhusudhan" id="560" weight="1" />
+      <edge source="Abdul Kamara" target="Abiy Ahmed" id="561" weight="1" />
+      <edge source="Abdul Kamara" target="Obafemi Awolowo Prize for Leadership" id="562" weight="1" />
+      <edge source="Abiy Ahmed" target="Obafemi Awolowo Prize for Leadership" id="563" weight="1" />
+      <edge source="Mikhail Bogdanov" target="Aref Nayed" id="564" weight="1" />
+      <edge source="Mikhail Bogdanov" target="Muammar al Qaddafi" id="565" weight="1" />
+      <edge source="Mikhail Bogdanov" target="Abdelhamid Dbeibah" id="566" weight="1" />
+      <edge source="Aref Nayed" target="Muammar al Qaddafi" id="567" weight="1" />
+      <edge source="Aref Nayed" target="Abdelhamid Dbeibah" id="568" weight="1" />
+      <edge source="Muammar al Qaddafi" target="Abdelhamid Dbeibah" id="569" weight="1" />
+      <edge source="Ashmunein" target="Gunther Roeder" id="570" weight="1" />
+      <edge source="Ashmunein" target="Ramse" id="571" weight="1" />
+      <edge source="Ashmunein" target="Ramses II" id="572" weight="1" />
+      <edge source="Gunther Roeder" target="Ramse" id="573" weight="1" />
+      <edge source="Gunther Roeder" target="Ramses II" id="574" weight="1" />
+      <edge source="Ramse" target="Ramses II" id="575" weight="1" />
+      <edge source="el Sisi" target="Abdel Fattah Sisi" id="576" weight="1" />
+      <edge source="RSF" target="Antonio Guterre" id="577" weight="1" />
+      <edge source="RSF" target="Sennar" id="578" weight="1" />
+      <edge source="Antonio Guterre" target="Sennar" id="579" weight="1" />
+      <edge source="Paul Kagame" target="Kagame" id="580" weight="1" />
+      <edge source="Paul Kagame" target="Frank Habineza" id="581" weight="1" />
+      <edge source="Paul Kagame" target="Victoire Ingabire" id="582" weight="1" />
+      <edge source="Paul Kagame" target="Dalfa" id="583" weight="1" />
+      <edge source="Paul Kagame" target="Felix Tshisekedi" id="584" weight="1" />
+      <edge source="Paul Kagame" target="Tete Antonio" id="585" weight="1" />
+      <edge source="Kagame" target="Frank Habineza" id="586" weight="1" />
+      <edge source="Kagame" target="Victoire Ingabire" id="587" weight="1" />
+      <edge source="Kagame" target="Dalfa" id="588" weight="1" />
+      <edge source="Frank Habineza" target="Victoire Ingabire" id="589" weight="1" />
+      <edge source="Frank Habineza" target="Dalfa" id="590" weight="1" />
+      <edge source="Victoire Ingabire" target="Dalfa" id="591" weight="1" />
+      <edge source="Taher al Baour" target="Aydar Aganin" id="592" weight="1" />
+      <edge source="Laurent Gbagbo" target="Alassane Ouattara" id="593" weight="1" />
+      <edge source="Prionops alberti" target="Matt Brady" id="594" weight="1" />
+      <edge source="Prionops alberti" target="Eli Greenbaum" id="595" weight="1" />
+      <edge source="Matt Brady" target="Eli Greenbaum" id="596" weight="1" />
+      <edge source="Julius Maada Bio" target="Xi Jinping" id="597" weight="1" />
+      <edge source="Alemu Sime" target="Mesfin Tassew" id="598" weight="1" />
+      <edge source="Alemu Sime" target="Zelalem Mengistie" id="599" weight="1" />
+      <edge source="Mesfin Tassew" target="Zelalem Mengistie" id="600" weight="1" />
+      <edge source="Ali Bongo Ondimba" target="Oligui Nguema" id="601" weight="1" />
+      <edge source="Bassirou Diomaye" target="Faye" id="602" weight="1" />
+      <edge source="Faye" target="Sonko" id="603" weight="1" />
+      <edge source="Faye" target="Ousmane Sonko" id="604" weight="1" />
+      <edge source="Faye" target="Bassirou Diomaye Faye" id="605" weight="1" />
+      <edge source="Faye" target="Seneweb" id="606" weight="1" />
+      <edge source="Ibrahim Diawara" target="Bambara" id="607" weight="1" />
+      <edge source="George Charamba" target="Charamba" id="608" weight="1" />
+      <edge source="Ahmed Aboul Gheit" target="Abdullah Hamdok" id="609" weight="1" />
+      <edge source="Ahmed Aboul Gheit" target="Mohamed al Menfi" id="610" weight="1" />
+      <edge source="Ahmed Aboul Gheit" target="Aguila Saleh" id="611" weight="1" />
+      <edge source="Ahmed Aboul Gheit" target="Mohamed Takala" id="612" weight="1" />
+      <edge source="Viktor Orban" target="Netanyahu" id="613" weight="1" />
+      <edge source="Netanyahu" target="Benjamin Netanyahu" id="614" weight="1" />
+      <edge source="Netanyahu" target="Mark Rutte" id="615" weight="1" />
+      <edge source="Mohamed al Menfi" target="Aguila Saleh" id="616" weight="1" />
+      <edge source="Mohamed al Menfi" target="Mohamed Takala" id="617" weight="1" />
+      <edge source="Aguila Saleh" target="Mohamed Takala" id="618" weight="1" />
+      <edge source="Succ" target="Mahamat Idri" id="619" weight="1" />
+      <edge source="Succ" target="Transformateur" id="620" weight="1" />
+      <edge source="Mahamat Idri" target="Transformateur" id="621" weight="1" />
+      <edge source="Shava" target="Frederick Shava" id="622" weight="1" />
+      <edge source="Matthew Miller" target="Farai Marapira" id="623" weight="1" />
+      <edge source="Matthew Miller" target="Abraham Korir Sing Oei" id="624" weight="1" />
+      <edge source="Matthew Miller" target="William Ruto" id="625" weight="1" />
+      <edge source="Anatoly Aksakov" target="Yaroslav Kabakov" id="626" weight="1" />
+      <edge source="Konstantin" target="Zaraisk" id="627" weight="1" />
+      <edge source="Vladimir Saldo" target="Elon Musk" id="628" weight="1" />
+      <edge source="Elon Musk" target="SpaceX" id="629" weight="1" />
+      <edge source="Emma Powell" target="Mahlengi Bhengu Motsiri" id="630" weight="1" />
+      <edge source="Temesgen Tiruneh" target="Arega Kebede" id="631" weight="1" />
+      <edge source="Karim Wade" target="Abdoulaye Wade" id="632" weight="1" />
+      <edge source="Felix Tshisekedi" target="Tete Antonio" id="633" weight="1" />
+      <edge source="Felix Moloua" target="Bangui Alexander Bikantov" id="634" weight="1" />
+      <edge source="Maslenitsa" target="Sergey Ryabkov" id="635" weight="1" />
+      <edge source="Maslenitsa" target="Ryabkov" id="636" weight="1" />
+      <edge source="Sergey Ryabkov" target="Ryabkov" id="637" weight="1" />
+      <edge source="Draupadi Murmu" target="Prithvirajsing Roopun" id="638" weight="1" />
+      <edge source="Draupadi Murmu" target="Pravind Kumar" id="639" weight="1" />
+      <edge source="Draupadi Murmu" target="Jugnauth" id="640" weight="1" />
+      <edge source="Prithvirajsing Roopun" target="Pravind Kumar" id="641" weight="1" />
+      <edge source="Prithvirajsing Roopun" target="Jugnauth" id="642" weight="1" />
+      <edge source="Pravind Kumar" target="Jugnauth" id="643" weight="1" />
+      <edge source="Dmitry Kiselev" target="Wagner" id="644" weight="1" />
+      <edge source="Dmitry Kiselev" target="Omdurman" id="645" weight="1" />
+      <edge source="Kiselev" target="Kalla" id="646" weight="1" />
+      <edge source="Omdurman" target="Al Dagalo" id="647" weight="1" />
+      <edge source="al Shabaab" target="Al Shabaab" id="648" weight="1" />
+      <edge source="Al Shabaab" target="Ousmane Sonko" id="649" weight="1" />
+      <edge source="Al Shabaab" target="Bassirou Diome Faye" id="650" weight="1" />
+      <edge source="Al Shabaab" target="Dmitry Polyansky" id="651" weight="1" />
+      <edge source="Al Shabaab" target="Al Aqsa  TV" id="652" weight="1" />
+      <edge source="Kevin Vladimirovich Johnson" target="Kevin Johnson" id="653" weight="1" />
+      <edge source="Kevin Vladimirovich Johnson" target="Johnson" id="654" weight="1" />
+      <edge source="Kevin Johnson" target="Johnson" id="655" weight="2" />
+      <edge source="Kevin Johnson" target="Boxer" id="656" weight="1" />
+      <edge source="Johnson" target="Boxer" id="657" weight="1" />
+      <edge source="Abraham Korir Sing Oei" target="William Ruto" id="658" weight="1" />
+      <edge source="Al Cook" target="Cook" id="659" weight="1" />
+      <edge source="Brett McGurk" target="Abram Paley" id="660" weight="1" />
+      <edge source="Brett McGurk" target="Ali Bagheri Kani" id="661" weight="1" />
+      <edge source="Abram Paley" target="Ali Bagheri Kani" id="662" weight="1" />
+      <edge source="Benjamin Netanyahu" target="Mark Rutte" id="663" weight="1" />
+      <edge source="Stephane Dujarric" target="Dujarric" id="664" weight="1" />
+      <edge source="Naledi Pandor" target="Mamady Doumbouya" id="665" weight="1" />
+      <edge source="Naledi Pandor" target="Amadou Uri Bach" id="666" weight="1" />
+      <edge source="Mamady Doumbouya" target="Amadou Uri Bach" id="667" weight="1" />
+      <edge source="Ishmael Chokurongerwa" target="Johanne Masowe" id="668" weight="1" />
+      <edge source="Ishmael Chokurongerwa" target="Chokurongerwa" id="669" weight="1" />
+      <edge source="Johanne Masowe" target="Chokurongerwa" id="670" weight="1" />
+      <edge source="Abdourahamane Tiani" target="Molly Phee" id="671" weight="2" />
+      <edge source="Abdourahamane Tiani" target="Tiani" id="672" weight="1" />
+      <edge source="Abdourahamane Tiani" target="Phee" id="673" weight="1" />
+      <edge source="Molly Phee" target="Tiani" id="674" weight="1" />
+      <edge source="Molly Phee" target="Phee" id="675" weight="1" />
+      <edge source="Ousmane Sonko" target="Bassirou Diome Faye" id="676" weight="1" />
+      <edge source="Ousmane Sonko" target="Dmitry Polyansky" id="677" weight="1" />
+      <edge source="Ousmane Sonko" target="Al Aqsa  TV" id="678" weight="1" />
+      <edge source="Ousmane Sonko" target="Sonko" id="679" weight="1" />
+      <edge source="Ousmane Sonko" target="Bassirou Diomaye Faye" id="680" weight="1" />
+      <edge source="Ousmane Sonko" target="Seneweb" id="681" weight="1" />
+      <edge source="Bassirou Diome Faye" target="Dmitry Polyansky" id="682" weight="1" />
+      <edge source="Bassirou Diome Faye" target="Al Aqsa  TV" id="683" weight="1" />
+      <edge source="Dmitry Polyansky" target="Al Aqsa  TV" id="684" weight="1" />
+      <edge source="Sonko" target="Bassirou Diomaye Faye" id="685" weight="1" />
+      <edge source="Sonko" target="Seneweb" id="686" weight="1" />
+      <edge source="Bassirou Diomaye Faye" target="Seneweb" id="687" weight="1" />
+      <edge source="Al Shabaab  militant" target="Feysal Arale" id="688" weight="1" />
+      <edge source="Al Shabaab  militant" target="Hassan Adde" id="689" weight="1" />
+      <edge source="Al Shabaab  militant" target="Farhan Mohamed Jimale" id="690" weight="1" />
+      <edge source="Feysal Arale" target="Hassan Adde" id="691" weight="1" />
+      <edge source="Feysal Arale" target="Farhan Mohamed Jimale" id="692" weight="1" />
+      <edge source="Hassan Adde" target="Farhan Mohamed Jimale" id="693" weight="1" />
+      <edge source="bogatyr" target="heburashka" id="694" weight="1" />
+      <edge source="Sabrina Singh" target="Michael McCaul" id="695" weight="1" />
+      <edge source="Tiani" target="Phee" id="696" weight="1" />
+      <edge source="Dmitry Polyanskiy" target="Polyanskiy" id="697" weight="1" />
+      <edge source="Ntshaveni" target="Khumbudzo Ntshaveni" id="698" weight="1" />
+      <edge source="Abba" target="Mohammad Mustafa" id="699" weight="2" />
+      <edge source="Abba" target="Mahmoud Abba" id="700" weight="1" />
+      <edge source="Abba" target="Mustafa" id="701" weight="2" />
+      <edge source="Mohammad Mustafa" target="Mahmoud Abba" id="702" weight="1" />
+      <edge source="Mohammad Mustafa" target="Mustafa" id="703" weight="2" />
+      <edge source="Mahmoud Abba" target="Mustafa" id="704" weight="1" />
+    </edges>
+  </graph>
+</gexf>

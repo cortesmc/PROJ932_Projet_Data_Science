@@ -16,13 +16,10 @@ kws = data["metadata"]["all"]["kws"]
 # Liste des entités déjà ajoutées
 entities = list(kws.keys())
 
-# Ajouter des nœuds pour chaque entité
 for entity in entities:
     G.add_node(entity)
 
-# Ajouter des arêtes entre les entités (exemple de co-occurrence dans un paragraphe)
-# Vous devez adapter cette partie pour correspondre à la logique spécifique de votre projet
-# Ici, nous connectons des entités aléatoirement pour simuler les co-occurrences dans le même paragraphe
+
 for i in range(0, len(entities)-1):
     for j in range(i+1, len(entities)):
         # Simuler une co-occurrence en ajoutant des liens entre les entités
