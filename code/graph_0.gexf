@@ -1,0 +1,3693 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-10-14">
+    <creator>NetworkX 3.2.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="color" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Mozambique" label="Mozambique">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="London" label="London">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Russia" label="Russia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="US" label="US">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Tsirkon" label="Tsirkon">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Ukraine" label="Ukraine">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Belgorod" label="Belgorod">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nizhny" label="Nizhny">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="United State" label="United State">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kiev" label="Kiev">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Japan" label="Japan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Turkey" label="Turkey">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Eswatini" label="Eswatini">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Azerbaijan" label="Azerbaijan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kyrgyzstan" label="Kyrgyzstan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Uzbekistan" label="Uzbekistan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Moscow" label="Moscow">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Mali" label="Mali">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Pari" label="Pari">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Eastern Mediterranean" label="Eastern Mediterranean">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Asia" label="Asia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Donetsk" label="Donetsk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Germany" label="Germany">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="West" label="West">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Crimea" label="Crimea">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="North Africa" label="North Africa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Middle East" label="Middle East">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Black Sea" label="Black Sea">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Gagauzia" label="Gagauzia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Moldova" label="Moldova">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Plesetsk" label="Plesetsk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Antalya" label="Antalya">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="UK" label="UK">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kishinev" label="Kishinev">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Africa" label="Africa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Egypt" label="Egypt">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Bamako" label="Bamako">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Napoleon" label="Napoleon">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nigeria" label="Nigeria">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Tanzania" label="Tanzania">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kenya" label="Kenya">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nairobi" label="Nairobi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="South" label="South">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Sahel" label="Sahel">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Corve" label="Corve">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Afghanistan" label="Afghanistan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Cameroon" label="Cameroon">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Pretoria" label="Pretoria">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Israel" label="Israel">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Gaza Strip" label="Gaza Strip">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Gaza" label="Gaza">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nablusi" label="Nablusi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="South Sudan" label="South Sudan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Mbabane" label="Mbabane">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Sweden" label="Sweden">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Finland" label="Finland">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Eurasia" label="Eurasia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Multipolarity" label="Multipolarity">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Black Sea coast" label="Black Sea coast">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Niger" label="Niger">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Benin" label="Benin">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Djiffa" label="Djiffa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Berlin" label="Berlin">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Europe" label="Europe">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Burkina Faso" label="Burkina Faso">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Addis Ababa" label="Addis Ababa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Ethiopia" label="Ethiopia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="East Africa" label="East Africa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="India" label="India">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Saudi Arabia" label="Saudi Arabia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="South Donetsk" label="South Donetsk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Burkina" label="Burkina">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="South Africa" label="South Africa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Verbovoye" label="Verbovoye">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Namibia" label="Namibia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Guinea" label="Guinea">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="BRICS" label="BRICS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Taiwan" label="Taiwan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Zimbabwe" label="Zimbabwe">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="IPP" label="IPP">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="England" label="England">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Fulton" label="Fulton">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Siriu" label="Siriu">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sudan" label="Sudan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Norway" label="Norway">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Sochi" label="Sochi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Democratic Republic of the Congo" label="Democratic Republic of the Congo">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Syria" label="Syria">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="UAE" label="UAE">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Yaound" label="Yaound">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Somalia" label="Somalia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Zambia" label="Zambia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Washington" label="Washington">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Singapore" label="Singapore">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Maine" label="Maine">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Colorado" label="Colorado">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Leningrad" label="Leningrad">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Port Sudan" label="Port Sudan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Red Sea" label="Red Sea">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Guyana" label="Guyana">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Suriname" label="Suriname">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Guayana" label="Guayana">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Qatar" label="Qatar">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Doha" label="Doha">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Victoria Fall" label="Victoria Fall">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Algeria" label="Algeria">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Maputo" label="Maputo">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nuland" label="Nuland">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Arctic" label="Arctic">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Likeng" label="Likeng">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Georgia" label="Georgia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Caucasu" label="Caucasu">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Rwanda" label="Rwanda">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Arusha" label="Arusha">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Hub Bamako" label="Hub Bamako">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Trump" label="Trump">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Dnipro River" label="Dnipro River">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Krasnoye" label="Krasnoye">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kirov" label="Kirov">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="t.me sitreport" label="t.me sitreport">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="smo" label="smo">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Hungary" label="Hungary">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Sahel Region" label="Sahel Region">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Lebanon" label="Lebanon">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kupyansk" label="Kupyansk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Senegal" label="Senegal">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="North America" label="North America">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="DR" label="DR">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Congo" label="Congo">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Cairo" label="Cairo">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Eastern DR" label="Eastern DR">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Democratic Republic of the" label="Democratic Republic of the">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kinshasa" label="Kinshasa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Gabon" label="Gabon">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Uganda" label="Uganda">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Vitol" label="Vitol">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Lago" label="Lago">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Ghana" label="Ghana">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="South South" label="South South">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Tula" label="Tula">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Bryansk" label="Bryansk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="West Africa" label="West Africa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Djibouti" label="Djibouti">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kharkov" label="Kharkov">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Exclusive Nigeria" label="Exclusive Nigeria">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Abuja" label="Abuja">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Chad" label="Chad">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Libya" label="Libya">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Jordan" label="Jordan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="United Arab Emirate" label="United Arab Emirate">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="West Bank" label="West Bank">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Middle East Peace Process Tor Wennesland" label="Middle East Peace Process Tor Wennesland">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Herero" label="Herero">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kampala" label="Kampala">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kaduna State" label="Kaduna State">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Zambezi" label="Zambezi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kafue River Basin" label="Kafue River Basin">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kariba Dam" label="Kariba Dam">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Bangui" label="Bangui">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="St. Petersburg" label="St. Petersburg">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Britain" label="Britain">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Krasnoarmeysk" label="Krasnoarmeysk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="East Africa Region" label="East Africa Region">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Ivory Coast" label="Ivory Coast">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Soviet Union" label="Soviet Union">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Dubai" label="Dubai">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Pokrovsk" label="Pokrovsk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Al Minya" label="Al Minya">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Upper" label="Upper">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Lower Egypt" label="Lower Egypt">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="United Kingdom" label="United Kingdom">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kingdom of Lesotho" label="Kingdom of Lesotho">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Severodonetsk area" label="Severodonetsk area">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Benghazi" label="Benghazi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Tripoli" label="Tripoli">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Itombwe Mountain" label="Itombwe Mountain">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="DRC" label="DRC">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Sputnik" label="Sputnik">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Oryol" label="Oryol">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Central African Republic" label="Central African Republic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Nagorno" label="Nagorno">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="South Caucasu" label="South Caucasu">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="LAS" label="LAS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Angola" label="Angola">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Lake Victoria" label="Lake Victoria">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Siberia" label="Siberia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Barents Sea" label="Barents Sea">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Krynki" label="Krynki">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Kherson" label="Kherson">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Brussel" label="Brussel">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Bordeaux" label="Bordeaux">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kursk" label="Kursk">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Palestine" label="Palestine">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Yemen" label="Yemen">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Democratic Republic of Congo" label="Democratic Republic of Congo">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Western Sahara" label="Western Sahara">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Iran" label="Iran">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Gulf of Oman" label="Gulf of Oman">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Arabian Sea" label="Arabian Sea">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Pakistan" label="Pakistan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kazakhstan" label="Kazakhstan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Oman" label="Oman">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="M23" label="M23">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kigali" label="Kigali">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Morocco" label="Morocco">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Maslenitsa" label="Maslenitsa">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Mauritiu" label="Mauritiu">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Independence" label="Independence">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Republic of Mauritiu" label="Republic of Mauritiu">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nekhoteyevka" label="Nekhoteyevka">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Voronezh" label="Voronezh">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Ryazan" label="Ryazan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Mogadishu" label="Mogadishu">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Latin America" label="Latin America">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Global South" label="Global South">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Sofala" label="Sofala">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Buda" label="Buda">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Borno" label="Borno">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Omdurman" label="Omdurman">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="River Nile" label="River Nile">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Khartoum" label="Khartoum">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Haiti" label="Haiti">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Nord Stream" label="Nord Stream">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Tehran" label="Tehran">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Tetkino" label="Tetkino">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kursk Region" label="Kursk Region">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Gazan" label="Gazan">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Rafah" label="Rafah">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Netherland" label="Netherland">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Cypru" label="Cypru">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Belgorod Region" label="Belgorod Region">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Malawi" label="Malawi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Burundi" label="Burundi">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Niger Republic" label="Niger Republic">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Liberia" label="Liberia">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Channel" label="Channel">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Perm" label="Perm">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Zawiya" label="Zawiya">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Touadera" label="Touadera">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Kakhovka" label="Kakhovka">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Brilyovka" label="Brilyovka">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Dnieper" label="Dnieper">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Niamey" label="Niamey">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Denmark" label="Denmark">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Polaynskiy" label="Polaynskiy">
+        <attvalues>
+          <attvalue for="0" value="#1f78b4" />
+        </attvalues>
+      </node>
+      <node id="Privinvest" label="Privinvest">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Credit Suisse" label="Credit Suisse">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FRELIMO" label="FRELIMO">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="US Strategic Command" label="US Strategic Command">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="USSTRATCOM" label="USSTRATCOM">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Dassault" label="Dassault">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Rossiya" label="Rossiya">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="German" label="German">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="MoD" label="MoD">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Pentagon" label="Pentagon">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="NATO" label="NATO">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Lavrov" label="Lavrov">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Federal Assembly" label="Federal Assembly">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russia Africa Partnership Forum" label="Russia Africa Partnership Forum">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Global Soft Power" label="Global Soft Power">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Brand Finance" label="Brand Finance">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="GECF" label="GECF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="OPEC" label="OPEC">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Congre" label="Congre">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Donetsk People s Republic" label="Donetsk People s Republic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Donetsk State Medical University" label="Donetsk State Medical University">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Assembly" label="Assembly">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Energy and Sustainable Development" label="Energy and Sustainable Development">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AppStore" label="AppStore">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Android" label="Android">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="African Union" label="African Union">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="United Nations Human Rights Council" label="United Nations Human Rights Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Human Rights Council" label="Human Rights Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Barmin" label="Barmin">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ingo Gerhartz" label="Ingo Gerhartz">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Brig" label="Brig">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Air Force Command" label="Air Force Command">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Bundeswehr Space Operations Center" label="Bundeswehr Space Operations Center">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Bundeswehr" label="Bundeswehr">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Bradley" label="Bradley">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Defense Ministry" label="Russian Defense Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="DPA" label="DPA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Luftwaffe" label="Luftwaffe">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="ARD" label="ARD">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the" label="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Energy and Power Development Ministry" label="Energy and Power Development Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UNESCO" label="UNESCO">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UNDP" label="UNDP">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UNWOMEN" label="UNWOMEN">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UNCDF" label="UNCDF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="African Development Bank Group" label="African Development Bank Group">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AfDB" label="AfDB">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Naledi Pandor" label="Naledi Pandor">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Antalya Diplomacy Forum" label="Antalya Diplomacy Forum">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Warsaw Treaty Organization" label="Warsaw Treaty Organization">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="North Atlantic Alliance" label="North Atlantic Alliance">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sach" label="Sach">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Foreign Ministry" label="Russian Foreign Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Kariba Hydro" label="Kariba Hydro">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="OPCW" label="OPCW">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Executive Council" label="Executive Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Watch Russia" label="Watch Russia">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Upyr" label="Upyr">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Avdeyevka" label="Avdeyevka">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Parliament" label="Parliament">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="National Development Strategy 1" label="National Development Strategy 1">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Lloyd Austin" label="Lloyd Austin">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Euro Atlantic" label="Euro Atlantic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="OSCE" label="OSCE">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FAB" label="FAB">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="EU" label="EU">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ministry of Armed Force" label="Ministry of Armed Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="SA" label="SA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Transitional Sovereign Council" label="Transitional Sovereign Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sudanese Armed Force" label="Sudanese Armed Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Rapid Support Force" label="Rapid Support Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AUB" label="AUB">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Makeba" label="Makeba">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Come Back" label="Come Back">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="WYF" label="WYF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Katyusha" label="Katyusha">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Food and Agriculture Organization" label="Food and Agriculture Organization">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FAO" label="FAO">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sudanese Sovereignty Council" label="Sudanese Sovereignty Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AU High Level Panel on the Resolution of the Conflict in Sudan" label="AU High Level Panel on the Resolution of the Conflict in Sudan">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AU Commission" label="AU Commission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UNRWA" label="UNRWA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Hama" label="Hama">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Palestinian Islamic Jihad" label="Palestinian Islamic Jihad">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="ICJ" label="ICJ">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="International Court of Justice" label="International Court of Justice">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Central Bank" label="Central Bank">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Financial Action Task Force" label="Financial Action Task Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FATF" label="FATF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="IRNA news agency" label="IRNA news agency">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Indian Petroleum and Natural" label="Indian Petroleum and Natural">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Economic Time" label="Economic Time">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="State" label="State">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Eurasian Affair" label="Eurasian Affair">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Euromaidan" label="Euromaidan">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Posts and Telecommunication" label="Posts and Telecommunication">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sputnik News Agency" label="Sputnik News Agency">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Association of Winegrower" label="Association of Winegrower">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="State Duma" label="State Duma">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="House of Lord" label="House of Lord">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="British Parliament" label="British Parliament">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="United Nations Development Programme  UNDP" label="United Nations Development Programme  UNDP">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Insurance and Risk Financing Facility  IRFF" label="Insurance and Risk Financing Facility  IRFF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="East African Community" label="East African Community">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="EAC" label="EAC">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Super" label="Super">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UN" label="UN">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="International Atomic Energy Agency" label="International Atomic Energy Agency">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="IAEA" label="IAEA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Southern Front" label="Southern Front">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="RFAF" label="RFAF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AFU" label="AFU">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Berdychi" label="Berdychi">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Liman Sector" label="Liman Sector">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Yampolovka" label="Yampolovka">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Kupyansk Sector" label="Kupyansk Sector">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Tabayevka" label="Tabayevka">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="DeepStateUA" label="DeepStateUA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="dva" label="dva">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="IHS" label="IHS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="voenkorKotenok" label="voenkorKotenok">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Szijjarto" label="Szijjarto">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="RIA Novosti" label="RIA Novosti">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ethiopian Airline" label="Ethiopian Airline">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Boeing" label="Boeing">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ghana Russia Center for Commerce and Relation" label="Ghana Russia Center for Commerce and Relation">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sirius Federal Territory" label="Sirius Federal Territory">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="World Bank" label="World Bank">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="IMF" label="IMF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="World Youth Festival" label="World Youth Festival">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Development and Corporation" label="Development and Corporation">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Africa Initiative" label="Africa Initiative">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Google" label="Google">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Alphabet" label="Alphabet">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Apple" label="Apple">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Dell Technologie" label="Dell Technologie">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Microsoft" label="Microsoft">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Tesla" label="Tesla">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Al Qahera New" label="Al Qahera New">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Ministry of Defense" label="Russian Ministry of Defense">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="NPO" label="NPO">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Almaz" label="Almaz">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Defence" label="Defence">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AU" label="AU">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="SADC" label="SADC">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Biruta" label="Biruta">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="SADC Mission" label="SADC Mission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="United Nation" label="United Nation">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="WYF2024" label="WYF2024">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="BP" label="BP">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Dangote" label="Dangote">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="International Relation" label="International Relation">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Bowen University" label="Bowen University">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="solidarity" label="solidarity">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Zimbabwean Ministry of Information, Publicity and Broadcasting Service" label="Zimbabwean Ministry of Information, Publicity and Broadcasting Service">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="RTS" label="RTS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Interior" label="Interior">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Transport" label="Transport">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Lead Air" label="Lead Air">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Tu 160M" label="Tu 160M">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Tu 160" label="Tu 160">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Swatch" label="Swatch">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Nissan" label="Nissan">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Security Council" label="Security Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UN Commission" label="UN Commission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Status of Women" label="Status of Women">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="US Embassy" label="US Embassy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ouest Department" label="Ouest Department">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Moniteur" label="Moniteur">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Patriotes  party" label="Patriotes  party">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Macron" label="Macron">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Aerospace Force" label="Aerospace Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Africa Command" label="Africa Command">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AFRICOM" label="AFRICOM">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Defense" label="Defense">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Kampala Capital City Authority" label="Kampala Capital City Authority">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ugandan Ministry of Agriculture, Animal Industrie" label="Ugandan Ministry of Agriculture, Animal Industrie">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Fisherie" label="Fisherie">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Super Mushshak" label="Super Mushshak">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Nigerian Air Force" label="Nigerian Air Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="NAF" label="NAF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Air" label="Air">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Faki" label="Faki">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Stryker" label="Stryker">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Vampire MLRS" label="Vampire MLRS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Institute of Astronomy" label="Institute of Astronomy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="University of Cambridge" label="University of Cambridge">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FCFA" label="FCFA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="West African Development Bank" label="West African Development Bank">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Burkina Information Agency" label="Burkina Information Agency">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="AIB" label="AIB">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Thomas Sankara University" label="Thomas Sankara University">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Eni" label="Eni">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Petroci" label="Petroci">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Special Representative" label="Special Representative">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ihya" label="Ihya">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Foreign Ministry" label="Foreign Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="High Council of State" label="High Council of State">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="HCS" label="HCS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Economic Community" label="Economic Community">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Vanguard" label="Vanguard">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="paramilitary Rapid Support Force" label="paramilitary Rapid Support Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="RSF" label="RSF">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="European Union Capacity Building Mission" label="European Union Capacity Building Mission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="EUCAP" label="EUCAP">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="National Assembly" label="National Assembly">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Independent Electoral Commission" label="Independent Electoral Commission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="IEC" label="IEC">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="University of Texa" label="University of Texa">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="UTEP" label="UTEP">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="DRC Centre for Research in Natural Science" label="DRC Centre for Research in Natural Science">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ethiopia s Transport and Logistic" label="Ethiopia s Transport and Logistic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Economic Community of Central African States  ECCAS" label="Economic Community of Central African States  ECCAS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Coordination of Civil Democratic Force" label="Coordination of Civil Democratic Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Karabakh" label="Karabakh">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="League of Arab State" label="League of Arab State">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Libyan Presidential Council" label="Libyan Presidential Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Libyan House of Representative" label="Libyan House of Representative">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Supreme Council of State" label="Supreme Council of State">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Egyptian Food Bank  EFB" label="Egyptian Food Bank  EFB">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ramadan Joy" label="Ramadan Joy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Southern African Development Community" label="Southern African Development Community">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="USAID" label="USAID">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="US State Department" label="US State Department">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Eloff" label="Eloff">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Democratic Alliance" label="Democratic Alliance">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="African National Congre" label="African National Congre">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="ANC" label="ANC">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Patriot" label="Patriot">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Construction of Ethiopia" label="Construction of Ethiopia">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="National Cement Factory" label="National Cement Factory">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Lemi National Cement Factory" label="Lemi National Cement Factory">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Amhara Regional State" label="Amhara Regional State">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Federal Security Service" label="Federal Security Service">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Defense Ministry" label="Defense Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="DPR" label="DPR">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ministry of Defense" label="Ministry of Defense">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="HIMARS" label="HIMARS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="MLRS" label="MLRS">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="BRICS Sherpa" label="BRICS Sherpa">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Indian Navy" label="Indian Navy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Mercenarie" label="Mercenarie">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="59th Motorized Infantry Brigade" label="59th Motorized Infantry Brigade">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ukrainian Armed Force" label="Ukrainian Armed Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Avangard" label="Avangard">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian  Defense Ministry" label="Russian  Defense Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="National Assembly of the Central African Republic" label="National Assembly of the Central African Republic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Embassy" label="Russian Embassy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Al Shabaab" label="Al Shabaab">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="US Africa Command" label="US Africa Command">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="International" label="International">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Sea Security Belt" label="Sea Security Belt">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Navy" label="Russian Navy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Iranian Navy" label="Iranian Navy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="PLA Navy" label="PLA Navy">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Rose" label="Rose">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Brookings Institution" label="Brookings Institution">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="United Nations Security Support Mission" label="United Nations Security Support Mission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Presidential Council" label="Presidential Council">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Beer" label="Beer">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Beers Group" label="Beers Group">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Paris Club" label="Paris Club">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="European Parliament" label="European Parliament">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="SpaceX" label="SpaceX">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="US FAA" label="US FAA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="SpaceX s Starship" label="SpaceX s Starship">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="US Federal Aviation Administration" label="US Federal Aviation Administration">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FAA" label="FAA">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="OFT" label="OFT">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="VR" label="VR">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Verkhovna Rada" label="Verkhovna Rada">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian National Guard" label="Russian National Guard">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="FSB" label="FSB">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="National Guard" label="National Guard">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Maritime Security Belt" label="Maritime Security Belt">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Security Risk Management Proce" label="Security Risk Management Proce">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="IGME" label="IGME">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Intel Republic" label="Intel Republic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="International Monetary Fund" label="International Monetary Fund">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Pandor" label="Pandor">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="South African Foreign Ministry" label="South African Foreign Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Labour" label="Labour">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ethic" label="Ethic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Brotherhood  party" label="Brotherhood  party">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Permanent Mission" label="Russian Permanent Mission">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Russian Armed Force" label="Russian Armed Force">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="SRG" label="SRG">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Tornado" label="Tornado">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Ukrainian" label="Ukrainian">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Mogadishu24" label="Mogadishu24">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="al Shabaab" label="al Shabaab">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Somali Government" label="Somali Government">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Somali Justice Ministry" label="Somali Justice Ministry">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="CAR National Assembly" label="CAR National Assembly">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Defense Department" label="Defense Department">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Pre" label="Pre">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="National Council for the Defense of the Homeland" label="National Council for the Defense of the Homeland">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="S 300" label="S 300">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Warrior" label="Warrior">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="State Choir of the Republic" label="State Choir of the Republic">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+      <node id="Palestine Investment Fund" label="Palestine Investment Fund">
+        <attvalues>
+          <attvalue for="0" value="#33a02c" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Mozambique" target="London" id="0" weight="2" />
+      <edge source="Mozambique" target="Algeria" id="1" weight="2" />
+      <edge source="Mozambique" target="Maputo" id="2" weight="1" />
+      <edge source="London" target="Africa" id="3" weight="1" />
+      <edge source="London" target="UK" id="4" weight="1" />
+      <edge source="London" target="Vitol" id="5" weight="1" />
+      <edge source="London" target="Lago" id="6" weight="1" />
+      <edge source="Russia" target="US" id="7" weight="18" />
+      <edge source="Russia" target="Tsirkon" id="8" weight="1" />
+      <edge source="Russia" target="Ukraine" id="9" weight="28" />
+      <edge source="Russia" target="Russia" id="10" weight="17" />
+      <edge source="Russia" target="Belgorod" id="11" weight="8" />
+      <edge source="Russia" target="Kiev" id="12" weight="5" />
+      <edge source="Russia" target="Japan" id="13" weight="2" />
+      <edge source="Russia" target="Turkey" id="14" weight="3" />
+      <edge source="Russia" target="Mali" id="15" weight="6" />
+      <edge source="Russia" target="West" id="16" weight="7" />
+      <edge source="Russia" target="Crimea" id="17" weight="7" />
+      <edge source="Russia" target="Gagauzia" id="18" weight="2" />
+      <edge source="Russia" target="Moldova" id="19" weight="3" />
+      <edge source="Russia" target="Plesetsk" id="20" weight="1" />
+      <edge source="Russia" target="Africa" id="21" weight="27" />
+      <edge source="Russia" target="Germany" id="22" weight="1" />
+      <edge source="Russia" target="Bamako" id="23" weight="1" />
+      <edge source="Russia" target="Moscow" id="24" weight="18" />
+      <edge source="Russia" target="Napoleon" id="25" weight="1" />
+      <edge source="Russia" target="Nigeria" id="26" weight="11" />
+      <edge source="Russia" target="Cameroon" id="27" weight="3" />
+      <edge source="Russia" target="South Sudan" id="28" weight="1" />
+      <edge source="Russia" target="Israel" id="29" weight="1" />
+      <edge source="Russia" target="Eswatini" id="30" weight="1" />
+      <edge source="Russia" target="Sweden" id="31" weight="1" />
+      <edge source="Russia" target="Finland" id="32" weight="1" />
+      <edge source="Russia" target="Black Sea coast" id="33" weight="1" />
+      <edge source="Russia" target="Ethiopia" id="34" weight="3" />
+      <edge source="Russia" target="China" id="35" weight="4" />
+      <edge source="Russia" target="India" id="36" weight="1" />
+      <edge source="Russia" target="Saudi Arabia" id="37" weight="1" />
+      <edge source="Russia" target="Burkina" id="38" weight="1" />
+      <edge source="Russia" target="Burkina Faso" id="39" weight="2" />
+      <edge source="Russia" target="Verbovoye" id="40" weight="1" />
+      <edge source="Russia" target="Egypt" id="41" weight="1" />
+      <edge source="Russia" target="Siriu" id="42" weight="4" />
+      <edge source="Russia" target="Somalia" id="43" weight="1" />
+      <edge source="Russia" target="Zambia" id="44" weight="1" />
+      <edge source="Russia" target="Sudan" id="45" weight="3" />
+      <edge source="Russia" target="Leningrad" id="46" weight="2" />
+      <edge source="Russia" target="Sahel Region" id="47" weight="1" />
+      <edge source="Russia" target="Sochi" id="48" weight="1" />
+      <edge source="Russia" target="Gabon" id="49" weight="3" />
+      <edge source="Russia" target="Multipolarity" id="50" weight="1" />
+      <edge source="Russia" target="Ghana" id="51" weight="1" />
+      <edge source="Russia" target="South South" id="52" weight="1" />
+      <edge source="Russia" target="Exclusive Nigeria" id="53" weight="2" />
+      <edge source="Russia" target="Abuja" id="54" weight="1" />
+      <edge source="Russia" target="Kishinev" id="55" weight="1" />
+      <edge source="Russia" target="Black Sea" id="56" weight="1" />
+      <edge source="Russia" target="Uganda" id="57" weight="1" />
+      <edge source="Russia" target="Bangui" id="58" weight="4" />
+      <edge source="Russia" target="St. Petersburg" id="59" weight="2" />
+      <edge source="Russia" target="Britain" id="60" weight="2" />
+      <edge source="Russia" target="Gaza" id="61" weight="1" />
+      <edge source="Russia" target="Krasnoarmeysk" id="62" weight="1" />
+      <edge source="Russia" target="Soviet Union" id="63" weight="1" />
+      <edge source="Russia" target="Libya" id="64" weight="2" />
+      <edge source="Russia" target="Middle East" id="65" weight="1" />
+      <edge source="Russia" target="Dubai" id="66" weight="1" />
+      <edge source="Russia" target="UAE" id="67" weight="1" />
+      <edge source="Russia" target="Severodonetsk area" id="68" weight="1" />
+      <edge source="Russia" target="Donetsk" id="69" weight="1" />
+      <edge source="Russia" target="Sputnik" id="70" weight="2" />
+      <edge source="Russia" target="Siberia" id="71" weight="1" />
+      <edge source="Russia" target="South Africa" id="72" weight="1" />
+      <edge source="Russia" target="Barents Sea" id="73" weight="1" />
+      <edge source="Russia" target="Europe" id="74" weight="2" />
+      <edge source="Russia" target="Iran" id="75" weight="2" />
+      <edge source="Russia" target="Gulf of Oman" id="76" weight="1" />
+      <edge source="Russia" target="Maslenitsa" id="77" weight="1" />
+      <edge source="Russia" target="Nekhoteyevka" id="78" weight="1" />
+      <edge source="Russia" target="France" id="79" weight="5" />
+      <edge source="Russia" target="Global South" id="80" weight="1" />
+      <edge source="Russia" target="United State" id="81" weight="2" />
+      <edge source="Russia" target="Nord Stream" id="82" weight="1" />
+      <edge source="Russia" target="Perm" id="83" weight="1" />
+      <edge source="Russia" target="Kakhovka" id="84" weight="1" />
+      <edge source="Russia" target="Brilyovka" id="85" weight="1" />
+      <edge source="Russia" target="Kherson" id="86" weight="2" />
+      <edge source="Russia" target="Dnieper" id="87" weight="1" />
+      <edge source="Russia" target="Polaynskiy" id="88" weight="2" />
+      <edge source="US" target="United State" id="89" weight="4" />
+      <edge source="US" target="Eastern Mediterranean" id="90" weight="2" />
+      <edge source="US" target="Asia" id="91" weight="2" />
+      <edge source="US" target="Moscow" id="92" weight="2" />
+      <edge source="US" target="Israel" id="93" weight="3" />
+      <edge source="US" target="South Africa" id="94" weight="2" />
+      <edge source="US" target="Ukraine" id="95" weight="7" />
+      <edge source="US" target="Zimbabwe" id="96" weight="8" />
+      <edge source="US" target="Nuland" id="97" weight="2" />
+      <edge source="US" target="US" id="98" weight="7" />
+      <edge source="US" target="Arctic" id="99" weight="1" />
+      <edge source="US" target="Trump" id="100" weight="1" />
+      <edge source="US" target="Donetsk" id="101" weight="1" />
+      <edge source="US" target="DR" id="102" weight="1" />
+      <edge source="US" target="Congo" id="103" weight="1" />
+      <edge source="US" target="Democratic Republic of the Congo" id="104" weight="1" />
+      <edge source="US" target="UK" id="105" weight="1" />
+      <edge source="US" target="Washington" id="106" weight="3" />
+      <edge source="US" target="China" id="107" weight="4" />
+      <edge source="US" target="Jordan" id="108" weight="1" />
+      <edge source="US" target="Egypt" id="109" weight="1" />
+      <edge source="US" target="France" id="110" weight="1" />
+      <edge source="US" target="United Arab Emirate" id="111" weight="1" />
+      <edge source="US" target="Gaza" id="112" weight="1" />
+      <edge source="US" target="Africa" id="113" weight="5" />
+      <edge source="US" target="Al Minya" id="114" weight="1" />
+      <edge source="US" target="Europe" id="115" weight="5" />
+      <edge source="US" target="Sputnik" id="116" weight="1" />
+      <edge source="US" target="Somalia" id="117" weight="2" />
+      <edge source="US" target="Soviet Union" id="118" weight="1" />
+      <edge source="US" target="India" id="119" weight="1" />
+      <edge source="US" target="Iran" id="120" weight="4" />
+      <edge source="US" target="Red Sea" id="121" weight="2" />
+      <edge source="US" target="Tehran" id="122" weight="1" />
+      <edge source="US" target="Yemen" id="123" weight="1" />
+      <edge source="US" target="Middle East" id="124" weight="1" />
+      <edge source="US" target="Niger" id="125" weight="5" />
+      <edge source="US" target="Niamey" id="126" weight="1" />
+      <edge source="US" target="Congre" id="127" weight="1" />
+      <edge source="Tsirkon" target="Ukraine" id="128" weight="1" />
+      <edge source="Ukraine" target="Belgorod" id="129" weight="3" />
+      <edge source="Ukraine" target="Kiev" id="130" weight="7" />
+      <edge source="Ukraine" target="Japan" id="131" weight="1" />
+      <edge source="Ukraine" target="Moscow" id="132" weight="2" />
+      <edge source="Ukraine" target="Pari" id="133" weight="1" />
+      <edge source="Ukraine" target="UK" id="134" weight="1" />
+      <edge source="Ukraine" target="Germany" id="135" weight="2" />
+      <edge source="Ukraine" target="Israel" id="136" weight="2" />
+      <edge source="Ukraine" target="Africa" id="137" weight="3" />
+      <edge source="Ukraine" target="France" id="138" weight="7" />
+      <edge source="Ukraine" target="China" id="139" weight="1" />
+      <edge source="Ukraine" target="Washington" id="140" weight="1" />
+      <edge source="Ukraine" target="Singapore" id="141" weight="1" />
+      <edge source="Ukraine" target="Nuland" id="142" weight="1" />
+      <edge source="Ukraine" target="Hungary" id="143" weight="1" />
+      <edge source="Ukraine" target="Nigeria" id="144" weight="1" />
+      <edge source="Ukraine" target="Sahel" id="145" weight="1" />
+      <edge source="Ukraine" target="Kharkov" id="146" weight="1" />
+      <edge source="Ukraine" target="Norway" id="147" weight="1" />
+      <edge source="Ukraine" target="Kupyansk" id="148" weight="1" />
+      <edge source="Ukraine" target="Pokrovsk" id="149" weight="1" />
+      <edge source="Ukraine" target="Sputnik" id="150" weight="1" />
+      <edge source="Ukraine" target="Europe" id="151" weight="3" />
+      <edge source="Ukraine" target="Crimea" id="152" weight="2" />
+      <edge source="Ukraine" target="West" id="153" weight="2" />
+      <edge source="Ukraine" target="Ukraine" id="154" weight="1" />
+      <edge source="Ukraine" target="United State" id="155" weight="1" />
+      <edge source="Ukraine" target="Kherson" id="156" weight="1" />
+      <edge source="Belgorod" target="Nizhny" id="157" weight="1" />
+      <edge source="Belgorod" target="Kiev" id="158" weight="3" />
+      <edge source="Belgorod" target="Moscow" id="159" weight="2" />
+      <edge source="Belgorod" target="Leningrad" id="160" weight="3" />
+      <edge source="Belgorod" target="Kursk" id="161" weight="2" />
+      <edge source="Belgorod" target="Bryansk" id="162" weight="3" />
+      <edge source="Belgorod" target="Tula" id="163" weight="1" />
+      <edge source="Belgorod" target="Oryol" id="164" weight="1" />
+      <edge source="Belgorod" target="Nekhoteyevka" id="165" weight="1" />
+      <edge source="Belgorod" target="Voronezh" id="166" weight="2" />
+      <edge source="Belgorod" target="Ryazan" id="167" weight="2" />
+      <edge source="Belgorod" target="Belgorod" id="168" weight="3" />
+      <edge source="United State" target="Zimbabwe" id="169" weight="3" />
+      <edge source="United State" target="Qatar" id="170" weight="1" />
+      <edge source="United State" target="Egypt" id="171" weight="1" />
+      <edge source="United State" target="Gaza Strip" id="172" weight="1" />
+      <edge source="United State" target="Europe" id="173" weight="1" />
+      <edge source="United State" target="Pari" id="174" weight="1" />
+      <edge source="United State" target="China" id="175" weight="2" />
+      <edge source="United State" target="Washington" id="176" weight="1" />
+      <edge source="United State" target="Africa" id="177" weight="1" />
+      <edge source="Kiev" target="Donetsk" id="178" weight="5" />
+      <edge source="Kiev" target="Germany" id="179" weight="1" />
+      <edge source="Kiev" target="Kishinev" id="180" weight="1" />
+      <edge source="Kiev" target="South Donetsk" id="181" weight="1" />
+      <edge source="Kiev" target="Israel" id="182" weight="1" />
+      <edge source="Kiev" target="Taiwan" id="183" weight="1" />
+      <edge source="Kiev" target="Moscow" id="184" weight="1" />
+      <edge source="Kiev" target="Nuland" id="185" weight="1" />
+      <edge source="Kiev" target="Kupyansk" id="186" weight="1" />
+      <edge source="Kiev" target="Belgorod Region" id="187" weight="1" />
+      <edge source="Turkey" target="Antalya" id="188" weight="2" />
+      <edge source="Turkey" target="Eswatini" id="189" weight="1" />
+      <edge source="Turkey" target="Sweden" id="190" weight="1" />
+      <edge source="Turkey" target="Finland" id="191" weight="1" />
+      <edge source="Turkey" target="South Africa" id="192" weight="1" />
+      <edge source="Turkey" target="Somalia" id="193" weight="5" />
+      <edge source="Eswatini" target="Azerbaijan" id="194" weight="1" />
+      <edge source="Eswatini" target="Kyrgyzstan" id="195" weight="1" />
+      <edge source="Eswatini" target="Uzbekistan" id="196" weight="1" />
+      <edge source="Azerbaijan" target="Kyrgyzstan" id="197" weight="1" />
+      <edge source="Azerbaijan" target="Uzbekistan" id="198" weight="1" />
+      <edge source="Azerbaijan" target="Nagorno" id="199" weight="3" />
+      <edge source="Azerbaijan" target="South Africa" id="200" weight="2" />
+      <edge source="Azerbaijan" target="Pakistan" id="201" weight="2" />
+      <edge source="Azerbaijan" target="Kazakhstan" id="202" weight="2" />
+      <edge source="Azerbaijan" target="Oman" id="203" weight="2" />
+      <edge source="Azerbaijan" target="India" id="204" weight="2" />
+      <edge source="Kyrgyzstan" target="Uzbekistan" id="205" weight="1" />
+      <edge source="Moscow" target="Bamako" id="206" weight="1" />
+      <edge source="Moscow" target="South Sudan" id="207" weight="1" />
+      <edge source="Moscow" target="Mbabane" id="208" weight="1" />
+      <edge source="Moscow" target="Addis Ababa" id="209" weight="1" />
+      <edge source="Moscow" target="England" id="210" weight="2" />
+      <edge source="Moscow" target="Siriu" id="211" weight="1" />
+      <edge source="Moscow" target="Moscow" id="212" weight="1" />
+      <edge source="Moscow" target="Sochi" id="213" weight="2" />
+      <edge source="Moscow" target="Democratic Republic of the Congo" id="214" weight="1" />
+      <edge source="Moscow" target="Zimbabwe" id="215" weight="2" />
+      <edge source="Moscow" target="China" id="216" weight="1" />
+      <edge source="Moscow" target="Syria" id="217" weight="1" />
+      <edge source="Moscow" target="UAE" id="218" weight="1" />
+      <edge source="Moscow" target="Africa" id="219" weight="2" />
+      <edge source="Moscow" target="Leningrad" id="220" weight="3" />
+      <edge source="Moscow" target="West" id="221" weight="1" />
+      <edge source="Moscow" target="Abuja" id="222" weight="1" />
+      <edge source="Moscow" target="Congo" id="223" weight="1" />
+      <edge source="Moscow" target="St. Petersburg" id="224" weight="2" />
+      <edge source="Moscow" target="Central African Republic" id="225" weight="1" />
+      <edge source="Moscow" target="Kursk" id="226" weight="1" />
+      <edge source="Moscow" target="Bryansk" id="227" weight="1" />
+      <edge source="Moscow" target="Tula" id="228" weight="1" />
+      <edge source="Moscow" target="Oryol" id="229" weight="1" />
+      <edge source="Moscow" target="Maslenitsa" id="230" weight="1" />
+      <edge source="Moscow" target="France" id="231" weight="3" />
+      <edge source="Mali" target="Mali" id="232" weight="1" />
+      <edge source="Mali" target="Sahel" id="233" weight="2" />
+      <edge source="Mali" target="Niger" id="234" weight="5" />
+      <edge source="Mali" target="Burkina Faso" id="235" weight="4" />
+      <edge source="Mali" target="Guinea" id="236" weight="2" />
+      <edge source="Mali" target="Somalia" id="237" weight="1" />
+      <edge source="Mali" target="Africa" id="238" weight="2" />
+      <edge source="Mali" target="Hub Bamako" id="239" weight="1" />
+      <edge source="Mali" target="Bamako" id="240" weight="1" />
+      <edge source="Mali" target="Palestine" id="241" weight="1" />
+      <edge source="Mali" target="Yemen" id="242" weight="1" />
+      <edge source="Mali" target="Sudan" id="243" weight="1" />
+      <edge source="Mali" target="Democratic Republic of Congo" id="244" weight="1" />
+      <edge source="Mali" target="Western Sahara" id="245" weight="1" />
+      <edge source="Mali" target="France" id="246" weight="1" />
+      <edge source="Mali" target="Libya" id="247" weight="1" />
+      <edge source="Mali" target="Pari" id="248" weight="1" />
+      <edge source="Pari" target="Europe" id="249" weight="1" />
+      <edge source="Pari" target="South Caucasu" id="250" weight="1" />
+      <edge source="Pari" target="France" id="251" weight="1" />
+      <edge source="Pari" target="Africa" id="252" weight="1" />
+      <edge source="Pari" target="Libya" id="253" weight="1" />
+      <edge source="Eastern Mediterranean" target="Asia" id="254" weight="2" />
+      <edge source="Asia" target="Africa" id="255" weight="3" />
+      <edge source="Asia" target="Europe" id="256" weight="1" />
+      <edge source="Asia" target="North America" id="257" weight="1" />
+      <edge source="Asia" target="Latin America" id="258" weight="1" />
+      <edge source="Donetsk" target="Kupyansk" id="259" weight="1" />
+      <edge source="Donetsk" target="South Donetsk" id="260" weight="2" />
+      <edge source="Germany" target="China" id="261" weight="1" />
+      <edge source="Germany" target="Herero" id="262" weight="1" />
+      <edge source="Germany" target="Sweden" id="263" weight="1" />
+      <edge source="Germany" target="Denmark" id="264" weight="1" />
+      <edge source="Germany" target="Nord Stream" id="265" weight="1" />
+      <edge source="West" target="Crimea" id="266" weight="1" />
+      <edge source="West" target="Fulton" id="267" weight="1" />
+      <edge source="West" target="Africa" id="268" weight="2" />
+      <edge source="West" target="West" id="269" weight="1" />
+      <edge source="West" target="Intel Republic" id="270" weight="1" />
+      <edge source="Crimea" target="Crimea" id="271" weight="1" />
+      <edge source="North Africa" target="Middle East" id="272" weight="1" />
+      <edge source="North Africa" target="Black Sea" id="273" weight="1" />
+      <edge source="Middle East" target="Black Sea" id="274" weight="1" />
+      <edge source="Middle East" target="Libya" id="275" weight="1" />
+      <edge source="Middle East" target="Dubai" id="276" weight="1" />
+      <edge source="Middle East" target="UAE" id="277" weight="1" />
+      <edge source="Middle East" target="Iran" id="278" weight="2" />
+      <edge source="Gagauzia" target="Moldova" id="279" weight="4" />
+      <edge source="Gagauzia" target="Kishinev" id="280" weight="1" />
+      <edge source="Moldova" target="Moldova" id="281" weight="2" />
+      <edge source="Moldova" target="Europe" id="282" weight="1" />
+      <edge source="Moldova" target="Kishinev" id="283" weight="1" />
+      <edge source="UK" target="Rwanda" id="284" weight="4" />
+      <edge source="UK" target="Vitol" id="285" weight="1" />
+      <edge source="UK" target="Lago" id="286" weight="1" />
+      <edge source="UK" target="North America" id="287" weight="1" />
+      <edge source="UK" target="Europe" id="288" weight="1" />
+      <edge source="UK" target="UK" id="289" weight="1" />
+      <edge source="UK" target="Channel" id="290" weight="2" />
+      <edge source="Africa" target="Egypt" id="291" weight="1" />
+      <edge source="Africa" target="South" id="292" weight="1" />
+      <edge source="Africa" target="Namibia" id="293" weight="1" />
+      <edge source="Africa" target="Africa" id="294" weight="7" />
+      <edge source="Africa" target="Victoria Fall" id="295" weight="2" />
+      <edge source="Africa" target="Zimbabwe" id="296" weight="2" />
+      <edge source="Africa" target="Hub Bamako" id="297" weight="1" />
+      <edge source="Africa" target="Nigeria" id="298" weight="5" />
+      <edge source="Africa" target="Sahel" id="299" weight="2" />
+      <edge source="Africa" target="Europe" id="300" weight="1" />
+      <edge source="Africa" target="North America" id="301" weight="1" />
+      <edge source="Africa" target="Uganda" id="302" weight="4" />
+      <edge source="Africa" target="Senegal" id="303" weight="1" />
+      <edge source="Africa" target="Cameroon" id="304" weight="1" />
+      <edge source="Africa" target="Ivory Coast" id="305" weight="1" />
+      <edge source="Africa" target="Sputnik" id="306" weight="2" />
+      <edge source="Africa" target="China" id="307" weight="6" />
+      <edge source="Africa" target="South Africa" id="308" weight="1" />
+      <edge source="Africa" target="France" id="309" weight="2" />
+      <edge source="Africa" target="Syria" id="310" weight="1" />
+      <edge source="Africa" target="Latin America" id="311" weight="1" />
+      <edge source="Africa" target="Libya" id="312" weight="1" />
+      <edge source="Africa" target="Chad" id="313" weight="1" />
+      <edge source="Africa" target="West Africa" id="314" weight="1" />
+      <edge source="Africa" target="Algeria" id="315" weight="1" />
+      <edge source="Egypt" target="BRICS" id="316" weight="1" />
+      <edge source="Egypt" target="Qatar" id="317" weight="2" />
+      <edge source="Egypt" target="Doha" id="318" weight="1" />
+      <edge source="Egypt" target="Gaza" id="319" weight="4" />
+      <edge source="Egypt" target="Gaza Strip" id="320" weight="2" />
+      <edge source="Egypt" target="Israel" id="321" weight="1" />
+      <edge source="Egypt" target="Jordan" id="322" weight="1" />
+      <edge source="Egypt" target="France" id="323" weight="1" />
+      <edge source="Egypt" target="United Arab Emirate" id="324" weight="1" />
+      <edge source="Nigeria" target="Nigeria" id="325" weight="2" />
+      <edge source="Nigeria" target="Sahel" id="326" weight="1" />
+      <edge source="Nigeria" target="Kaduna State" id="327" weight="2" />
+      <edge source="Nigeria" target="Niger" id="328" weight="3" />
+      <edge source="Nigeria" target="Angola" id="329" weight="2" />
+      <edge source="Nigeria" target="South Africa" id="330" weight="1" />
+      <edge source="Nigeria" target="Democratic Republic of Congo" id="331" weight="1" />
+      <edge source="Nigeria" target="Buda" id="332" weight="1" />
+      <edge source="Nigeria" target="Borno" id="333" weight="1" />
+      <edge source="Nigeria" target="Niger Republic" id="334" weight="1" />
+      <edge source="Tanzania" target="Kenya" id="335" weight="1" />
+      <edge source="Tanzania" target="Nairobi" id="336" weight="1" />
+      <edge source="Tanzania" target="Somalia" id="337" weight="1" />
+      <edge source="Tanzania" target="Arusha" id="338" weight="1" />
+      <edge source="Tanzania" target="Lake Victoria" id="339" weight="1" />
+      <edge source="Tanzania" target="Malawi" id="340" weight="1" />
+      <edge source="Tanzania" target="Rwanda" id="341" weight="1" />
+      <edge source="Tanzania" target="Ethiopia" id="342" weight="1" />
+      <edge source="Tanzania" target="Uganda" id="343" weight="1" />
+      <edge source="Tanzania" target="Angola" id="344" weight="1" />
+      <edge source="Tanzania" target="Morocco" id="345" weight="1" />
+      <edge source="Tanzania" target="Senegal" id="346" weight="1" />
+      <edge source="Tanzania" target="Burundi" id="347" weight="1" />
+      <edge source="Kenya" target="Nairobi" id="348" weight="2" />
+      <edge source="Kenya" target="Haiti" id="349" weight="3" />
+      <edge source="Kenya" target="Kenya" id="350" weight="1" />
+      <edge source="Kenya" target="Algeria" id="351" weight="1" />
+      <edge source="Kenya" target="Angola" id="352" weight="1" />
+      <edge source="Kenya" target="Zambia" id="353" weight="1" />
+      <edge source="Kenya" target="Niger" id="354" weight="1" />
+      <edge source="Sahel" target="France" id="355" weight="1" />
+      <edge source="France" target="Senegal" id="356" weight="3" />
+      <edge source="France" target="Kharkov" id="357" weight="1" />
+      <edge source="France" target="Israel" id="358" weight="1" />
+      <edge source="France" target="Jordan" id="359" weight="1" />
+      <edge source="France" target="United Arab Emirate" id="360" weight="1" />
+      <edge source="France" target="Gaza" id="361" weight="1" />
+      <edge source="France" target="Niger" id="362" weight="1" />
+      <edge source="France" target="Nagorno" id="363" weight="1" />
+      <edge source="France" target="Bordeaux" id="364" weight="1" />
+      <edge source="France" target="Libya" id="365" weight="1" />
+      <edge source="France" target="Europe" id="366" weight="1" />
+      <edge source="Corve" target="Afghanistan" id="367" weight="1" />
+      <edge source="Cameroon" target="Yaound" id="368" weight="1" />
+      <edge source="Cameroon" target="Likeng" id="369" weight="1" />
+      <edge source="Cameroon" target="Cameroon" id="370" weight="1" />
+      <edge source="Pretoria" target="Israel" id="371" weight="1" />
+      <edge source="Pretoria" target="Gaza" id="372" weight="1" />
+      <edge source="Israel" target="Gaza Strip" id="373" weight="6" />
+      <edge source="Israel" target="South Africa" id="374" weight="8" />
+      <edge source="Israel" target="Taiwan" id="375" weight="1" />
+      <edge source="Israel" target="Israel" id="376" weight="3" />
+      <edge source="Israel" target="Lebanon" id="377" weight="2" />
+      <edge source="Israel" target="Cairo" id="378" weight="1" />
+      <edge source="Israel" target="Gaza" id="379" weight="13" />
+      <edge source="Israel" target="Jordan" id="380" weight="1" />
+      <edge source="Israel" target="United Arab Emirate" id="381" weight="1" />
+      <edge source="Israel" target="West Bank" id="382" weight="2" />
+      <edge source="Israel" target="Gazan" id="383" weight="1" />
+      <edge source="Israel" target="Rafah" id="384" weight="2" />
+      <edge source="Israel" target="Netherland" id="385" weight="1" />
+      <edge source="Israel" target="China" id="386" weight="2" />
+      <edge source="Gaza Strip" target="South Africa" id="387" weight="1" />
+      <edge source="Gaza Strip" target="Qatar" id="388" weight="1" />
+      <edge source="Gaza Strip" target="Netherland" id="389" weight="1" />
+      <edge source="Gaza Strip" target="Cypru" id="390" weight="1" />
+      <edge source="Gaza" target="Nablusi" id="391" weight="1" />
+      <edge source="Gaza" target="Qatar" id="392" weight="1" />
+      <edge source="Gaza" target="Doha" id="393" weight="1" />
+      <edge source="Gaza" target="South Africa" id="394" weight="4" />
+      <edge source="Gaza" target="Gaza" id="395" weight="2" />
+      <edge source="Gaza" target="Jordan" id="396" weight="1" />
+      <edge source="Gaza" target="United Arab Emirate" id="397" weight="1" />
+      <edge source="Gaza" target="Britain" id="398" weight="1" />
+      <edge source="Gaza" target="Morocco" id="399" weight="2" />
+      <edge source="Gaza" target="Sofala" id="400" weight="1" />
+      <edge source="Gaza" target="Maputo" id="401" weight="1" />
+      <edge source="Gaza" target="China" id="402" weight="2" />
+      <edge source="Gaza" target="West Bank" id="403" weight="1" />
+      <edge source="South Sudan" target="Sudan" id="404" weight="2" />
+      <edge source="South Sudan" target="Chad" id="405" weight="1" />
+      <edge source="Sweden" target="Finland" id="406" weight="2" />
+      <edge source="Sweden" target="Norway" id="407" weight="1" />
+      <edge source="Sweden" target="Brussel" id="408" weight="1" />
+      <edge source="Sweden" target="Denmark" id="409" weight="1" />
+      <edge source="Sweden" target="Nord Stream" id="410" weight="1" />
+      <edge source="Finland" target="Norway" id="411" weight="1" />
+      <edge source="Eurasia" target="Multipolarity" id="412" weight="1" />
+      <edge source="Multipolarity" target="Ghana" id="413" weight="1" />
+      <edge source="Niger" target="Benin" id="414" weight="1" />
+      <edge source="Niger" target="Djiffa" id="415" weight="1" />
+      <edge source="Niger" target="Burkina Faso" id="416" weight="3" />
+      <edge source="Niger" target="Guinea" id="417" weight="2" />
+      <edge source="Niger" target="Niger" id="418" weight="4" />
+      <edge source="Niger" target="Algeria" id="419" weight="1" />
+      <edge source="Niger" target="Angola" id="420" weight="1" />
+      <edge source="Niger" target="Zambia" id="421" weight="1" />
+      <edge source="Niger" target="Niamey" id="422" weight="1" />
+      <edge source="Benin" target="Liberia" id="423" weight="1" />
+      <edge source="Benin" target="Ghana" id="424" weight="1" />
+      <edge source="Benin" target="Burkina Faso" id="425" weight="1" />
+      <edge source="Berlin" target="Europe" id="426" weight="1" />
+      <edge source="Berlin" target="Namibia" id="427" weight="1" />
+      <edge source="Europe" target="Dnipro River" id="428" weight="1" />
+      <edge source="Europe" target="North America" id="429" weight="3" />
+      <edge source="Burkina Faso" target="Somalia" id="430" weight="1" />
+      <edge source="Burkina Faso" target="Liberia" id="431" weight="1" />
+      <edge source="Burkina Faso" target="Ghana" id="432" weight="1" />
+      <edge source="Burkina Faso" target="FCFA" id="433" weight="1" />
+      <edge source="Ethiopia" target="East Africa" id="434" weight="1" />
+      <edge source="Ethiopia" target="East Africa Region" id="435" weight="1" />
+      <edge source="Ethiopia" target="Malawi" id="436" weight="1" />
+      <edge source="Ethiopia" target="Rwanda" id="437" weight="1" />
+      <edge source="Ethiopia" target="Uganda" id="438" weight="1" />
+      <edge source="Ethiopia" target="Angola" id="439" weight="1" />
+      <edge source="Ethiopia" target="Morocco" id="440" weight="1" />
+      <edge source="Ethiopia" target="Senegal" id="441" weight="1" />
+      <edge source="Ethiopia" target="Burundi" id="442" weight="1" />
+      <edge source="China" target="India" id="443" weight="2" />
+      <edge source="China" target="Saudi Arabia" id="444" weight="1" />
+      <edge source="China" target="Democratic Republic of the Congo" id="445" weight="1" />
+      <edge source="China" target="Zimbabwe" id="446" weight="1" />
+      <edge source="China" target="Syria" id="447" weight="1" />
+      <edge source="China" target="UAE" id="448" weight="1" />
+      <edge source="China" target="Sudan" id="449" weight="2" />
+      <edge source="China" target="Iran" id="450" weight="2" />
+      <edge source="China" target="Gulf of Oman" id="451" weight="1" />
+      <edge source="China" target="South Africa" id="452" weight="1" />
+      <edge source="India" target="Saudi Arabia" id="453" weight="1" />
+      <edge source="India" target="Namibia" id="454" weight="1" />
+      <edge source="India" target="Guyana" id="455" weight="1" />
+      <edge source="India" target="Suriname" id="456" weight="1" />
+      <edge source="India" target="South Africa" id="457" weight="2" />
+      <edge source="India" target="Pakistan" id="458" weight="2" />
+      <edge source="India" target="Kazakhstan" id="459" weight="2" />
+      <edge source="India" target="Oman" id="460" weight="2" />
+      <edge source="India" target="Mauritiu" id="461" weight="1" />
+      <edge source="South Donetsk" target="Kupyansk" id="462" weight="1" />
+      <edge source="South Africa" target="South Africa" id="463" weight="1" />
+      <edge source="South Africa" target="Sudan" id="464" weight="1" />
+      <edge source="South Africa" target="Angola" id="465" weight="1" />
+      <edge source="South Africa" target="Siberia" id="466" weight="1" />
+      <edge source="South Africa" target="Pakistan" id="467" weight="2" />
+      <edge source="South Africa" target="Kazakhstan" id="468" weight="2" />
+      <edge source="South Africa" target="Oman" id="469" weight="2" />
+      <edge source="Namibia" target="Guyana" id="470" weight="1" />
+      <edge source="Namibia" target="Suriname" id="471" weight="2" />
+      <edge source="Namibia" target="Guayana" id="472" weight="1" />
+      <edge source="BRICS" target="BRICS" id="473" weight="1" />
+      <edge source="BRICS" target="Central Bank" id="474" weight="2" />
+      <edge source="BRICS" target="Financial Action Task Force" id="475" weight="1" />
+      <edge source="BRICS" target="FATF" id="476" weight="1" />
+      <edge source="BRICS" target="IRNA news agency" id="477" weight="1" />
+      <edge source="BRICS" target="World Bank" id="478" weight="1" />
+      <edge source="BRICS" target="IMF" id="479" weight="1" />
+      <edge source="BRICS" target="World Youth Festival" id="480" weight="1" />
+      <edge source="BRICS" target="WYF2024" id="481" weight="1" />
+      <edge source="BRICS" target="Development and Corporation" id="482" weight="1" />
+      <edge source="BRICS" target="Africa Initiative" id="483" weight="1" />
+      <edge source="BRICS" target="International Relation" id="484" weight="1" />
+      <edge source="BRICS" target="Bowen University" id="485" weight="1" />
+      <edge source="BRICS" target="Eloff" id="486" weight="1" />
+      <edge source="BRICS" target="Patriot" id="487" weight="1" />
+      <edge source="BRICS" target="BRICS Sherpa" id="488" weight="1" />
+      <edge source="Zimbabwe" target="IPP" id="489" weight="1" />
+      <edge source="Zimbabwe" target="Democratic Republic of the Congo" id="490" weight="1" />
+      <edge source="Zimbabwe" target="Syria" id="491" weight="1" />
+      <edge source="Zimbabwe" target="UAE" id="492" weight="1" />
+      <edge source="Zimbabwe" target="Victoria Fall" id="493" weight="1" />
+      <edge source="Zimbabwe" target="Washington" id="494" weight="2" />
+      <edge source="Zimbabwe" target="Zimbabwe" id="495" weight="1" />
+      <edge source="IPP" target="Kariba Hydro" id="496" weight="1" />
+      <edge source="Sudan" target="Port Sudan" id="497" weight="1" />
+      <edge source="Sudan" target="Red Sea" id="498" weight="1" />
+      <edge source="Sudan" target="Chad" id="499" weight="3" />
+      <edge source="Sudan" target="Sudan" id="500" weight="2" />
+      <edge source="Sudan" target="Libya" id="501" weight="2" />
+      <edge source="Sudan" target="Palestine" id="502" weight="1" />
+      <edge source="Sudan" target="Yemen" id="503" weight="1" />
+      <edge source="Sudan" target="Democratic Republic of Congo" id="504" weight="1" />
+      <edge source="Sudan" target="Western Sahara" id="505" weight="1" />
+      <edge source="Democratic Republic of the Congo" target="Syria" id="506" weight="1" />
+      <edge source="Democratic Republic of the Congo" target="UAE" id="507" weight="1" />
+      <edge source="Syria" target="UAE" id="508" weight="1" />
+      <edge source="UAE" target="Libya" id="509" weight="1" />
+      <edge source="UAE" target="Dubai" id="510" weight="1" />
+      <edge source="Somalia" target="Arusha" id="511" weight="1" />
+      <edge source="Somalia" target="Somalia" id="512" weight="2" />
+      <edge source="Somalia" target="Mogadishu" id="513" weight="1" />
+      <edge source="Zambia" target="Kariba Dam" id="514" weight="1" />
+      <edge source="Zambia" target="Algeria" id="515" weight="1" />
+      <edge source="Zambia" target="Angola" id="516" weight="1" />
+      <edge source="Washington" target="Singapore" id="517" weight="1" />
+      <edge source="Maine" target="Colorado" id="518" weight="1" />
+      <edge source="Leningrad" target="Kursk" id="519" weight="2" />
+      <edge source="Leningrad" target="Bryansk" id="520" weight="3" />
+      <edge source="Leningrad" target="Tula" id="521" weight="1" />
+      <edge source="Leningrad" target="Oryol" id="522" weight="1" />
+      <edge source="Leningrad" target="Voronezh" id="523" weight="2" />
+      <edge source="Leningrad" target="Ryazan" id="524" weight="2" />
+      <edge source="Leningrad" target="St. Petersburg" id="525" weight="1" />
+      <edge source="Port Sudan" target="Red Sea" id="526" weight="1" />
+      <edge source="Red Sea" target="Iran" id="527" weight="2" />
+      <edge source="Red Sea" target="Tehran" id="528" weight="1" />
+      <edge source="Red Sea" target="Yemen" id="529" weight="1" />
+      <edge source="Guyana" target="Suriname" id="530" weight="1" />
+      <edge source="Suriname" target="Guayana" id="531" weight="1" />
+      <edge source="Qatar" target="Doha" id="532" weight="1" />
+      <edge source="Qatar" target="Algeria" id="533" weight="1" />
+      <edge source="Qatar" target="Libya" id="534" weight="1" />
+      <edge source="Algeria" target="Maputo" id="535" weight="1" />
+      <edge source="Algeria" target="Angola" id="536" weight="1" />
+      <edge source="Algeria" target="Libya" id="537" weight="1" />
+      <edge source="Maputo" target="Sofala" id="538" weight="1" />
+      <edge source="Georgia" target="Caucasu" id="539" weight="1" />
+      <edge source="Rwanda" target="Eastern DR" id="540" weight="1" />
+      <edge source="Rwanda" target="Congo" id="541" weight="2" />
+      <edge source="Rwanda" target="DRC" id="542" weight="1" />
+      <edge source="Rwanda" target="M23" id="543" weight="1" />
+      <edge source="Rwanda" target="DR" id="544" weight="1" />
+      <edge source="Rwanda" target="Kinshasa" id="545" weight="1" />
+      <edge source="Rwanda" target="Kigali" id="546" weight="1" />
+      <edge source="Rwanda" target="Malawi" id="547" weight="1" />
+      <edge source="Rwanda" target="Uganda" id="548" weight="1" />
+      <edge source="Rwanda" target="Angola" id="549" weight="1" />
+      <edge source="Rwanda" target="Morocco" id="550" weight="1" />
+      <edge source="Rwanda" target="Senegal" id="551" weight="1" />
+      <edge source="Rwanda" target="Burundi" id="552" weight="1" />
+      <edge source="Rwanda" target="Channel" id="553" weight="1" />
+      <edge source="Krasnoye" target="Kirov" id="554" weight="1" />
+      <edge source="t.me sitreport" target="smo" id="555" weight="1" />
+      <edge source="Senegal" target="Malawi" id="556" weight="1" />
+      <edge source="Senegal" target="Uganda" id="557" weight="1" />
+      <edge source="Senegal" target="Angola" id="558" weight="1" />
+      <edge source="Senegal" target="Morocco" id="559" weight="1" />
+      <edge source="Senegal" target="Burundi" id="560" weight="1" />
+      <edge source="DR" target="Congo" id="561" weight="3" />
+      <edge source="DR" target="DRC" id="562" weight="1" />
+      <edge source="DR" target="M23" id="563" weight="1" />
+      <edge source="Congo" target="Eastern DR" id="564" weight="1" />
+      <edge source="Congo" target="Democratic Republic of the" id="565" weight="2" />
+      <edge source="Congo" target="Kinshasa" id="566" weight="1" />
+      <edge source="Congo" target="Itombwe Mountain" id="567" weight="1" />
+      <edge source="Congo" target="DRC" id="568" weight="2" />
+      <edge source="Congo" target="M23" id="569" weight="1" />
+      <edge source="Cairo" target="LAS" id="570" weight="2" />
+      <edge source="Democratic Republic of the" target="Kinshasa" id="571" weight="1" />
+      <edge source="Democratic Republic of the" target="Itombwe Mountain" id="572" weight="1" />
+      <edge source="Democratic Republic of the" target="DRC" id="573" weight="1" />
+      <edge source="Kinshasa" target="Kigali" id="574" weight="1" />
+      <edge source="Uganda" target="Kampala" id="575" weight="2" />
+      <edge source="Uganda" target="Malawi" id="576" weight="1" />
+      <edge source="Uganda" target="Angola" id="577" weight="1" />
+      <edge source="Uganda" target="Morocco" id="578" weight="1" />
+      <edge source="Uganda" target="Burundi" id="579" weight="1" />
+      <edge source="Vitol" target="Lago" id="580" weight="1" />
+      <edge source="Ghana" target="Liberia" id="581" weight="1" />
+      <edge source="Tula" target="Bryansk" id="582" weight="2" />
+      <edge source="Tula" target="Kursk" id="583" weight="1" />
+      <edge source="Tula" target="Oryol" id="584" weight="1" />
+      <edge source="Bryansk" target="Oryol" id="585" weight="2" />
+      <edge source="Bryansk" target="Kursk" id="586" weight="2" />
+      <edge source="Bryansk" target="Voronezh" id="587" weight="2" />
+      <edge source="Bryansk" target="Ryazan" id="588" weight="2" />
+      <edge source="West Africa" target="Djibouti" id="589" weight="1" />
+      <edge source="Libya" target="Dubai" id="590" weight="1" />
+      <edge source="Libya" target="Benghazi" id="591" weight="3" />
+      <edge source="Libya" target="Libya" id="592" weight="1" />
+      <edge source="Libya" target="Tripoli" id="593" weight="2" />
+      <edge source="Libya" target="Zawiya" id="594" weight="1" />
+      <edge source="Jordan" target="United Arab Emirate" id="595" weight="1" />
+      <edge source="West Bank" target="Middle East Peace Process Tor Wennesland" id="596" weight="1" />
+      <edge source="Kaduna State" target="Buda" id="597" weight="1" />
+      <edge source="Zambezi" target="Kafue River Basin" id="598" weight="1" />
+      <edge source="Upper" target="Lower Egypt" id="599" weight="1" />
+      <edge source="United Kingdom" target="Kingdom of Lesotho" id="600" weight="1" />
+      <edge source="Benghazi" target="Tripoli" id="601" weight="2" />
+      <edge source="Itombwe Mountain" target="DRC" id="602" weight="1" />
+      <edge source="DRC" target="M23" id="603" weight="1" />
+      <edge source="Sputnik" target="Russian Foreign Ministry" id="604" weight="1" />
+      <edge source="Oryol" target="Kursk" id="605" weight="1" />
+      <edge source="Central African Republic" target="Touadera" id="606" weight="1" />
+      <edge source="LAS" target="LAS" id="607" weight="1" />
+      <edge source="Angola" target="Democratic Republic of Congo" id="608" weight="1" />
+      <edge source="Angola" target="Malawi" id="609" weight="1" />
+      <edge source="Angola" target="Morocco" id="610" weight="1" />
+      <edge source="Angola" target="Burundi" id="611" weight="1" />
+      <edge source="Krynki" target="Kherson" id="612" weight="1" />
+      <edge source="Kherson" target="Kakhovka" id="613" weight="1" />
+      <edge source="Kherson" target="Brilyovka" id="614" weight="1" />
+      <edge source="Kherson" target="Dnieper" id="615" weight="1" />
+      <edge source="Kursk" target="Voronezh" id="616" weight="1" />
+      <edge source="Kursk" target="Ryazan" id="617" weight="1" />
+      <edge source="Palestine" target="Yemen" id="618" weight="1" />
+      <edge source="Palestine" target="Democratic Republic of Congo" id="619" weight="1" />
+      <edge source="Palestine" target="Western Sahara" id="620" weight="1" />
+      <edge source="Yemen" target="Democratic Republic of Congo" id="621" weight="1" />
+      <edge source="Yemen" target="Western Sahara" id="622" weight="1" />
+      <edge source="Yemen" target="Iran" id="623" weight="1" />
+      <edge source="Yemen" target="Tehran" id="624" weight="1" />
+      <edge source="Democratic Republic of Congo" target="Western Sahara" id="625" weight="1" />
+      <edge source="Iran" target="Gulf of Oman" id="626" weight="1" />
+      <edge source="Iran" target="Tehran" id="627" weight="1" />
+      <edge source="Iran" target="Oman" id="628" weight="1" />
+      <edge source="Iran" target="Iran" id="629" weight="1" />
+      <edge source="Gulf of Oman" target="Arabian Sea" id="630" weight="1" />
+      <edge source="Pakistan" target="Kazakhstan" id="631" weight="2" />
+      <edge source="Pakistan" target="Oman" id="632" weight="2" />
+      <edge source="Kazakhstan" target="Oman" id="633" weight="2" />
+      <edge source="Morocco" target="Malawi" id="634" weight="1" />
+      <edge source="Morocco" target="Burundi" id="635" weight="1" />
+      <edge source="Mauritiu" target="Independence" id="636" weight="1" />
+      <edge source="Mauritiu" target="Republic of Mauritiu" id="637" weight="1" />
+      <edge source="Independence" target="Republic of Mauritiu" id="638" weight="1" />
+      <edge source="Voronezh" target="Ryazan" id="639" weight="2" />
+      <edge source="Omdurman" target="River Nile" id="640" weight="1" />
+      <edge source="Omdurman" target="Khartoum" id="641" weight="1" />
+      <edge source="River Nile" target="Khartoum" id="642" weight="1" />
+      <edge source="Nord Stream" target="Denmark" id="643" weight="1" />
+      <edge source="Tetkino" target="Kursk Region" id="644" weight="1" />
+      <edge source="Gazan" target="Rafah" id="645" weight="1" />
+      <edge source="Rafah" target="Netherland" id="646" weight="1" />
+      <edge source="Netherland" target="Cypru" id="647" weight="1" />
+      <edge source="Malawi" target="Burundi" id="648" weight="1" />
+      <edge source="Kakhovka" target="Brilyovka" id="649" weight="1" />
+      <edge source="Privinvest" target="Credit Suisse" id="650" weight="2" />
+      <edge source="Privinvest" target="Privinvest" id="651" weight="1" />
+      <edge source="Privinvest" target="FRELIMO" id="652" weight="1" />
+      <edge source="US Strategic Command" target="USSTRATCOM" id="653" weight="1" />
+      <edge source="Dassault" target="Rossiya" id="654" weight="1" />
+      <edge source="Rossiya" target="Bundeswehr" id="655" weight="1" />
+      <edge source="Rossiya" target="Avangard" id="656" weight="1" />
+      <edge source="Rossiya" target="Russian  Defense Ministry" id="657" weight="1" />
+      <edge source="German" target="MoD" id="658" weight="1" />
+      <edge source="Pentagon" target="NATO" id="659" weight="2" />
+      <edge source="Pentagon" target="Lavrov" id="660" weight="1" />
+      <edge source="Pentagon" target="State" id="661" weight="1" />
+      <edge source="Pentagon" target="AFRICOM" id="662" weight="1" />
+      <edge source="NATO" target="Lavrov" id="663" weight="3" />
+      <edge source="NATO" target="Warsaw Treaty Organization" id="664" weight="1" />
+      <edge source="NATO" target="Lloyd Austin" id="665" weight="1" />
+      <edge source="NATO" target="Russian Foreign Ministry" id="666" weight="1" />
+      <edge source="NATO" target="Szijjarto" id="667" weight="2" />
+      <edge source="NATO" target="NATO" id="668" weight="1" />
+      <edge source="NATO" target="RIA Novosti" id="669" weight="2" />
+      <edge source="NATO" target="Defense" id="670" weight="1" />
+      <edge source="NATO" target="EU" id="671" weight="2" />
+      <edge source="NATO" target="Mercenarie" id="672" weight="1" />
+      <edge source="NATO" target="59th Motorized Infantry Brigade" id="673" weight="1" />
+      <edge source="NATO" target="Ukrainian Armed Force" id="674" weight="1" />
+      <edge source="Federal Assembly" target="Russia Africa Partnership Forum" id="675" weight="1" />
+      <edge source="Global Soft Power" target="Brand Finance" id="676" weight="1" />
+      <edge source="GECF" target="OPEC" id="677" weight="1" />
+      <edge source="OPEC" target="Indian Petroleum and Natural" id="678" weight="1" />
+      <edge source="OPEC" target="Economic Time" id="679" weight="1" />
+      <edge source="Donetsk People s Republic" target="Donetsk State Medical University" id="680" weight="1" />
+      <edge source="Donetsk People s Republic" target="Avdeyevka" id="681" weight="1" />
+      <edge source="Assembly" target="Energy and Sustainable Development" id="682" weight="1" />
+      <edge source="AppStore" target="Android" id="683" weight="16" />
+      <edge source="African Union" target="United Nations Human Rights Council" id="684" weight="1" />
+      <edge source="African Union" target="Rapid Support Force" id="685" weight="1" />
+      <edge source="African Union" target="SADC" id="686" weight="1" />
+      <edge source="African Union" target="Economic Community of Central African States  ECCAS" id="687" weight="1" />
+      <edge source="Human Rights Council" target="Barmin" id="688" weight="1" />
+      <edge source="Ingo Gerhartz" target="Brig" id="689" weight="1" />
+      <edge source="Air Force Command" target="Bundeswehr Space Operations Center" id="690" weight="1" />
+      <edge source="Bundeswehr" target="DPA" id="691" weight="1" />
+      <edge source="Bradley" target="Russian Defense Ministry" id="692" weight="1" />
+      <edge source="Russian Defense Ministry" target="FAB" id="693" weight="2" />
+      <edge source="Russian Defense Ministry" target="Stryker" id="694" weight="1" />
+      <edge source="Russian Defense Ministry" target="Avdeyevka" id="695" weight="1" />
+      <edge source="Luftwaffe" target="ARD" id="696" weight="1" />
+      <edge source="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the" target="Energy and Power Development Ministry" id="697" weight="1" />
+      <edge source="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the" target="UNESCO" id="698" weight="1" />
+      <edge source="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the" target="UNDP" id="699" weight="1" />
+      <edge source="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the" target="UNWOMEN" id="700" weight="1" />
+      <edge source="Catalyzing Investments into Renewable Energy for the Acceleration of the Attainment of the" target="UNCDF" id="701" weight="1" />
+      <edge source="Energy and Power Development Ministry" target="UNESCO" id="702" weight="1" />
+      <edge source="Energy and Power Development Ministry" target="UNDP" id="703" weight="1" />
+      <edge source="Energy and Power Development Ministry" target="UNWOMEN" id="704" weight="1" />
+      <edge source="Energy and Power Development Ministry" target="UNCDF" id="705" weight="1" />
+      <edge source="UNESCO" target="UNDP" id="706" weight="1" />
+      <edge source="UNESCO" target="UNWOMEN" id="707" weight="1" />
+      <edge source="UNESCO" target="UNCDF" id="708" weight="1" />
+      <edge source="UNESCO" target="AUB" id="709" weight="1" />
+      <edge source="UNDP" target="UNWOMEN" id="710" weight="1" />
+      <edge source="UNDP" target="UNCDF" id="711" weight="1" />
+      <edge source="UNDP" target="United Nations Development Programme  UNDP" id="712" weight="1" />
+      <edge source="UNDP" target="Insurance and Risk Financing Facility  IRFF" id="713" weight="1" />
+      <edge source="UNWOMEN" target="UNCDF" id="714" weight="1" />
+      <edge source="African Development Bank Group" target="AfDB" id="715" weight="1" />
+      <edge source="AfDB" target="AfDB" id="716" weight="1" />
+      <edge source="Naledi Pandor" target="Antalya Diplomacy Forum" id="717" weight="1" />
+      <edge source="North Atlantic Alliance" target="Sach" id="718" weight="1" />
+      <edge source="Russian Foreign Ministry" target="Karabakh" id="719" weight="1" />
+      <edge source="OPCW" target="Executive Council" id="720" weight="1" />
+      <edge source="Watch Russia" target="Upyr" id="721" weight="1" />
+      <edge source="Watch Russia" target="Avdeyevka" id="722" weight="1" />
+      <edge source="Upyr" target="Avdeyevka" id="723" weight="1" />
+      <edge source="Avdeyevka" target="Russian Ministry of Defense" id="724" weight="3" />
+      <edge source="Avdeyevka" target="Aerospace Force" id="725" weight="1" />
+      <edge source="Avdeyevka" target="Vampire MLRS" id="726" weight="1" />
+      <edge source="Parliament" target="National Development Strategy 1" id="727" weight="1" />
+      <edge source="Euro Atlantic" target="OSCE" id="728" weight="1" />
+      <edge source="EU" target="Ministry of Armed Force" id="729" weight="1" />
+      <edge source="EU" target="European Parliament" id="730" weight="1" />
+      <edge source="SA" target="Transitional Sovereign Council" id="731" weight="1" />
+      <edge source="Sudanese Armed Force" target="Rapid Support Force" id="732" weight="1" />
+      <edge source="Makeba" target="Come Back" id="733" weight="1" />
+      <edge source="WYF" target="Katyusha" id="734" weight="1" />
+      <edge source="Food and Agriculture Organization" target="FAO" id="735" weight="1" />
+      <edge source="Sudanese Sovereignty Council" target="AU High Level Panel on the Resolution of the Conflict in Sudan" id="736" weight="1" />
+      <edge source="Sudanese Sovereignty Council" target="AU Commission" id="737" weight="1" />
+      <edge source="AU High Level Panel on the Resolution of the Conflict in Sudan" target="AU Commission" id="738" weight="1" />
+      <edge source="AU Commission" target="Biruta" id="739" weight="1" />
+      <edge source="AU Commission" target="SADC Mission" id="740" weight="1" />
+      <edge source="AU Commission" target="AU" id="741" weight="1" />
+      <edge source="UNRWA" target="Hama" id="742" weight="3" />
+      <edge source="UNRWA" target="Palestinian Islamic Jihad" id="743" weight="1" />
+      <edge source="UNRWA" target="ICJ" id="744" weight="1" />
+      <edge source="UNRWA" target="International Court of Justice" id="745" weight="1" />
+      <edge source="UNRWA" target="UN" id="746" weight="2" />
+      <edge source="Hama" target="Palestinian Islamic Jihad" id="747" weight="1" />
+      <edge source="Hama" target="Hama" id="748" weight="1" />
+      <edge source="Hama" target="Al Qahera New" id="749" weight="1" />
+      <edge source="Hama" target="Security Council" id="750" weight="1" />
+      <edge source="Hama" target="South African Foreign Ministry" id="751" weight="1" />
+      <edge source="ICJ" target="International Court of Justice" id="752" weight="1" />
+      <edge source="Central Bank" target="Financial Action Task Force" id="753" weight="1" />
+      <edge source="Central Bank" target="FATF" id="754" weight="1" />
+      <edge source="Financial Action Task Force" target="FATF" id="755" weight="1" />
+      <edge source="Indian Petroleum and Natural" target="Economic Time" id="756" weight="1" />
+      <edge source="State" target="Eurasian Affair" id="757" weight="1" />
+      <edge source="State" target="Euromaidan" id="758" weight="1" />
+      <edge source="State" target="Democratic Alliance" id="759" weight="1" />
+      <edge source="State" target="African National Congre" id="760" weight="1" />
+      <edge source="State" target="ANC" id="761" weight="1" />
+      <edge source="State" target="AFRICOM" id="762" weight="1" />
+      <edge source="State" target="National Council for the Defense of the Homeland" id="763" weight="1" />
+      <edge source="Eurasian Affair" target="Euromaidan" id="764" weight="1" />
+      <edge source="Posts and Telecommunication" target="Sputnik News Agency" id="765" weight="1" />
+      <edge source="Association of Winegrower" target="State Duma" id="766" weight="1" />
+      <edge source="House of Lord" target="British Parliament" id="767" weight="1" />
+      <edge source="United Nations Development Programme  UNDP" target="Insurance and Risk Financing Facility  IRFF" id="768" weight="1" />
+      <edge source="East African Community" target="EAC" id="769" weight="2" />
+      <edge source="EAC" target="EAC" id="770" weight="1" />
+      <edge source="Super" target="UN" id="771" weight="1" />
+      <edge source="Super" target="United Nation" id="772" weight="1" />
+      <edge source="UN" target="Security Council" id="773" weight="3" />
+      <edge source="UN" target="paramilitary Rapid Support Force" id="774" weight="1" />
+      <edge source="UN" target="RSF" id="775" weight="1" />
+      <edge source="UN" target="Security Risk Management Proce" id="776" weight="1" />
+      <edge source="UN" target="Russian Permanent Mission" id="777" weight="1" />
+      <edge source="International Atomic Energy Agency" target="IAEA" id="778" weight="1" />
+      <edge source="IAEA" target="IAEA" id="779" weight="1" />
+      <edge source="Southern Front" target="RFAF" id="780" weight="1" />
+      <edge source="AFU" target="Berdychi" id="781" weight="1" />
+      <edge source="AFU" target="Kupyansk Sector" id="782" weight="1" />
+      <edge source="AFU" target="Tabayevka" id="783" weight="1" />
+      <edge source="Liman Sector" target="Yampolovka" id="784" weight="1" />
+      <edge source="Kupyansk Sector" target="Tabayevka" id="785" weight="1" />
+      <edge source="DeepStateUA" target="dva" id="786" weight="1" />
+      <edge source="DeepStateUA" target="IHS" id="787" weight="1" />
+      <edge source="DeepStateUA" target="voenkorKotenok" id="788" weight="1" />
+      <edge source="dva" target="IHS" id="789" weight="1" />
+      <edge source="dva" target="voenkorKotenok" id="790" weight="1" />
+      <edge source="IHS" target="voenkorKotenok" id="791" weight="1" />
+      <edge source="Ethiopian Airline" target="Boeing" id="792" weight="4" />
+      <edge source="Ethiopian Airline" target="Ethiopia s Transport and Logistic" id="793" weight="1" />
+      <edge source="Boeing" target="Boeing" id="794" weight="1" />
+      <edge source="Ghana Russia Center for Commerce and Relation" target="Sirius Federal Territory" id="795" weight="3" />
+      <edge source="Ghana Russia Center for Commerce and Relation" target="World Youth Festival" id="796" weight="1" />
+      <edge source="Ghana Russia Center for Commerce and Relation" target="WYF2024" id="797" weight="1" />
+      <edge source="Sirius Federal Territory" target="World Youth Festival" id="798" weight="1" />
+      <edge source="Sirius Federal Territory" target="WYF2024" id="799" weight="1" />
+      <edge source="World Bank" target="IMF" id="800" weight="1" />
+      <edge source="World Bank" target="World Youth Festival" id="801" weight="1" />
+      <edge source="World Bank" target="International Monetary Fund" id="802" weight="1" />
+      <edge source="World Bank" target="Palestine Investment Fund" id="803" weight="1" />
+      <edge source="IMF" target="World Youth Festival" id="804" weight="1" />
+      <edge source="World Youth Festival" target="WYF2024" id="805" weight="1" />
+      <edge source="Development and Corporation" target="Africa Initiative" id="806" weight="3" />
+      <edge source="Google" target="Alphabet" id="807" weight="1" />
+      <edge source="Google" target="Apple" id="808" weight="1" />
+      <edge source="Google" target="Dell Technologie" id="809" weight="1" />
+      <edge source="Google" target="Microsoft" id="810" weight="1" />
+      <edge source="Google" target="Tesla" id="811" weight="1" />
+      <edge source="Alphabet" target="Apple" id="812" weight="1" />
+      <edge source="Alphabet" target="Dell Technologie" id="813" weight="1" />
+      <edge source="Alphabet" target="Microsoft" id="814" weight="1" />
+      <edge source="Alphabet" target="Tesla" id="815" weight="1" />
+      <edge source="Apple" target="Dell Technologie" id="816" weight="1" />
+      <edge source="Apple" target="Microsoft" id="817" weight="1" />
+      <edge source="Apple" target="Tesla" id="818" weight="1" />
+      <edge source="Dell Technologie" target="Microsoft" id="819" weight="1" />
+      <edge source="Dell Technologie" target="Tesla" id="820" weight="1" />
+      <edge source="Microsoft" target="Tesla" id="821" weight="1" />
+      <edge source="Russian Ministry of Defense" target="Aerospace Force" id="822" weight="1" />
+      <edge source="NPO" target="Almaz" id="823" weight="1" />
+      <edge source="NPO" target="Defence" id="824" weight="1" />
+      <edge source="Almaz" target="Defence" id="825" weight="1" />
+      <edge source="AU" target="SADC" id="826" weight="1" />
+      <edge source="AU" target="Biruta" id="827" weight="1" />
+      <edge source="AU" target="SADC Mission" id="828" weight="1" />
+      <edge source="AU" target="Faki" id="829" weight="1" />
+      <edge source="SADC" target="Southern African Development Community" id="830" weight="1" />
+      <edge source="Biruta" target="SADC Mission" id="831" weight="1" />
+      <edge source="United Nation" target="IGME" id="832" weight="1" />
+      <edge source="United Nation" target="Security Council" id="833" weight="1" />
+      <edge source="BP" target="Dangote" id="834" weight="1" />
+      <edge source="International Relation" target="Bowen University" id="835" weight="1" />
+      <edge source="solidarity" target="Zimbabwean Ministry of Information, Publicity and Broadcasting Service" id="836" weight="1" />
+      <edge source="solidarity" target="Pandor" id="837" weight="1" />
+      <edge source="RTS" target="Interior" id="838" weight="1" />
+      <edge source="Transport" target="Lead Air" id="839" weight="1" />
+      <edge source="Tu 160M" target="Tu 160" id="840" weight="1" />
+      <edge source="Swatch" target="Nissan" id="841" weight="1" />
+      <edge source="Security Council" target="Russian Permanent Mission" id="842" weight="1" />
+      <edge source="UN Commission" target="Status of Women" id="843" weight="1" />
+      <edge source="UN Commission" target="US Embassy" id="844" weight="1" />
+      <edge source="Status of Women" target="US Embassy" id="845" weight="1" />
+      <edge source="Ouest Department" target="Moniteur" id="846" weight="1" />
+      <edge source="Patriotes  party" target="Macron" id="847" weight="1" />
+      <edge source="Africa Command" target="AFRICOM" id="848" weight="1" />
+      <edge source="Kampala Capital City Authority" target="Ugandan Ministry of Agriculture, Animal Industrie" id="849" weight="1" />
+      <edge source="Kampala Capital City Authority" target="Fisherie" id="850" weight="1" />
+      <edge source="Ugandan Ministry of Agriculture, Animal Industrie" target="Fisherie" id="851" weight="1" />
+      <edge source="Super Mushshak" target="Nigerian Air Force" id="852" weight="1" />
+      <edge source="Super Mushshak" target="NAF" id="853" weight="2" />
+      <edge source="Super Mushshak" target="Air" id="854" weight="1" />
+      <edge source="Nigerian Air Force" target="NAF" id="855" weight="2" />
+      <edge source="Nigerian Air Force" target="Air" id="856" weight="1" />
+      <edge source="NAF" target="NAF" id="857" weight="1" />
+      <edge source="NAF" target="Air" id="858" weight="2" />
+      <edge source="Institute of Astronomy" target="University of Cambridge" id="859" weight="1" />
+      <edge source="FCFA" target="Thomas Sankara University" id="860" weight="1" />
+      <edge source="FCFA" target="AIB" id="861" weight="1" />
+      <edge source="West African Development Bank" target="Burkina Information Agency" id="862" weight="1" />
+      <edge source="West African Development Bank" target="AIB" id="863" weight="1" />
+      <edge source="Burkina Information Agency" target="AIB" id="864" weight="1" />
+      <edge source="AIB" target="Thomas Sankara University" id="865" weight="1" />
+      <edge source="Eni" target="Petroci" id="866" weight="1" />
+      <edge source="Special Representative" target="Ihya" id="867" weight="1" />
+      <edge source="Special Representative" target="Foreign Ministry" id="868" weight="1" />
+      <edge source="Ihya" target="Foreign Ministry" id="869" weight="1" />
+      <edge source="High Council of State" target="HCS" id="870" weight="1" />
+      <edge source="Economic Community" target="Vanguard" id="871" weight="1" />
+      <edge source="paramilitary Rapid Support Force" target="RSF" id="872" weight="1" />
+      <edge source="paramilitary Rapid Support Force" target="Coordination of Civil Democratic Force" id="873" weight="1" />
+      <edge source="European Union Capacity Building Mission" target="EUCAP" id="874" weight="1" />
+      <edge source="National Assembly" target="Independent Electoral Commission" id="875" weight="1" />
+      <edge source="National Assembly" target="IEC" id="876" weight="1" />
+      <edge source="Independent Electoral Commission" target="IEC" id="877" weight="1" />
+      <edge source="University of Texa" target="UTEP" id="878" weight="1" />
+      <edge source="University of Texa" target="DRC Centre for Research in Natural Science" id="879" weight="1" />
+      <edge source="UTEP" target="DRC Centre for Research in Natural Science" id="880" weight="1" />
+      <edge source="League of Arab State" target="Libyan Presidential Council" id="881" weight="1" />
+      <edge source="League of Arab State" target="Libyan House of Representative" id="882" weight="1" />
+      <edge source="League of Arab State" target="Supreme Council of State" id="883" weight="1" />
+      <edge source="Libyan Presidential Council" target="Libyan House of Representative" id="884" weight="1" />
+      <edge source="Libyan Presidential Council" target="Supreme Council of State" id="885" weight="1" />
+      <edge source="Libyan House of Representative" target="Supreme Council of State" id="886" weight="1" />
+      <edge source="Egyptian Food Bank  EFB" target="Ramadan Joy" id="887" weight="1" />
+      <edge source="USAID" target="US State Department" id="888" weight="1" />
+      <edge source="Democratic Alliance" target="African National Congre" id="889" weight="1" />
+      <edge source="Democratic Alliance" target="ANC" id="890" weight="1" />
+      <edge source="African National Congre" target="ANC" id="891" weight="1" />
+      <edge source="ANC" target="ANC" id="892" weight="1" />
+      <edge source="Patriot" target="S 300" id="893" weight="1" />
+      <edge source="Patriot" target="Ministry of Defense" id="894" weight="1" />
+      <edge source="Construction of Ethiopia" target="National Cement Factory" id="895" weight="1" />
+      <edge source="Lemi National Cement Factory" target="Amhara Regional State" id="896" weight="1" />
+      <edge source="Federal Security Service" target="Defense Ministry" id="897" weight="1" />
+      <edge source="Defense Ministry" target="Maritime Security Belt" id="898" weight="1" />
+      <edge source="DPR" target="Ministry of Defense" id="899" weight="1" />
+      <edge source="Ministry of Defense" target="S 300" id="900" weight="1" />
+      <edge source="HIMARS" target="MLRS" id="901" weight="1" />
+      <edge source="Indian Navy" target="Indian Navy" id="902" weight="1" />
+      <edge source="Mercenarie" target="59th Motorized Infantry Brigade" id="903" weight="1" />
+      <edge source="Mercenarie" target="Ukrainian Armed Force" id="904" weight="1" />
+      <edge source="59th Motorized Infantry Brigade" target="Ukrainian Armed Force" id="905" weight="1" />
+      <edge source="Ukrainian Armed Force" target="Tornado" id="906" weight="1" />
+      <edge source="National Assembly of the Central African Republic" target="Russian Embassy" id="907" weight="2" />
+      <edge source="Russian Embassy" target="CAR National Assembly" id="908" weight="1" />
+      <edge source="Al Shabaab" target="US Africa Command" id="909" weight="1" />
+      <edge source="International" target="Sea Security Belt" id="910" weight="1" />
+      <edge source="Russian Navy" target="Iranian Navy" id="911" weight="1" />
+      <edge source="Russian Navy" target="PLA Navy" id="912" weight="1" />
+      <edge source="Iranian Navy" target="PLA Navy" id="913" weight="1" />
+      <edge source="Rose" target="Brookings Institution" id="914" weight="1" />
+      <edge source="United Nations Security Support Mission" target="Presidential Council" id="915" weight="1" />
+      <edge source="Beer" target="Beers Group" id="916" weight="1" />
+      <edge source="Paris Club" target="Paris Club" id="917" weight="4" />
+      <edge source="SpaceX" target="US FAA" id="918" weight="1" />
+      <edge source="SpaceX s Starship" target="US Federal Aviation Administration" id="919" weight="1" />
+      <edge source="SpaceX s Starship" target="FAA" id="920" weight="1" />
+      <edge source="US Federal Aviation Administration" target="FAA" id="921" weight="1" />
+      <edge source="FAA" target="OFT" id="922" weight="2" />
+      <edge source="FAA" target="FAA" id="923" weight="1" />
+      <edge source="VR" target="Verkhovna Rada" id="924" weight="1" />
+      <edge source="Russian National Guard" target="FSB" id="925" weight="1" />
+      <edge source="Russian National Guard" target="National Guard" id="926" weight="1" />
+      <edge source="National Guard" target="Warrior" id="927" weight="1" />
+      <edge source="National Guard" target="State Choir of the Republic" id="928" weight="1" />
+      <edge source="Labour" target="Ethic" id="929" weight="1" />
+      <edge source="Labour" target="Brotherhood  party" id="930" weight="1" />
+      <edge source="Ethic" target="Brotherhood  party" id="931" weight="1" />
+      <edge source="Russian Armed Force" target="SRG" id="932" weight="1" />
+      <edge source="SRG" target="Ukrainian" id="933" weight="1" />
+      <edge source="Mogadishu24" target="al Shabaab" id="934" weight="1" />
+      <edge source="Somali Government" target="Somali Justice Ministry" id="935" weight="1" />
+      <edge source="Defense Department" target="Pre" id="936" weight="1" />
+      <edge source="Warrior" target="State Choir of the Republic" id="937" weight="1" />
+    </edges>
+  </graph>
+</gexf>
