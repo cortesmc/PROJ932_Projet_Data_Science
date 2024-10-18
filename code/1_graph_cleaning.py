@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-def clean_and_save_graph(input_graph_path, output_graph_path, min_edge_weight, min_degree):
+def clean_and_save_graph(input_graph_path, output_graph_path, min_edge_weight, min_degree, display_graph, save_graph):
     G = nx.read_gexf(input_graph_path)
 
     edges_to_remove = [(u, v) for u, v, d in G.edges(data=True) if d['weight'] < min_edge_weight]
@@ -10,7 +10,7 @@ def clean_and_save_graph(input_graph_path, output_graph_path, min_edge_weight, m
     nodes_to_remove = [node for node, degree in dict(G.degree()).items() if degree < min_degree]
     G.remove_nodes_from(nodes_to_remove)
 
-    pos = nx.spring_layout(G, k=0.1, iterations=50)
+    pos = nx.forceatlas2_layout(G)
 
     plt.figure(figsize=(12, 8))
     
@@ -24,13 +24,16 @@ def clean_and_save_graph(input_graph_path, output_graph_path, min_edge_weight, m
 
     plt.title("Cleaned and Spring Layout Graph")
     plt.axis('off')
-    plt.show()
 
-    nx.write_gexf(G, output_graph_path)
+    if display_graph:
+        plt.show()
+
+    if save_graph:
+        nx.write_gexf(G, output_graph_path)
 
 if __name__ == "__main__":
     input_graph_path = "graph_0.gexf"
     output_graph_path = "cleaned_graph.gexf" 
-    min_edge_weight = 2
-    min_degree = 2
-    clean_and_save_graph(input_graph_path, output_graph_path, min_edge_weight, min_degree)
+    min_edge_weight = 1
+    min_degree = 5
+    clean_and_save_graph(input_graph_path, output_graph_path, min_edge_weight, min_degree, display_graph = False, save_graph = True)

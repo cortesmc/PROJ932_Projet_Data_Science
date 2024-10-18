@@ -22,11 +22,11 @@ if __name__ == "__main__":
     save_graph = True
     name_graph_saved = "graph_0"
 
-    colors = ['#1f78b4',  # Blue
-              '#33a02c',  # Green
-              '#e31a1c',  # Red
-              '#ff7f00',  # Orange
-              '#6a3d9a']  # Purple
+    colors = ['#1f78b4',
+              '#33a02c',
+              '#e31a1c',
+              '#ff7f00',
+              '#6a3d9a']
      
     # Get open data.
     try:

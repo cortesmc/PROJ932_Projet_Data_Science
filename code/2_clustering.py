@@ -1,38 +1,52 @@
 import networkx as nx
 import matplotlib.pyplot as plt
-from community import community_louvain
+from networkx.algorithms.community import louvain_communities
 
-def cluster_and_save_graph(input_graph_path, output_graph_path):
+def cluster_and_save_graph(input_graph_path, output_graph_path, display_graph, save_graph, min_community_size=10):
     G = nx.read_gexf(input_graph_path)
 
-    partition = community_louvain.best_partition(G)
+    partition = louvain_communities(G, weight='weight', max_level = 3, resolution=1.0, seed=42)
 
-    nx.set_node_attributes(G, partition, 'community')
+    community_mapping = {}
+    for idx, community in enumerate(partition):
+        for node in community:
+            community_mapping[node] = idx
 
-    print("Node partitions:")
-    for node, community in partition.items():
-        print(f"Node: {node}, Community: {community}")
+    nx.set_node_attributes(G, community_mapping, 'community')
+
+    filtered_nodes = []
+    for community in partition:
+        if len(community) >= min_community_size:
+            filtered_nodes.extend(community)
+
+    G_filtered = G.subgraph(filtered_nodes).copy()
+
+    print(f"Filtered graph contains {len(G_filtered.nodes())} nodes and {len(G_filtered.edges())} edges.")
 
     plt.figure(figsize=(12, 8))
-    pos = nx.spring_layout(G)
+    pos = nx.spring_layout(G_filtered)
 
-    communities = set(partition.values())
+    communities = set(community_mapping[node] for node in G_filtered.nodes())
     colors = plt.cm.get_cmap("Set1", len(communities))
 
-    node_colors = [colors(partition[node]) for node in G.nodes()]
-    nx.draw_networkx_nodes(G, pos, node_color=node_colors, node_size=700)
-    
-    edges = G.edges(data=True)
-    nx.draw_networkx_edges(G, pos, edgelist=edges, width=[d['weight'] for (u, v, d) in edges], alpha=0.5)
-    nx.draw_networkx_labels(G, pos, font_size=12)
+    node_colors = [colors(community_mapping[node]) for node in G_filtered.nodes()]
+    nx.draw_networkx_nodes(G_filtered, pos, node_color=node_colors, node_size=700)
 
-    plt.title("Clustered Word Co-occurrence Graph")
+    edges = G_filtered.edges(data=True)
+    nx.draw_networkx_edges(G_filtered, pos, edgelist=edges, width=[d['weight'] for (u, v, d) in edges], alpha=0.5)
+
+    nx.draw_networkx_labels(G_filtered, pos, font_size=12)
+
+    plt.title("Louvain Clustered Graph (Large Communities)")
     plt.axis('off')
-    plt.show()
 
-    nx.write_gexf(G, output_graph_path)
+    if display_graph:
+        plt.show()
+
+    if save_graph:
+        nx.write_gexf(G_filtered, output_graph_path)
 
 if __name__ == "__main__":
-    input_graph_path = "cleaned_graph.gexf"
-    output_graph_path = "clustered_graph.gexf"
-    cluster_and_save_graph(input_graph_path, output_graph_path)
+    input_graph_path = "cleaned_graph.gexf" 
+    output_graph_path = "louvain_filtered_graph.gexf" 
+    cluster_and_save_graph(input_graph_path, output_graph_path, display_graph=True, save_graph=True, min_community_size=10)
