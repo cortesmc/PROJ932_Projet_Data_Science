@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive GEXF Display</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vis-network@9.0.4/dist/vis-network.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #network {
+            width: 100%;
+            height: 100vh;
+            border: 1px solid lightgray;
+        }
+        .controls {
+            padding: 10px;
+            background-color: #f4f4f4;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .controls label {
+            display: block;
+            margin: 5px 0;
+        }
+        .controls select, .controls input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="controls">
+        <label for="nodeFilter">Filter Nodes by Degree:</label>
+        <input type="range" id="nodeFilter" min="0" max="10" value="0" step="1">
+        <label for="layoutSelect">Choose Layout:</label>
+        <select id="layoutSelect">
+            <option value="forceAtlas2Based">Force Atlas 2</option>
+            <option value="barnesHut">Barnes Hut</option>
+            <option value="hierarchical">Hierarchical</option>
+        </select>
+    </div>
+
+    <div id="network"></div>
+
+    <script>
+        const container = document.getElementById('network');
+
+        // Network data variables
+        let network;
+        let nodes = [];
+        let edges = [];
+
+        // Load the GEXF file
+        fetch('path_to_your_file.gexf')
+            .then(response => response.text())
+            .then(gexf => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(gexf, "application/xml");
+
+                // Parse nodes and edges
+                const nodeElements = xmlDoc.querySelectorAll('node');
+                nodeElements.forEach(nodeElement => {
+                    const id = nodeElement.getAttribute('id');
+                    const label = nodeElement.getAttribute('label');
+                    nodes.push({ id: id, label: label, value: Math.floor(Math.random() * 10) + 1 });
+                });
+
+                const edgeElements = xmlDoc.querySelectorAll('edge');
+                edgeElements.forEach(edgeElement => {
+                    const source = edgeElement.getAttribute('source');
+                    const target = edgeElement.getAttribute('target');
+                    edges.push({ from: source, to: target });
+                });
+
+                // Initialize the network
+                const data = { nodes: new vis.DataSet(nodes), edges: new vis.DataSet(edges) };
+                const options = {
+                    layout: { 
+                        randomSeed: 2,
+                        improvedLayout: true,
+                        hierarchical: { enabled: false },
+                    },
+                    physics: { enabled: true },
+                    nodes: {
+                        shape: 'dot',
+                        size: 10,
+                    },
+                    edges: {
+                        smooth: { type: 'continuous' },
+                    }
+                };
+
+                network = new vis.Network(container, data, options);
+
+                // Handle the layout selection change
+                document.getElementById('layoutSelect').addEventListener('change', function() {
+                    const layoutType = this.value;
+                    switch (layoutType) {
+                        case 'forceAtlas2Based':
+                            network.setOptions({ layout: { improvedLayout: true, randomSeed: 2 } });
+                            break;
+                        case 'barnesHut':
+                            network.setOptions({ layout: { improvedLayout: false, randomSeed: 1 } });
+                            break;
+                        case 'hierarchical':
+                            network.setOptions({ layout: { hierarchical: { enabled: true } } });
+                            break;
+                    }
+                });
+
+                // Handle the node filter
+                document.getElementById('nodeFilter').addEventListener('input', function() {
+                    const degree = parseInt(this.value, 10);
+                    const filteredNodes = nodes.filter(node => node.value >= degree);
+                    network.setData({ nodes: new vis.DataSet(filteredNodes), edges: new vis.DataSet(edges) });
+                });
+            })
+            .catch(error => console.error('Error loading GEXF file:', error));
+    </script>
+
+</body>
+</html>

@@ -36,11 +36,11 @@ if __name__ == "__main__":
 
     # Generate folder name based on JSON file name
     json_file_name = os.path.basename(file_path).split('.')[0]
-    output_folder = os.path.join("graph_dashboard", "graphs", "generated_graphs", json_file_name)
+    output_folder = os.path.join( "graphs", "generated_graphs", json_file_name)
 
     if save_graph:
         os.makedirs(output_folder, exist_ok=True)
-        graph_save_path = os.path.join(output_folder, name_graph_saved + ".gexf")
+        graph_save_path = os.path.join(output_folder, name_graph_saved + "_0.gexf")
 
     # Get open data.
     try:
