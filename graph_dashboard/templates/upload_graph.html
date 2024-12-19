@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graph Dashboard</title>
+  <script>
+    // Placeholder functions for additional buttons
+    function handleAdditionalFunction1() {
+      alert('Function 1 executed.');
+    }
+
+    function handleAdditionalFunction2() {
+      alert('Function 2 executed.');
+    }
+
+    // Handle the form submission via AJAX
+    function handleFileUpload(event) {
+      event.preventDefault();
+
+      const formData = new FormData(document.getElementById('uploadForm'));
+
+      fetch('{% url "upload_file" %}', {
+        method: 'POST',
+        body: formData,
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          alert(data.message);
+
+          // Update the file select dropdown with the new list of files
+          const fileSelect = document.getElementById('fileSelect');
+          fileSelect.innerHTML = ''; // Clear existing options
+
+          if (data.file_names.length > 0) {
+            data.file_names.forEach(file => {
+              const option = document.createElement('option');
+              option.value = file;
+              option.textContent = file;
+              fileSelect.appendChild(option);
+            });
+          } else {
+            const option = document.createElement('option');
+            option.textContent = 'No files available';
+            fileSelect.appendChild(option);
+          }
+        } else {
+          alert(data.message);
+        }
+      })
+      .catch(error => {
+        alert('Error uploading file.');
+        console.error(error);
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>Graph Dashboard</h1>
+  
+  <!-- Updated form with method and enctype for file upload -->
+  <form id="uploadForm" method="POST" enctype="multipart/form-data" onsubmit="handleFileUpload(event)">
+    {% csrf_token %}  <!-- CSRF token for security -->
+    <label for="fileInput">Upload File:</label>
+    <input type="file" id="fileInput" name="file" accept=".json,.txt" required>
+    <button type="submit">Upload File</button>
+  </form>
+
+  <hr>
+
+  <!-- Select dropdown to choose a file from the server-side data directory -->
+  <label for="fileSelect">Choose a file from the list:</label>
+  <select id="fileSelect" name="fileSelect">
+    {% for file in file_names %}
+      <option value="{{ file }}">{{ file }}</option>
+    {% empty %}
+      <option>No files available</option>
+    {% endfor %}
+  </select>
+
+  <hr>
+
+  <!-- Additional buttons for other functions -->
+  <button onclick="handleAdditionalFunction1()">Additional Function 1</button>
+  <button onclick="handleAdditionalFunction2()">Additional Function 2</button>
+</body>
+</html>
