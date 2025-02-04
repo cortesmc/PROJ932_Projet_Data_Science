@@ -5,13 +5,25 @@ from django.http import JsonResponse
 from django.shortcuts import render
 
 def graph_dashboard(request):
+    # Construct absolute paths
     data_dir = os.path.join(settings.BASE_DIR, 'graphs', 'data')
-    
+    python_functions_dir = os.path.join(settings.BASE_DIR, 'graphs', 'management', 'python_functions')
+
     file_names = []
+    python_files = []
+
+    # Ensure data directory exists before listing files
     if os.path.exists(data_dir):
         file_names = [f for f in os.listdir(data_dir) if os.path.isfile(os.path.join(data_dir, f))]
 
-    return render(request, 'upload_graph.html', {'file_names': file_names})
+    # Ensure python_functions_dir exists before listing files
+    if os.path.exists(python_functions_dir):
+        python_files = [f for f in os.listdir(python_functions_dir) if f.endswith('.py')]
+
+    return render(request, 'upload_graph.html', {
+        'file_names': file_names,
+        'python_files': python_files
+    })
 
 def upload_file(request):
     if request.method == 'POST' and request.FILES.get('file'):
@@ -42,13 +54,13 @@ def upload_file(request):
 def generate_graph(request):
     if request.method == 'POST':
         file_name = request.POST.get('file_name')
+        python_file = request.POST.get('python_file')
         
         if not file_name:
             return JsonResponse({'success': False, 'message': 'No file selected.'})
         
         # Build the file path
         file_path = os.path.join(settings.BASE_DIR, 'graphs', 'data', file_name)
-        print(file_path)
         if not os.path.exists(file_path):
             return JsonResponse({'success': False, 'message': f'File {file_name} not found.'})
 
@@ -56,8 +68,8 @@ def generate_graph(request):
 
         try:
             command = [
-                'python', 'graphs/management/python_functions/get_data.py',
-                '--json_path', file_path,
+                'python', 'graphs/management/python_functions/f"{python_file}"}.py'
+                '--json_path', f'{file_path}',
                 '--graph_name', f'{name_only}'
             ]
             subprocess.run(command, check=True)
@@ -66,3 +78,4 @@ def generate_graph(request):
             return JsonResponse({'success': False, 'message': f'Error generating graph: {str(e)}'})
 
     return JsonResponse({'success': False, 'message': 'Invalid request.'})
+    

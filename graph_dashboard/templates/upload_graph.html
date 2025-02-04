@@ -46,7 +46,7 @@
   </style>
   <script>
     // Function to generate the graph based on the selected file
-    function Function1() {
+    function generateGraph() {
       const fileSelect = document.getElementById('fileSelect');
       const selectedFile = fileSelect.value;
 
@@ -105,8 +105,13 @@
         </select>
       </div>
 
-      <button onclick="Function1()">Generate Base Graph</button>
-      <button onclick="Function2()">Additional Function 2</button>
+      <div class="buttons">
+        {% for python_file in python_files %}
+          <button onclick="generateGraph('{{ python_file }}')">
+            Generate {{ python_file|slice:":-3" }} Graph
+          </button>
+        {% endfor %}
+      </div>
     </div>
 
     <div class="content">
