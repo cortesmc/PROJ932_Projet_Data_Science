@@ -20,9 +20,6 @@ def main(json_path, graph_name):
     # Step 3: Clean the graph
     G = clean_graph(G)
 
-    # Step 4: Apply clustering
-    G = cluster_graph(G)
-
     return G
 
 if __name__ == "__main__":

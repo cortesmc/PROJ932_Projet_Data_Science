@@ -107,11 +107,11 @@
 
       <div class="buttons">
         {% for python_file in python_files %}
-          <button onclick="generateGraph('{{ python_file }}')">
+          <button onclick="generateGraph('{{ python_file|escapejs }}')">
             Generate {{ python_file|slice:":-3" }} Graph
           </button>
         {% endfor %}
-      </div>
+      </div>      
     </div>
 
     <div class="content">
