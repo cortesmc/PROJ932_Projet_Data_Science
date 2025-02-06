@@ -20,8 +20,12 @@ def cluster_graph(G, min_community_size=10):
 
 if __name__ == "__main__":
     # Load the cleaned graph
-    G = nx.read_gexf("../data/processed/cleaned_graph.gexf")
+    G = nx.read_gexf("../data/processed/graph_0.gexf")
     # Apply clustering
     communities = cluster_graph(G)
     # Print the number of detected communities
     print(f"Number of detected communities: {len(communities)}")
+    # Display community details
+    for i, community in enumerate(communities):
+        print(f"\n🔹 Community {i+1} ({len(community)} nodes):")
+        print(", ".join(community))  # Print node names in this commu

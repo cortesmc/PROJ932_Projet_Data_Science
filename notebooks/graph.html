@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "lightblue", "id": "follow", "label": "follow", "shape": "dot", "title": "follow"}, {"color": "lightblue", "id": "wyf", "label": "wyf", "shape": "dot", "title": "wyf"}, {"color": "lightblue", "id": "ddgeopolitics", "label": "ddgeopolitics", "shape": "dot", "title": "ddgeopolitics"}, {"color": "lightblue", "id": "slavyangrad", "label": "slavyangrad", "shape": "dot", "title": "slavyangrad"}, {"color": "lightblue", "id": "islander", "label": "islander", "shape": "dot", "title": "islander"}, {"color": "lightblue", "id": "stay", "label": "stay", "shape": "dot", "title": "stay"}, {"color": "lightblue", "id": "geopolitics", "label": "geopolitics", "shape": "dot", "title": "geopolitics"}, {"color": "lightblue", "id": "substack", "label": "substack", "shape": "dot", "title": "substack"}, {"color": "lightblue", "id": "youtube", "label": "youtube", "shape": "dot", "title": "youtube"}, {"color": "lightblue", "id": "dd", "label": "dd", "shape": "dot", "title": "dd"}, {"color": "lightblue", "id": "country", "label": "country", "shape": "dot", "title": "country"}, {"color": "lightblue", "id": "russia", "label": "russia", "shape": "dot", "title": "russia"}, {"color": "lightblue", "id": "world", "label": "world", "shape": "dot", "title": "world"}, {"color": "lightblue", "id": "russian", "label": "russian", "shape": "dot", "title": "russian"}, {"color": "lightblue", "id": "said", "label": "said", "shape": "dot", "title": "said"}, {"color": "lightblue", "id": "african", "label": "african", "shape": "dot", "title": "african"}, {"color": "lightblue", "id": "say", "label": "say", "shape": "dot", "title": "say"}, {"color": "lightblue", "id": "minister", "label": "minister", "shape": "dot", "title": "minister"}, {"color": "lightblue", "id": "putin", "label": "putin", "shape": "dot", "title": "putin"}, {"color": "lightblue", "id": "march", "label": "march", "shape": "dot", "title": "march"}, {"color": "lightblue", "id": "ukrainian", "label": "ukrainian", "shape": "dot", "title": "ukrainian"}, {"color": "lightblue", "id": "force", "label": "force", "shape": "dot", "title": "force"}, {"color": "lightblue", "id": "defense", "label": "defense", "shape": "dot", "title": "defense"}, {"color": "lightblue", "id": "region", "label": "region", "shape": "dot", "title": "region"}, {"color": "lightblue", "id": "ministry", "label": "ministry", "shape": "dot", "title": "ministry"}, {"color": "lightblue", "id": "military", "label": "military", "shape": "dot", "title": "military"}, {"color": "lightblue", "id": "ukraine", "label": "ukraine", "shape": "dot", "title": "ukraine"}, {"color": "lightblue", "id": "area", "label": "area", "shape": "dot", "title": "area"}, {"color": "lightblue", "id": "join", "label": "join", "shape": "dot", "title": "join"}, {"color": "lightblue", "id": "boost", "label": "boost", "shape": "dot", "title": "boost"}, {"color": "lightblue", "id": "sputnikafrica", "label": "sputnikafrica", "shape": "dot", "title": "sputnikafrica"}, {"color": "lightblue", "id": "matter", "label": "matter", "shape": "dot", "title": "matter"}, {"color": "lightblue", "id": "opinion", "label": "opinion", "shape": "dot", "title": "opinion"}, {"color": "lightblue", "id": "at", "label": "at", "shape": "dot", "title": "at"}, {"color": "lightblue", "id": "includes", "label": "includes", "shape": "dot", "title": "includes"}, {"color": "lightblue", "id": "httpstmeslavyangrad", "label": "httpstmeslavyangrad", "shape": "dot", "title": "httpstmeslavyangrad"}, {"color": "lightblue", "id": "russiaukraine", "label": "russiaukraine", "shape": "dot", "title": "russiaukraine"}, {"color": "lightblue", "id": "information", "label": "information", "shape": "dot", "title": "information"}, {"color": "lightblue", "id": "news", "label": "news", "shape": "dot", "title": "news"}, {"color": "lightblue", "id": "gaza", "label": "gaza", "shape": "dot", "title": "gaza"}, {"color": "lightblue", "id": "israel", "label": "israel", "shape": "dot", "title": "israel"}, {"color": "lightblue", "id": "palestinian", "label": "palestinian", "shape": "dot", "title": "palestinian"}, {"color": "lightblue", "id": "vote", "label": "vote", "shape": "dot", "title": "vote"}, {"color": "lightblue", "id": "capital", "label": "capital", "shape": "dot", "title": "capital"}, {"color": "lightblue", "id": "ceasefire", "label": "ceasefire", "shape": "dot", "title": "ceasefire"}, {"color": "lightblue", "id": "rossiya", "label": "rossiya", "shape": "dot", "title": "rossiya"}, {"color": "lightblue", "id": "segodnya", "label": "segodnya", "shape": "dot", "title": "segodnya"}, {"color": "lightblue", "id": "israeli", "label": "israeli", "shape": "dot", "title": "israeli"}]);
+                  edges = new vis.DataSet([{"from": "follow", "to": "wyf", "value": 1}, {"from": "follow", "to": "ddgeopolitics", "value": 1}, {"from": "follow", "to": "slavyangrad", "value": 1}, {"from": "follow", "to": "islander", "value": 1}, {"from": "follow", "to": "stay", "value": 1}, {"from": "follow", "to": "geopolitics", "value": 1}, {"from": "follow", "to": "substack", "value": 1}, {"from": "follow", "to": "youtube", "value": 1}, {"from": "follow", "to": "dd", "value": 1}, {"from": "wyf", "to": "ddgeopolitics", "value": 1}, {"from": "wyf", "to": "slavyangrad", "value": 1}, {"from": "wyf", "to": "islander", "value": 1}, {"from": "wyf", "to": "stay", "value": 1}, {"from": "wyf", "to": "geopolitics", "value": 1}, {"from": "wyf", "to": "substack", "value": 1}, {"from": "wyf", "to": "youtube", "value": 1}, {"from": "wyf", "to": "dd", "value": 1}, {"from": "ddgeopolitics", "to": "slavyangrad", "value": 1}, {"from": "ddgeopolitics", "to": "islander", "value": 1}, {"from": "ddgeopolitics", "to": "stay", "value": 1}, {"from": "ddgeopolitics", "to": "geopolitics", "value": 1}, {"from": "ddgeopolitics", "to": "substack", "value": 1}, {"from": "ddgeopolitics", "to": "youtube", "value": 1}, {"from": "ddgeopolitics", "to": "dd", "value": 1}, {"from": "slavyangrad", "to": "islander", "value": 1}, {"from": "slavyangrad", "to": "stay", "value": 1}, {"from": "slavyangrad", "to": "geopolitics", "value": 1}, {"from": "slavyangrad", "to": "substack", "value": 1}, {"from": "slavyangrad", "to": "youtube", "value": 1}, {"from": "slavyangrad", "to": "dd", "value": 1}, {"from": "islander", "to": "stay", "value": 1}, {"from": "islander", "to": "geopolitics", "value": 1}, {"from": "islander", "to": "substack", "value": 1}, {"from": "islander", "to": "youtube", "value": 1}, {"from": "islander", "to": "dd", "value": 1}, {"from": "stay", "to": "geopolitics", "value": 1}, {"from": "stay", "to": "substack", "value": 1}, {"from": "stay", "to": "youtube", "value": 1}, {"from": "stay", "to": "dd", "value": 1}, {"from": "geopolitics", "to": "substack", "value": 1}, {"from": "geopolitics", "to": "youtube", "value": 1}, {"from": "geopolitics", "to": "dd", "value": 1}, {"from": "substack", "to": "youtube", "value": 1}, {"from": "substack", "to": "dd", "value": 1}, {"from": "youtube", "to": "dd", "value": 1}, {"from": "country", "to": "russia", "value": 1}, {"from": "country", "to": "world", "value": 1}, {"from": "country", "to": "russian", "value": 1}, {"from": "country", "to": "said", "value": 1}, {"from": "country", "to": "african", "value": 1}, {"from": "country", "to": "say", "value": 1}, {"from": "country", "to": "minister", "value": 1}, {"from": "country", "to": "putin", "value": 1}, {"from": "country", "to": "march", "value": 1}, {"from": "russia", "to": "world", "value": 1}, {"from": "russia", "to": "russian", "value": 1}, {"from": "russia", "to": "said", "value": 1}, {"from": "russia", "to": "african", "value": 1}, {"from": "russia", "to": "say", "value": 1}, {"from": "russia", "to": "minister", "value": 1}, {"from": "russia", "to": "putin", "value": 1}, {"from": "russia", "to": "march", "value": 1}, {"from": "world", "to": "russian", "value": 1}, {"from": "world", "to": "said", "value": 1}, {"from": "world", "to": "african", "value": 1}, {"from": "world", "to": "say", "value": 1}, {"from": "world", "to": "minister", "value": 1}, {"from": "world", "to": "putin", "value": 1}, {"from": "world", "to": "march", "value": 1}, {"from": "russian", "to": "said", "value": 1}, {"from": "russian", "to": "african", "value": 1}, {"from": "russian", "to": "say", "value": 1}, {"from": "russian", "to": "minister", "value": 1}, {"from": "russian", "to": "putin", "value": 1}, {"from": "russian", "to": "march", "value": 1}, {"from": "russian", "to": "ukrainian", "value": 1}, {"from": "russian", "to": "force", "value": 1}, {"from": "russian", "to": "defense", "value": 1}, {"from": "russian", "to": "region", "value": 1}, {"from": "russian", "to": "ministry", "value": 1}, {"from": "russian", "to": "military", "value": 1}, {"from": "russian", "to": "ukraine", "value": 1}, {"from": "russian", "to": "area", "value": 1}, {"from": "russian", "to": "join", "value": 1}, {"from": "said", "to": "african", "value": 1}, {"from": "said", "to": "say", "value": 1}, {"from": "said", "to": "minister", "value": 1}, {"from": "said", "to": "putin", "value": 1}, {"from": "said", "to": "march", "value": 1}, {"from": "african", "to": "say", "value": 1}, {"from": "african", "to": "minister", "value": 1}, {"from": "african", "to": "putin", "value": 1}, {"from": "african", "to": "march", "value": 1}, {"from": "say", "to": "minister", "value": 1}, {"from": "say", "to": "putin", "value": 1}, {"from": "say", "to": "march", "value": 1}, {"from": "minister", "to": "putin", "value": 1}, {"from": "minister", "to": "march", "value": 1}, {"from": "putin", "to": "march", "value": 1}, {"from": "ukrainian", "to": "force", "value": 1}, {"from": "ukrainian", "to": "defense", "value": 1}, {"from": "ukrainian", "to": "region", "value": 1}, {"from": "ukrainian", "to": "ministry", "value": 1}, {"from": "ukrainian", "to": "military", "value": 1}, {"from": "ukrainian", "to": "ukraine", "value": 1}, {"from": "ukrainian", "to": "area", "value": 1}, {"from": "ukrainian", "to": "join", "value": 1}, {"from": "force", "to": "defense", "value": 1}, {"from": "force", "to": "region", "value": 1}, {"from": "force", "to": "ministry", "value": 1}, {"from": "force", "to": "military", "value": 1}, {"from": "force", "to": "ukraine", "value": 1}, {"from": "force", "to": "area", "value": 1}, {"from": "force", "to": "join", "value": 1}, {"from": "defense", "to": "region", "value": 1}, {"from": "defense", "to": "ministry", "value": 1}, {"from": "defense", "to": "military", "value": 1}, {"from": "defense", "to": "ukraine", "value": 1}, {"from": "defense", "to": "area", "value": 1}, {"from": "defense", "to": "join", "value": 1}, {"from": "region", "to": "ministry", "value": 1}, {"from": "region", "to": "military", "value": 1}, {"from": "region", "to": "ukraine", "value": 1}, {"from": "region", "to": "area", "value": 1}, {"from": "region", "to": "join", "value": 1}, {"from": "ministry", "to": "military", "value": 1}, {"from": "ministry", "to": "ukraine", "value": 1}, {"from": "ministry", "to": "area", "value": 1}, {"from": "ministry", "to": "join", "value": 1}, {"from": "military", "to": "ukraine", "value": 1}, {"from": "military", "to": "area", "value": 1}, {"from": "military", "to": "join", "value": 1}, {"from": "ukraine", "to": "area", "value": 1}, {"from": "ukraine", "to": "join", "value": 1}, {"from": "area", "to": "join", "value": 1}, {"from": "boost", "to": "sputnikafrica", "value": 1}, {"from": "boost", "to": "matter", "value": 1}, {"from": "boost", "to": "opinion", "value": 1}, {"from": "boost", "to": "at", "value": 1}, {"from": "boost", "to": "includes", "value": 1}, {"from": "boost", "to": "httpstmeslavyangrad", "value": 1}, {"from": "boost", "to": "russiaukraine", "value": 1}, {"from": "boost", "to": "information", "value": 1}, {"from": "boost", "to": "news", "value": 1}, {"from": "sputnikafrica", "to": "matter", "value": 1}, {"from": "sputnikafrica", "to": "opinion", "value": 1}, {"from": "sputnikafrica", "to": "at", "value": 1}, {"from": "sputnikafrica", "to": "includes", "value": 1}, {"from": "sputnikafrica", "to": "httpstmeslavyangrad", "value": 1}, {"from": "sputnikafrica", "to": "russiaukraine", "value": 1}, {"from": "sputnikafrica", "to": "information", "value": 1}, {"from": "sputnikafrica", "to": "news", "value": 1}, {"from": "matter", "to": "opinion", "value": 1}, {"from": "matter", "to": "at", "value": 1}, {"from": "matter", "to": "includes", "value": 1}, {"from": "matter", "to": "httpstmeslavyangrad", "value": 1}, {"from": "matter", "to": "russiaukraine", "value": 1}, {"from": "matter", "to": "information", "value": 1}, {"from": "matter", "to": "news", "value": 1}, {"from": "opinion", "to": "at", "value": 1}, {"from": "opinion", "to": "includes", "value": 1}, {"from": "opinion", "to": "httpstmeslavyangrad", "value": 1}, {"from": "opinion", "to": "russiaukraine", "value": 1}, {"from": "opinion", "to": "information", "value": 1}, {"from": "opinion", "to": "news", "value": 1}, {"from": "at", "to": "includes", "value": 1}, {"from": "at", "to": "httpstmeslavyangrad", "value": 1}, {"from": "at", "to": "russiaukraine", "value": 1}, {"from": "at", "to": "information", "value": 1}, {"from": "at", "to": "news", "value": 1}, {"from": "includes", "to": "httpstmeslavyangrad", "value": 1}, {"from": "includes", "to": "russiaukraine", "value": 1}, {"from": "includes", "to": "information", "value": 1}, {"from": "includes", "to": "news", "value": 1}, {"from": "httpstmeslavyangrad", "to": "russiaukraine", "value": 1}, {"from": "httpstmeslavyangrad", "to": "information", "value": 1}, {"from": "httpstmeslavyangrad", "to": "news", "value": 1}, {"from": "russiaukraine", "to": "information", "value": 1}, {"from": "russiaukraine", "to": "news", "value": 1}, {"from": "information", "to": "news", "value": 1}, {"from": "news", "to": "gaza", "value": 1}, {"from": "news", "to": "israel", "value": 1}, {"from": "news", "to": "palestinian", "value": 1}, {"from": "news", "to": "vote", "value": 1}, {"from": "news", "to": "capital", "value": 1}, {"from": "news", "to": "ceasefire", "value": 1}, {"from": "news", "to": "rossiya", "value": 1}, {"from": "news", "to": "segodnya", "value": 1}, {"from": "news", "to": "israeli", "value": 1}, {"from": "gaza", "to": "israel", "value": 1}, {"from": "gaza", "to": "palestinian", "value": 1}, {"from": "gaza", "to": "vote", "value": 1}, {"from": "gaza", "to": "capital", "value": 1}, {"from": "gaza", "to": "ceasefire", "value": 1}, {"from": "gaza", "to": "rossiya", "value": 1}, {"from": "gaza", "to": "segodnya", "value": 1}, {"from": "gaza", "to": "israeli", "value": 1}, {"from": "israel", "to": "palestinian", "value": 1}, {"from": "israel", "to": "vote", "value": 1}, {"from": "israel", "to": "capital", "value": 1}, {"from": "israel", "to": "ceasefire", "value": 1}, {"from": "israel", "to": "rossiya", "value": 1}, {"from": "israel", "to": "segodnya", "value": 1}, {"from": "israel", "to": "israeli", "value": 1}, {"from": "palestinian", "to": "vote", "value": 1}, {"from": "palestinian", "to": "capital", "value": 1}, {"from": "palestinian", "to": "ceasefire", "value": 1}, {"from": "palestinian", "to": "rossiya", "value": 1}, {"from": "palestinian", "to": "segodnya", "value": 1}, {"from": "palestinian", "to": "israeli", "value": 1}, {"from": "vote", "to": "capital", "value": 1}, {"from": "vote", "to": "ceasefire", "value": 1}, {"from": "vote", "to": "rossiya", "value": 1}, {"from": "vote", "to": "segodnya", "value": 1}, {"from": "vote", "to": "israeli", "value": 1}, {"from": "capital", "to": "ceasefire", "value": 1}, {"from": "capital", "to": "rossiya", "value": 1}, {"from": "capital", "to": "segodnya", "value": 1}, {"from": "capital", "to": "israeli", "value": 1}, {"from": "ceasefire", "to": "rossiya", "value": 1}, {"from": "ceasefire", "to": "segodnya", "value": 1}, {"from": "ceasefire", "to": "israeli", "value": 1}, {"from": "rossiya", "to": "segodnya", "value": 1}, {"from": "rossiya", "to": "israeli", "value": 1}, {"from": "segodnya", "to": "israeli", "value": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

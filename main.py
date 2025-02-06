@@ -9,7 +9,7 @@ def main():
     Main function to execute the entire pipeline.
     """
     # Step 1: Load and preprocess the data
-    data = load_data("../data/raw/1eb80fb8b50.json")
+    data = load_data("./data/raw/1eb80fb8b50.json")
     df = preprocess_data(data)
 
     # Step 2: Build the graph
