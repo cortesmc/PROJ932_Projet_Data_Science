@@ -112,11 +112,21 @@ USE_I18N = True
 
 USE_TZ = True
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'  # Ensure there's a leading and trailing slash
+
+# Add this line to specify the folder where static files will be collected
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # This will create a 'staticfiles' directory
+
+# Optional: Use this to include additional static files during development
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',  # Where your current static files are
+]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

@@ -46,7 +46,7 @@
   </style>
   <script>
     // Function to generate the graph based on the selected file
-    function generateGraph() {
+    function generateGraph(pythonFile) {
       const fileSelect = document.getElementById('fileSelect');
       const selectedFile = fileSelect.value;
 
@@ -58,8 +58,12 @@
       // Send a POST request to the backend to generate the graph
       fetch('{% url "generate_graph" %}', {
         method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
         body: new URLSearchParams({
           'file_name': selectedFile,
+          'python_file': pythonFile,  // Pass the python_file to the backend
           'csrfmiddlewaretoken': document.querySelector('[name=csrfmiddlewaretoken]').value
         }),
       })
@@ -75,11 +79,35 @@
         alert('Error generating graph.');
         console.error(error);
       });
+
+      const iframe = document.querySelector('iframe');
+      // Dynamically use the selected file name
+      iframe.contentWindow.postMessage({
+        type: 'LOAD_GEXF',
+        // fileUrl: `./${selectedFile}`
+        fileUrl: `/static/gexf/1eb80fb8b50_0.gexf`
+      }, '*');
     }
 
-    function Function2() {
-      alert('Function 2 executed.');
+    function handleFileUpload(event) {
+      event.preventDefault();
+      const formData = new FormData(document.getElementById('uploadForm'));
+
+      fetch('{% url "upload_file" %}', {
+        method: 'POST',
+        body: formData
+      })
+      .then(response => response.json())
+      .then(data => {
+        alert(data.message);
+        location.reload(); 
+      })
+      .catch(error => {
+        alert('Error uploading file.');
+        console.error(error);
+      });
     }
+
   </script>
 </head>
 <body>
@@ -90,7 +118,8 @@
       <form id="uploadForm" method="POST" enctype="multipart/form-data" onsubmit="handleFileUpload(event)">
         {% csrf_token %}
         <label for="fileInput">Upload File:</label>
-        <input type="file" id="fileInput" name="file" accept=".json,.txt" required>
+        <input type="file" id="fileInput" name="file" accept=".gexf" required>
+
         <button type="submit">Upload File</button>
       </form>
 
@@ -107,15 +136,16 @@
 
       <div class="buttons">
         {% for python_file in python_files %}
-          <button onclick="generateGraph('{{ python_file|escapejs }}')">
+          <button type="button" onclick="generateGraph('{{ python_file|escapejs }}')">
             Generate {{ python_file|slice:":-3" }} Graph
           </button>
         {% endfor %}
-      </div>      
+      </div>
+           
     </div>
 
     <div class="content">
-      <iframe src="display_graph.html" frameborder="0"></iframe>
+      <iframe src="/static/dashboard/display_graph.html" frameborder="0"></iframe>
     </div>
   </div>
 </body>

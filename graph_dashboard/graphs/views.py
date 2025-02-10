@@ -59,7 +59,6 @@ def generate_graph(request):
         if not file_name:
             return JsonResponse({'success': False, 'message': 'No file selected.'})
         
-        # Build the file path
         file_path = os.path.join(settings.BASE_DIR, 'graphs', 'data', file_name)
         if not os.path.exists(file_path):
             return JsonResponse({'success': False, 'message': f'File {file_name} not found.'})
@@ -67,15 +66,21 @@ def generate_graph(request):
         name_only, _ = os.path.splitext(file_name)
 
         try:
+            # Ensure correct command construction
             command = [
-                'python', 'graphs/management/python_functions/f"{python_file}"}.py'
-                '--json_path', f'{file_path}',
-                '--graph_name', f'{name_only}'
+                'python',
+                f'graphs/management/python_functions/{python_file}',
+                '--json_path', file_path,
+                '--graph_name', name_only
             ]
-            subprocess.run(command, check=True)
-            return JsonResponse({'success': True, 'message': 'Graph generated successfully.'})
+            # Run the command and capture output
+            result = subprocess.run(command, check=True, capture_output=True, text=True)
+            
+            return JsonResponse({'success': True, 'message': 'Graph generated successfully.', 'output': result.stdout})
+        
         except subprocess.CalledProcessError as e:
-            return JsonResponse({'success': False, 'message': f'Error generating graph: {str(e)}'})
+            # Capture both stdout and stderr for better error reporting
+            error_message = f"Error generating graph:\n{e.stderr if e.stderr else e.stdout}"
+            return JsonResponse({'success': False, 'message': error_message})
 
     return JsonResponse({'success': False, 'message': 'Invalid request.'})
-    
