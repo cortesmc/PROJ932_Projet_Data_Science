@@ -1,0 +1,23 @@
+services:
+  django:
+    build: .
+    container_name: django_app
+    volumes:
+      - .:/app
+      - ./graphs/data:/app/graphs/data
+      - ./static:/app/static
+    ports:
+      - "8000:8000"
+    depends_on:
+      - gephi
+    environment:
+      - DEBUG=True
+
+  gephi:
+    image: ouestware/gephi-lite
+    container_name: gephi_lite
+    ports:
+      - "8080:80"
+    volumes:
+      - ./static/gexf:/usr/share/nginx/html/gexf
+    restart: always
