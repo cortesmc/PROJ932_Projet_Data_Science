@@ -13,12 +13,12 @@ if __name__ == "__main__":
     # Argument parsing
     parser = argparse.ArgumentParser(description="Process JSON data and generate a graph.")
     parser.add_argument("--json_path", type=str, required=True, help="Path to the JSON file.")
-    parser.add_argument("--graph_name", type=str, required=True, help="Name to save the generated graph.")
+    parser.add_argument("--save_path", type=str, required=True, help="Name to save the generated graph.")
     args = parser.parse_args()
 
     # Config.
     file_path = args.json_path
-    name_graph_saved = args.graph_name
+    graph_save_path = args.save_path
 
     segment_key = ["kws-l", "loc-l", "org-l", "per-l"]
     Years = ["2024"]
@@ -36,10 +36,6 @@ if __name__ == "__main__":
 
     # Generate folder name based on JSON file name
     output_folder = os.path.join( "static", "gexf")
-
-    if save_graph:
-        os.makedirs(output_folder, exist_ok=True)
-        graph_save_path = os.path.join(output_folder, name_graph_saved + "_0.gexf")
 
     # Get open data.
     try:

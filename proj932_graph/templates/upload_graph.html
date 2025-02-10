@@ -73,17 +73,17 @@
         }),
       })
       .then(response => response.json())
-      .then(data => alert(data.message))
+      .then(data => {
+        if (data.success) {
+          alert('Graph generated successfully.');
+          const iframe = document.getElementById('gephiFrame');
+          console.log(`http://127.0.0.1:8080/?gexf=/gexf/${data.gexf_file}`);
+          iframe.src = `http://127.0.0.1:8080/?gexf=/gexf/${data.gexf_file}`;
+        } else {
+          alert(data.message);
+        }
+      })
       .catch(error => console.error('Error generating graph:', error));
-
-      const iframes = document.querySelectorAll('iframe');
-      iframes.forEach(iframe => {
-        iframe.contentWindow.postMessage({
-          type: 'LOAD_GEXF',
-          // fileUrl: `./${selectedFile}`
-          fileUrl: `/static/gexf/1eb80fb8b50_0.gexf`
-        }, '*');
-      });
     }
 
     function handleFileUpload(event) {
@@ -134,7 +134,7 @@
     </div>
 
     <div class="content">
-      <iframe src="/static/dashboard/display_graph.html"></iframe>
+      <iframe id="gephiFrame" src="http://127.0.0.1:8080" style="flex-grow: 1; width: 100%; border: none;"></iframe>
     </div>
   </div>
 </body>

@@ -65,21 +65,39 @@ def generate_graph(request):
 
         name_only, _ = os.path.splitext(file_name)
 
+        # Directory to save .gexf files
+        save_dir = os.path.join(settings.BASE_DIR, 'static', 'gexf')
+        os.makedirs(save_dir, exist_ok=True)
+
+        # Generate unique file name with index if necessary
+        index = 0
+        save_name = f"{name_only}.gexf"
+        save_path = os.path.join(save_dir, save_name)
+        
+        while os.path.exists(save_path):
+            index += 1
+            save_name = f"{name_only}_{index}.gexf"
+            save_path = os.path.join(save_dir, save_name)
+
         try:
-            # Ensure correct command construction
+            # Run the Python script with the correct save path
             command = [
                 'python',
                 f'graphs/management/python_functions/{python_file}',
                 '--json_path', file_path,
-                '--graph_name', name_only
+                '--save_path', save_path
             ]
-            # Run the command and capture output
+            
             result = subprocess.run(command, check=True, capture_output=True, text=True)
             
-            return JsonResponse({'success': True, 'message': 'Graph generated successfully.', 'output': result.stdout})
+            return JsonResponse({
+                'success': True,
+                'message': f'Graph generated successfully: {save_name}',
+                'output': result.stdout,
+                'gexf_file': save_name
+            })
         
         except subprocess.CalledProcessError as e:
-            # Capture both stdout and stderr for better error reporting
             error_message = f"Error generating graph:\n{e.stderr if e.stderr else e.stdout}"
             return JsonResponse({'success': False, 'message': error_message})
 

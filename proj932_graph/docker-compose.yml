@@ -20,4 +20,5 @@ services:
       - "8080:80"
     volumes:
       - ./static/gexf:/usr/share/nginx/html/gexf
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
     restart: always
