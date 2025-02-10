@@ -5,10 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Graph Dashboard</title>
   <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
     .container {
       display: flex;
-      justify-content: space-between;
-      padding: 20px;
+      height: 100vh;
+      width: 100%;
     }
 
     .left-container {
@@ -16,6 +22,9 @@
       flex-direction: column;
       gap: 20px;
       width: 250px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
     }
 
     .left-container form,
@@ -32,20 +41,17 @@
 
     .content {
       flex-grow: 1;
-      padding: 20px;
-      margin-left: 20px;
-      border: 1px solid #ccc;
-      height: 500px;
-      overflow: hidden;
+      display: flex;
+      flex-direction: column;
     }
 
     iframe {
+      flex-grow: 1;
       width: 100%;
-      height: 100%;
+      border: none;
     }
   </style>
   <script>
-    // Function to generate the graph based on the selected file
     function generateGraph(pythonFile) {
       const fileSelect = document.getElementById('fileSelect');
       const selectedFile = fileSelect.value;
@@ -55,7 +61,6 @@
         return;
       }
 
-      // Send a POST request to the backend to generate the graph
       fetch('{% url "generate_graph" %}', {
         method: 'POST',
         headers: {
@@ -63,30 +68,22 @@
         },
         body: new URLSearchParams({
           'file_name': selectedFile,
-          'python_file': pythonFile,  // Pass the python_file to the backend
+          'python_file': pythonFile,
           'csrfmiddlewaretoken': document.querySelector('[name=csrfmiddlewaretoken]').value
         }),
       })
       .then(response => response.json())
-      .then(data => {
-        if (data.success) {
-          alert(data.message);
-        } else {
-          alert(data.message);
-        }
-      })
-      .catch(error => {
-        alert('Error generating graph.');
-        console.error(error);
-      });
+      .then(data => alert(data.message))
+      .catch(error => console.error('Error generating graph:', error));
 
-      const iframe = document.querySelector('iframe');
-      // Dynamically use the selected file name
-      iframe.contentWindow.postMessage({
-        type: 'LOAD_GEXF',
-        // fileUrl: `./${selectedFile}`
-        fileUrl: `/static/gexf/1eb80fb8b50_0.gexf`
-      }, '*');
+      const iframes = document.querySelectorAll('iframe');
+      iframes.forEach(iframe => {
+        iframe.contentWindow.postMessage({
+          type: 'LOAD_GEXF',
+          // fileUrl: `./${selectedFile}`
+          fileUrl: `/static/gexf/1eb80fb8b50_0.gexf`
+        }, '*');
+      });
     }
 
     function handleFileUpload(event) {
@@ -100,26 +97,19 @@
       .then(response => response.json())
       .then(data => {
         alert(data.message);
-        location.reload(); 
+        location.reload();
       })
-      .catch(error => {
-        alert('Error uploading file.');
-        console.error(error);
-      });
+      .catch(error => console.error('Error uploading file:', error));
     }
-
   </script>
 </head>
 <body>
-  <h1>Graph Dashboard</h1>
-
   <div class="container">
     <div class="left-container">
       <form id="uploadForm" method="POST" enctype="multipart/form-data" onsubmit="handleFileUpload(event)">
         {% csrf_token %}
         <label for="fileInput">Upload File:</label>
         <input type="file" id="fileInput" name="file" accept=".gexf" required>
-
         <button type="submit">Upload File</button>
       </form>
 
@@ -141,11 +131,10 @@
           </button>
         {% endfor %}
       </div>
-           
     </div>
 
     <div class="content">
-      <iframe src="/static/dashboard/display_graph.html" frameborder="0"></iframe>
+      <iframe src="/static/dashboard/display_graph.html"></iframe>
     </div>
   </div>
 </body>
