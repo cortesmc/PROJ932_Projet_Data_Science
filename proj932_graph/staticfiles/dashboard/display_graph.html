@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Graph with Gephi Lite</title>
+</head>
+<body style="margin: 0; padding: 0; height: 100vh;">
+  <iframe id="gephi-iframe" src="https://gephi.org/gephi-lite/" style="width: 100%; height: 100vh; border: none;"></iframe>
+
+  <script>
+    // Clear cookies for the Gephi domain
+    function clearGephiCookies() {
+      document.cookie.split(";").forEach(function(c) {
+        document.cookie = c.trim().split('=')[0] + '=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;';
+      });
+    }
+
+    window.addEventListener('message', (event) => {
+      if (event.data.type === 'LOAD_GEXF' && event.data.fileUrl) {
+        const iframe = document.getElementById('gephi-iframe');
+
+        // Clear cookies when iframe is loaded
+        iframe.onload = () => {
+          clearGephiCookies();
+
+          // Function to click the "Ouvrir un graphe local" button
+          function clickOpenGraphButton() {
+            const openGraphButton = iframe.contentDocument.querySelector('button[title="Ouvrir un graphe local"]');
+            if (openGraphButton) {
+              openGraphButton.click();
+              return true;
+            }
+            return false;
+          }
+
+          // Function to simulate file drop
+          function simulateFileDrop(fileUrl) {
+            fetch(fileUrl)
+              .then(response => response.blob())
+              .then(blob => {
+                const file = new File([blob], "graph.gexf", { type: "application/gexf+xml" });
+                const dataTransfer = new DataTransfer();
+                dataTransfer.items.add(file);
+
+                const dropZone = iframe.contentDocument.querySelector('input[type="file"]');
+                if (dropZone) {
+                  dropZone.files = dataTransfer.files;
+                  dropZone.dispatchEvent(new Event('change', { bubbles: true }));
+                }
+              });
+          }
+
+          if (clickOpenGraphButton()) {
+            setTimeout(() => {
+              simulateFileDrop(event.data.fileUrl);
+            }, 1000); // Adding delay to ensure the drop zone is visible
+          }
+        };
+      }
+    });
+  </script>
+</body>
+</html>

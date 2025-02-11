@@ -77,8 +77,7 @@
         if (data.success) {
           alert('Graph generated successfully.');
           const iframe = document.getElementById('gephiFrame');
-          console.log(`http://127.0.0.1:8080/?gexf=/gexf/${data.gexf_file}`);
-          iframe.src = `http://127.0.0.1:8080/?gexf=/gexf/${data.gexf_file}`;
+          iframe.src = `http://127.0.0.1:8080/?file=http://localhost:8080/gexf/${data.gexf_file}`;
         } else {
           alert(data.message);
         }
