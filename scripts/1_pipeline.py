@@ -25,6 +25,7 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.manifold import TSNE
+from calendar import monthrange
 
 # Téléchargement des ressources pour le NLP (si nécessaire)
 nltk.download('punkt')
@@ -39,7 +40,7 @@ nltk.download('wordnet')
 # In[178]:
 
 
-from calendar import monthrange
+
 
 def load_data(file_path, segment_key, years):
     """
@@ -143,13 +144,7 @@ def load_data(file_path, segment_key, years):
 
     return df
 
-# Load the data
-file_path = "../data/raw/1eb80fb8b50.json"
-segment_key = ["kws-l", "loc-l", "org-l", "per-l", "content-segmented"]
-years = ["2024"]
 
-df = load_data(file_path, segment_key, years)
-df.head()
 
 
 # ## 2. Text Cleaning
@@ -157,7 +152,6 @@ df.head()
 # In[180]:
 
 
-import re
 
 def expand_contractions(text):
     """
@@ -215,17 +209,6 @@ def expand_contractions(text):
 # In[181]:
 
 
-import re
-import string
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import WordNetLemmatizer
-
-# Télécharger les ressources nécessaires de NLTK (si ce n'est pas déjà fait)
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
 
 def clean_text(text):
     """
@@ -271,14 +254,6 @@ def clean_text(text):
 
 # In[182]:
 
-
-# Apply the cleaning function to the 'content-segmented' column
-df['cleaned_content'] = df['content-segmented'].apply(clean_text)
-
-# Display the first few rows to check the results
-df[['content-segmented', 'cleaned_content']].head()
-
-
 # ## 3. Vectorization
 
 # In[183]:
@@ -313,43 +288,10 @@ def vectorize_text(texts, custom_stop_words=None, max_features=5000):
 
     return tfidf_matrix, feature_names
 
-# Custom stop words
-custom_stop_words = {"africa", "sputnik", "telegram", "tiktok", "channel", "subscribe", "live"}  # Example
-
-# Vectorize the cleaned text with custom stop words
-tfidf_matrix, feature_names = vectorize_text(df['cleaned_content'], custom_stop_words=custom_stop_words)
-
-# Display the shape of the TF-IDF matrix
-print(f"TF-IDF Matrix Shape: {tfidf_matrix.shape}")
-print(f"Number of Features: {len(feature_names)}")
-
 
 # ## 4. Topic Modeling
 
 # In[184]:
-
-
-# Display the top words for the first document
-tfidf_dense = tfidf_matrix.toarray()
-first_document = tfidf_dense[0]
-top_words_indices = first_document.argsort()[-10:][::-1]  # Top 10 words
-top_words = [feature_names[i] for i in top_words_indices]
-top_scores = [first_document[i] for i in top_words_indices]
-
-print("Top Words for the First Document:")
-for word, score in zip(top_words, top_scores):
-    print(f"{word}: {score:.4f}")
-
-# Display the top words for the second document
-second_document = tfidf_dense[1]
-top_words_indices = second_document.argsort()[-10:][::-1]  # Top 10 words
-top_words = [feature_names[i] for i in top_words_indices]
-top_scores = [second_document[i] for i in top_words_indices]
-
-print("\nTop Words for the Second Document:")
-for word, score in zip(top_words, top_scores):
-    print(f"{word}: {score:.4f}")
-
 
 # In[186]:
 
@@ -386,10 +328,6 @@ def apply_lda(tfidf_matrix, n_components=5, random_state=42):
 # In[187]:
 
 
-# Apply LDA to the TF-IDF matrix
-n_topics = 5  # Number of topics to extract
-lda_model, doc_topic_dist = apply_lda(tfidf_matrix, n_components=n_topics)
-
 # Display the topics and their top words
 def display_topics(model, feature_names, n_top_words=10):
     """
@@ -405,18 +343,12 @@ def display_topics(model, feature_names, n_top_words=10):
         top_words = [feature_names[i] for i in topic.argsort()[:-n_top_words - 1:-1]]
         print(" ".join(top_words))
 
-# Display the topics
-display_topics(lda_model, feature_names)
+
+
 
 
 # In[189]:
 
-
-# Assign the dominant topic to each document
-df['dominant_topic'] = doc_topic_dist.argmax(axis=1)
-
-# Display the first few rows with the dominant topic
-df[['content-segmented', 'cleaned_content', 'dominant_topic']].head(10)
 
 
 # In[197]:
@@ -441,8 +373,7 @@ def plot_topic_distribution(lda_output, num_topics):
     plt.xticks(range(num_topics))
     plt.show()
 
-# Visualisation de la distribution des topics
-plot_topic_distribution(lda_model.transform(tfidf_matrix), lda_model.n_components)
+
 
 
 # In[193]:
@@ -474,8 +405,7 @@ def plot_top_words(lda, feature_names, n_top_words=10):
     plt.tight_layout()
     plt.show()
 
-# Affichage des mots les plus importants par topic
-plot_top_words(lda_model, feature_names)
+
 
 
 # In[198]:
@@ -492,13 +422,6 @@ topic_names = {
 
 
 # In[210]:
-
-
-# Assign topic names to the DataFrame
-df['topic_name'] = df['dominant_topic'].map(topic_names)
-
-# Display the first few rows with topic names
-df[['content-segmented', 'cleaned_content', 'dominant_topic', 'topic_name']].head()
 
 
 # In[199]:
@@ -533,24 +456,11 @@ def plot_tsne(lda_output, topic_names):
     plt.tight_layout()
     plt.show()
 
-# Visualisation of topics in 2D with topic names
-plot_tsne(lda_model.transform(tfidf_matrix), topic_names)
-
 
 # ## 5. Graph Building
 
 # In[203]:
 
-
-# Extract top words for each topic
-topic_words = {
-    topic_idx: [feature_names[i] for i in topic.argsort()[:-10-1:-1]]
-    for topic_idx, topic in enumerate(lda_model.components_)
-}
-
-# Vérification
-print("✅ Topic Words Dictionary Created!")
-print(topic_words)  # Affiche le dictionnaire des mots-clés par topic
 
 
 # In[206]:
@@ -648,6 +558,8 @@ def save_graph_as_gexf(graph, file_path):
     nx.write_gexf(graph, file_path)
     print(f"📂 Graph saved as GEXF at: {file_path}")
 
+    
+
 
 def visualize_entity_graph(G, output_html="entity_graph.html"):
     """
@@ -673,7 +585,130 @@ def visualize_entity_graph(G, output_html="entity_graph.html"):
     net.show(output_html)
 
 
+
+def clean_graph(G, degree_threshold, weight_threshold):
+    """
+    Cleans the graph by removing weakly connected nodes and low-weight edges.
+
+    Args:
+        G (nx.Graph): The original graph.
+        degree_threshold (int): Minimum number of connections to keep a node.
+        weight_threshold (int): Minimum edge weight to retain an edge.
+
+    Returns:
+        nx.Graph: The cleaned graph.
+    """
+    # 1️⃣ Remove edges with low weight
+    edges_to_remove = [(u, v) for u, v, d in G.edges(data=True) if d["weight"] < weight_threshold]
+    G.remove_edges_from(edges_to_remove)
+
+    # 2️⃣ Remove isolated nodes after weak edge removal
+    isolated_nodes = list(nx.isolates(G))
+    G.remove_nodes_from(isolated_nodes)
+
+    # 3️⃣ Remove nodes with a degree below the threshold
+    low_degree_nodes = [node for node, degree in dict(G.degree()).items() if degree < degree_threshold]
+    G.remove_nodes_from(low_degree_nodes)
+
+    print(f"📉 Graph cleaned: {len(isolated_nodes)} isolated nodes removed, {len(low_degree_nodes)} low-degree nodes removed.")
+
+    return G
+
+# Load the data
+file_path = "../data/raw/1eb80fb8b50.json"
+segment_key = ["kws-l", "loc-l", "org-l", "per-l", "content-segmented"]
+years = ["2024"]
+
+df = load_data(file_path, segment_key, years)
+df.head()
+# Apply the cleaning function to the 'content-segmented' column
+df['cleaned_content'] = df['content-segmented'].apply(clean_text)
+
+# Display the first few rows to check the results
+df[['content-segmented', 'cleaned_content']].head()
+
+# Custom stop words
+custom_stop_words = {"africa", "sputnik", "telegram", "tiktok", "channel", "subscribe", "live"}  # Example
+
+# Vectorize the cleaned text with custom stop words
+tfidf_matrix, feature_names = vectorize_text(df['cleaned_content'], custom_stop_words=custom_stop_words)
+
+# Display the shape of the TF-IDF matrix
+print(f"TF-IDF Matrix Shape: {tfidf_matrix.shape}")
+print(f"Number of Features: {len(feature_names)}")
+
+
+
+
+# Display the top words for the first document
+tfidf_dense = tfidf_matrix.toarray()
+first_document = tfidf_dense[0]
+top_words_indices = first_document.argsort()[-10:][::-1]  # Top 10 words
+top_words = [feature_names[i] for i in top_words_indices]
+top_scores = [first_document[i] for i in top_words_indices]
+
+print("Top Words for the First Document:")
+for word, score in zip(top_words, top_scores):
+    print(f"{word}: {score:.4f}")
+
+# Display the top words for the second document
+second_document = tfidf_dense[1]
+top_words_indices = second_document.argsort()[-10:][::-1]  # Top 10 words
+top_words = [feature_names[i] for i in top_words_indices]
+top_scores = [second_document[i] for i in top_words_indices]
+
+print("\nTop Words for the Second Document:")
+for word, score in zip(top_words, top_scores):
+    print(f"{word}: {score:.4f}")
+
+
+# Apply LDA to the TF-IDF matrix
+n_topics = 5  # Number of topics to extract
+lda_model, doc_topic_dist = apply_lda(tfidf_matrix, n_components=n_topics)
+
+# Display the topics
+display_topics(lda_model, feature_names)
+
+# Assign the dominant topic to each document
+df['dominant_topic'] = doc_topic_dist.argmax(axis=1)
+
+# Display the first few rows with the dominant topic
+df[['content-segmented', 'cleaned_content', 'dominant_topic']].head(10)
+
+# Visualisation de la distribution des topics
+plot_topic_distribution(lda_model.transform(tfidf_matrix), lda_model.n_components)
+
+
+# Affichage des mots les plus importants par topic
+plot_top_words(lda_model, feature_names)
+
+
+# Assign topic names to the DataFrame
+df['topic_name'] = df['dominant_topic'].map(topic_names)
+
+# Display the first few rows with topic names
+df[['content-segmented', 'cleaned_content', 'dominant_topic', 'topic_name']].head()
+
+
+# Visualisation of topics in 2D with topic names
+plot_tsne(lda_model.transform(tfidf_matrix), topic_names)
+
+# Extract top words for each topic
+topic_words = {
+    topic_idx: [feature_names[i] for i in topic.argsort()[:-10-1:-1]]
+    for topic_idx, topic in enumerate(lda_model.components_)
+}
+
+# Vérification
+print("✅ Topic Words Dictionary Created!")
+print(topic_words)  # Affiche le dictionnaire des mots-clés par topic
+
+
+
+
 # Example usage
 entity_graph = build_graph_with_entities(df, topic_names)
+# Clean the graph with defined thresholds
+cleaned_graph = clean_graph(entity_graph, degree_threshold=2, weight_threshold=1)
 save_graph_as_gexf(entity_graph, "../data/processed/entity_graph.gexf")
 visualize_entity_graph(entity_graph)
