@@ -6,7 +6,7 @@ services:
       - .:/app
       - ./graphs/data:/app/graphs/data
       - ./static:/app/static
-      - ./static/gexf:/app/static/gexf  # Explicit mount for clarity
+      - ./static/gexf:/app/static/gexf
     ports:
       - "8000:8000"
     depends_on:
