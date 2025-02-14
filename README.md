@@ -43,33 +43,15 @@ http://localhost:8000/dashboard/
 
 ## Usage Guide
 1. **Adding Python Scripts**: Place any `.py` script inside `graphs/python_functions/`.
-2. **Running a Script**: The React app will automatically detect the new script and display a button with the script’s filename.
-3. **Generating a Graph**: Click on a script button to execute it. The script will generate a `.gexf` file in `static/gexf/`.
-4. **Viewing the Graph**: The `.gexf` file will be loaded into Gephi Lite for visualization.
+2. **Script Format Requirement**: Python scripts should follow the `argparse` format for inputting a JSON data file and saving the output `.gexf` file.
+   
+   Example script:
+   ```
+   python ./your_python_file.py --json_path "./path_to_folder/your_data.json" --save_path "./path_to_folder/new_gexf.gexf"
+   ```
 
-## Project Structure
-```
-PROJ932_Projet_Data_Science/
-├── docker-compose.yml      # Defines containers for React, Django, and Gephi Lite
-├── frontend/               # React application
-├── backend/                # Django backend
-│   ├── graphs/
-│   │   ├── python_functions/  # Store Python scripts here
-│   │   ├── static/gexf/       # Generated .gexf files are stored here
-│   ├── views.py
-│   ├── urls.py
-│   ├── settings.py
-│   ├── wsgi.py
-│   ├── asgi.py
-└── README.md
-```
+3. **Running a Script**: The React app will automatically detect the new script and display a button with the script’s filename.
+4. **Generating a Graph**: Click on a script button to execute it. The script will generate a `.gexf` file in `static/gexf/`.
+5. **Viewing the Graph**: The `.gexf` file will be loaded into Gephi Lite for visualization.
 
-## Contributing
-Feel free to fork the repository and submit pull requests with improvements.
-
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For any questions, reach out to **[cortesmc](https://github.com/cortesmc)** on GitHub.
 
