@@ -1,5 +1,9 @@
 # PROJ932 - Projet Data Science
 
+## Authors
+* CORTES Carlos
+* DRAMÉ Khadidiatou
+
 ## Overview
 This project is developed as part of the **PROJ932: Projet Data Science - Data Science Project** course. It provides a **React web application** that integrates with **Gephi Lite** and a **Django backend**, enabling users to run Python scripts dynamically and visualize network graphs.
 
