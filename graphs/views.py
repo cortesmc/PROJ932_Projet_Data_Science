@@ -7,7 +7,7 @@ from django.shortcuts import render
 def graph_dashboard(request):
     # Construct absolute paths
     data_dir = os.path.join(settings.BASE_DIR, 'graphs', 'data')
-    python_functions_dir = os.path.join(settings.BASE_DIR, 'graphs', 'management', 'python_functions')
+    python_functions_dir = os.path.join(settings.BASE_DIR, 'graphs', 'python_functions')
 
     file_names = []
     python_files = []
@@ -83,7 +83,7 @@ def generate_graph(request):
             # Run the Python script with the correct save path
             command = [
                 'python',
-                f'graphs/management/python_functions/{python_file}',
+                f'graphs/python_functions/{python_file}',
                 '--json_path', file_path,
                 '--save_path', save_path
             ]

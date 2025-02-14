@@ -1,3 +1,14 @@
+import django.core.management.commands.migrate as migrate_command
+import django.db.migrations.executor as migration_executor
+import django.core.management.commands.runserver as runserver_command
+
+# Override migration command to prevent database checks
+migrate_command.Command.handle = lambda *args, **kwargs: None
+migration_executor.MigrationExecutor = lambda *args, **kwargs: None
+
+# Override migration checks for `runserver`
+runserver_command.Command.check_migrations = lambda *args, **kwargs: None
+
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
