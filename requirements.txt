@@ -9,9 +9,6 @@ fonttools==4.54.1
 joblib
 kiwisolver==1.4.7
 matplotlib==3.9.2
-mkl-service
-mkl_fft
-mkl_random
 networkx==3.4.1
 numexpr
 numpy
@@ -32,3 +29,6 @@ tenacity==9.0.0
 threadpoolctl
 tzdata==2024.2
 wheel==0.44.0
+nltk
+seaborn
+pyvis
