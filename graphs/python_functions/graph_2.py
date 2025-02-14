@@ -26,6 +26,7 @@ from pyvis.network import Network
 
 # Download required NLTK resources
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
@@ -515,4 +516,4 @@ if __name__ == "__main__":
     entity_graph = build_graph_with_entities(df, TOPIC_NAMES)
     cleaned_graph = clean_graph(entity_graph, degree_threshold=2, weight_threshold=1)
     save_graph_as_gexf(entity_graph, args.save_path)
-    visualize_entity_graph(entity_graph)
+    # visualize_entity_graph(entity_graph)
